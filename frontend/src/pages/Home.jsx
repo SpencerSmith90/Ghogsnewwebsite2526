@@ -175,15 +175,17 @@ const Home = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
+              </div>
 
-          <div className="text-center">
-            <Button asChild variant="outline" size="lg">
-              <Link to="/projects">
-                View All Projects <ArrowRight className="ml-2" size={18} />
-              </Link>
-            </Button>
-          </div>
+              <div className="text-center">
+                <Button asChild variant="outline" size="lg">
+                  <Link to="/projects">
+                    View All Projects <ArrowRight className="ml-2" size={18} />
+                  </Link>
+                </Button>
+              </div>
+            </>
+          )}
         </div>
       </section>
 
