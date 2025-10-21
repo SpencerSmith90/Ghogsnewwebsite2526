@@ -180,12 +180,16 @@ const Home = () => {
           </div>
 
           {projectsLoading ? (
-            <LoadingSpinner />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+              {[1, 2, 3].map((i) => (
+                <ProjectCardSkeleton key={i} />
+              ))}
+            </div>
           ) : (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
                 {projects && projects.slice(0, 3).map((project) => (
-              <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+              <Card key={project.id} className="overflow-hidden hover-lift card-shine">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={project.image}
