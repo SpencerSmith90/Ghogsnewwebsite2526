@@ -95,11 +95,15 @@ const Home = () => {
           </div>
 
           {servicesLoading ? (
-            <LoadingSpinner />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[1, 2, 3].map((i) => (
+                <ServiceCardSkeleton key={i} />
+              ))}
+            </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services && services.map((service) => (
-              <Card key={service.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <Card key={service.id} className="overflow-hidden hover-lift card-shine cursor-pointer">
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={service.image}
