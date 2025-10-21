@@ -334,7 +334,8 @@ const Home = () => {
                   <div className="flex items-center">
                     <img
                       src={testimonial.avatar}
-                      alt={testimonial.name}
+                      alt={`${testimonial.name} from ${testimonial.location}`}
+                      loading="lazy"
                       className="w-12 h-12 rounded-full object-cover mr-3"
                     />
                     <div>
