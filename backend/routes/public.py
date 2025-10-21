@@ -78,5 +78,5 @@ async def get_blog_post_by_slug(slug: str):
 @router.post("/contact", response_model=ContactSubmission)
 async def submit_contact(contact: ContactSubmissionCreate):
     contact_obj = ContactSubmission(**contact.dict())
-    result = await db.contact_submissions.insert_one(contact_obj.dict())
+    await db.contact_submissions.insert_one(contact_obj.dict())
     return contact_obj
