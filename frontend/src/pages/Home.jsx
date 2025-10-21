@@ -238,7 +238,7 @@ const Home = () => {
           </div>
 
           {typesLoading ? (
-            <LoadingSpinner />
+            <div className="text-center py-8 text-gray-500">Loading property types...</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {propertyTypes && propertyTypes.map((type) => (
