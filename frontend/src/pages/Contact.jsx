@@ -1,0 +1,262 @@
+import React, { useState } from 'react';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { siteSettings } from '../mock';
+import { toast } from 'sonner';
+
+const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Store in localStorage for demo
+    const submissions = JSON.parse(localStorage.getItem('contact_submissions') || '[]');
+    submissions.push({
+      ...formData,
+      date: new Date().toISOString()
+    });
+    localStorage.setItem('contact_submissions', JSON.stringify(submissions));
+    
+    toast.success('Thank you! We\'ll contact you within 24 hours.');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
+    });
+  };
+
+  return (
+    <div className="min-h-screen pt-24">
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Get Your Free Estimate
+          </h1>
+          <p className="text-xl max-w-3xl mx-auto text-gray-300">
+            Contact us today for a free, no-obligation foundation assessment
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Form & Info */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            {/* Contact Form */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-2xl">Send Us a Message</CardTitle>
+                <CardDescription>
+                  Fill out the form below and we'll get back to you shortly
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium mb-2">
+                      Full Name *
+                    </label>
+                    <Input
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
+                      placeholder="John Doe"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium mb-2">
+                      Email Address *
+                    </label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
+                      placeholder="john@example.com"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium mb-2">
+                      Phone Number
+                    </label>
+                    <Input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      placeholder="(555) 123-4567"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="subject" className="block text-sm font-medium mb-2">
+                      Subject *
+                    </label>
+                    <Input
+                      id="subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleChange}
+                      required
+                      placeholder="Foundation Repair Inquiry"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium mb-2">
+                      Message *
+                    </label>
+                    <Textarea
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                      rows={5}
+                      placeholder="Tell us about your foundation concerns..."
+                    />
+                  </div>
+                  <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700">
+                    Send Message
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+
+            {/* Contact Information */}
+            <div className="space-y-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Contact Information</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Phone className="text-orange-600" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">Phone</h3>
+                      <p className="text-gray-600">{siteSettings.phone}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Mail className="text-orange-600" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">Email</h3>
+                      <p className="text-gray-600">{siteSettings.email}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <MapPin className="text-orange-600" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">Service Area</h3>
+                      <p className="text-gray-600">{siteSettings.address}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Clock className="text-orange-600" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">Business Hours</h3>
+                      <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                      <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
+                      <p className="text-gray-600">Sunday: Closed</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-orange-50 border-orange-200">
+                <CardHeader>
+                  <CardTitle className="text-orange-900">Emergency Services</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-orange-800">
+                    We offer 24/7 emergency foundation repair services for urgent issues. 
+                    Call us anytime if you have a foundation emergency.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Steps */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+              Our Simple Process
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              From initial contact to completed repair, here's what to expect
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            {[
+              {
+                step: '1',
+                title: 'Reach Out',
+                description: 'Call, email, or fill out our form to get started'
+              },
+              {
+                step: '2',
+                title: 'Assessment',
+                description: 'We provide a virtual or on-site evaluation'
+              },
+              {
+                step: '3',
+                title: 'Proposal',
+                description: 'Receive a detailed repair plan and fixed price'
+              },
+              {
+                step: '4',
+                title: 'Repair',
+                description: 'Our team executes the plan cleanly and on time'
+              }
+            ].map((item) => (
+              <div key={item.step} className="text-center">
+                <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  {item.step}
+                </div>
+                <h3 className="font-semibold text-lg mb-2 text-gray-900">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Contact;
