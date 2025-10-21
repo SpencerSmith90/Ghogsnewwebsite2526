@@ -73,8 +73,8 @@ const Home = () => {
             <p className="text-lg mb-8 text-gray-300">
               {heroContent.description}
             </p>
-            <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6">
-              <Link to="/contact">
+            <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6 animate-pulse-slow hover:animate-none shadow-xl hover:shadow-2xl">
+              <Link to="/contact" className="no-hover">
                 {heroContent.ctaText} <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
