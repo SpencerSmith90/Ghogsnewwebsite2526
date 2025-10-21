@@ -311,11 +311,15 @@ const Home = () => {
           </div>
 
           {testimonialsLoading ? (
-            <LoadingSpinner />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {[1, 2, 3].map((i) => (
+                <TestimonialSkeleton key={i} />
+              ))}
+            </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {testimonials && testimonials.slice(0, 3).map((testimonial) => (
-              <Card key={testimonial.id} className="hover:shadow-lg transition-shadow">
+              <Card key={testimonial.id} className="hover-lift">
                 <CardHeader>
                   <div className="flex mb-3">
                     {[...Array(testimonial.rating)].map((_, i) => (
