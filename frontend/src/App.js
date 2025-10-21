@@ -23,8 +23,9 @@ import AdminSettings from "./pages/admin/Settings";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <HelmetProvider>
+      <div className="App">
+        <BrowserRouter>
         <Routes>
           {/* Admin Routes (without header/footer) */}
           <Route path="/admin/login" element={<AdminLogin />} />
