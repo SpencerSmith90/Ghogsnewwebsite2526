@@ -50,8 +50,15 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Groundhogs - Foundation Repair Experts in Ontario & Manitoba"
+        description="Professional foundation repair, waterproofing, and pier installation services. Serving Winnipeg, Thunder Bay, Sudbury, and surrounding areas."
+        keywords="foundation repair Ontario, foundation repair Manitoba, waterproofing, push pier installation, foundation experts Winnipeg, Thunder Bay foundation repair"
+        structuredData={structuredData}
+      />
+
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-32 pb-20">
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-32 pb-20 animate-gradient">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-[url('https://groundhogs.ca/wp-content/uploads/2025/07/4b3410535d681cf11935b4eae51e98393481c676-2048x1280.png.webp')] bg-cover bg-center" />
         </div>
