@@ -107,8 +107,9 @@ const Home = () => {
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    alt={`${service.title} - Foundation repair service`}
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <CardHeader>
