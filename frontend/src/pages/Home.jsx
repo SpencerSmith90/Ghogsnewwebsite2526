@@ -114,8 +114,11 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {materials.map((material) => (
+          {materialsLoading ? (
+            <LoadingSpinner />
+          ) : (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              {materials && materials.map((material) => (
               <div
                 key={material.id}
                 className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center"
