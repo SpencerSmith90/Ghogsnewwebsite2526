@@ -146,7 +146,7 @@ const Home = () => {
           </div>
 
           {materialsLoading ? (
-            <LoadingSpinner />
+            <div className="text-center py-8 text-gray-500">Loading materials...</div>
           ) : (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
               {materials && materials.map((material) => (
