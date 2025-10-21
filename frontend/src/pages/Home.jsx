@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Star, Loader2 } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { useApi } from '../hooks/useApi';
 import { getServices, getMaterials, getProjects, getPropertyTypes, getDifferentiators, getTestimonials } from '../services/api';
 import * as LucideIcons from 'lucide-react';
+import SEO from '../components/SEO';
+import { ServiceCardSkeleton, ProjectCardSkeleton, TestimonialSkeleton } from '../components/SkeletonLoader';
 
 // Keep hero content from mock for now
 const heroContent = {
@@ -23,11 +25,28 @@ const Home = () => {
   const { data: differentiators, loading: diffsLoading } = useApi(getDifferentiators);
   const { data: testimonials, loading: testimonialsLoading } = useApi(getTestimonials);
 
-  const LoadingSpinner = () => (
-    <div className="flex justify-center items-center py-12">
-      <Loader2 className="animate-spin text-orange-600" size={48} />
-    </div>
-  );
+  // Structured data for SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Groundhogs",
+    "description": "Foundation Repair Experts in Ontario & Manitoba",
+    "url": "https://groundhogs.ca",
+    "telephone": "1-800-GROUNDHOGS",
+    "email": "info@groundhogs.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Ontario and Manitoba",
+      "addressCountry": "CA"
+    },
+    "areaServed": ["Ontario", "Manitoba", "Winnipeg", "Thunder Bay", "Sudbury"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "100"
+    }
+  };
 
   return (
     <div className="min-h-screen">
