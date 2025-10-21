@@ -131,7 +131,8 @@ const Home = () => {
                 <h3 className="text-sm font-medium text-gray-900">{material.name}</h3>
               </div>
             ))}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
