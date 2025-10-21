@@ -23,17 +23,13 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Store in localStorage for demo
-    const submissions = JSON.parse(localStorage.getItem('contact_submissions') || '[]');
-    submissions.push({
-      ...formData,
-      date: new Date().toISOString()
-    });
-    localStorage.setItem('contact_submissions', JSON.stringify(submissions));
     
-    toast.success('Thank you! We\'ll contact you within 24 hours.');
+    try {
+      const { submitContact } = await import('../services/api');
+      await submitContact(formData);
+      toast.success('Thank you! We\'ll contact you within 24 hours.');
     setFormData({
       name: '',
       email: '',
