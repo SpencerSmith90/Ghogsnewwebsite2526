@@ -257,7 +257,8 @@ const Home = () => {
                 </div>
               );
             })}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -273,8 +274,11 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) => (
+          {testimonialsLoading ? (
+            <LoadingSpinner />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {testimonials && testimonials.slice(0, 3).map((testimonial) => (
               <Card key={testimonial.id} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex mb-3">
