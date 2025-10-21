@@ -352,16 +352,16 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-600 to-orange-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-orange-600 via-orange-500 to-orange-700 text-white animate-gradient">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in-up">
             Stop Cracks and Settling Before They Get Worse
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Call Groundhogs for lasting foundation solutions. Get your free estimate today!
           </p>
-          <Button asChild size="lg" variant="secondary" className="bg-white text-orange-600 hover:bg-gray-100 text-lg px-8 py-6">
-            <Link to="/contact">
+          <Button asChild size="lg" variant="secondary" className="bg-white text-orange-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-2xl hover-lift">
+            <Link to="/contact" className="no-hover">
               Contact Us Now <ArrowRight className="ml-2" size={20} />
             </Link>
           </Button>
