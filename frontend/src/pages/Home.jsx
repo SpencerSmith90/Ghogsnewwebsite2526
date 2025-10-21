@@ -1,12 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Star } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star, Loader2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
-import { heroContent, services, materials, projects, propertyTypes, differentiators, testimonials } from '../mock';
+import { useApi } from '../hooks/useApi';
+import { getServices, getMaterials, getProjects, getPropertyTypes, getDifferentiators, getTestimonials } from '../services/api';
 import * as LucideIcons from 'lucide-react';
 
+// Keep hero content from mock for now
+const heroContent = {
+  title: 'LOCAL FOUNDATION SERVICES IN ONTARIO AND MANITOBA',
+  subtitle: 'Foundation Experts You Can Trust',
+  description: 'Grounded in experience, ready for any challenge under your home. Proudly serving Winnipeg, Thunder Bay, Sudbury, and beyond.',
+  ctaText: 'Get a Free Estimate'
+};
+
 const Home = () => {
+  const { data: services, loading: servicesLoading } = useApi(getServices);
+  const { data: materials, loading: materialsLoading } = useApi(getMaterials);
+  const { data: projects, loading: projectsLoading } = useApi(getProjects);
+  const { data: propertyTypes, loading: typesLoading } = useApi(getPropertyTypes);
+  const { data: differentiators, loading: diffsLoading } = useApi(getDifferentiators);
+  const { data: testimonials, loading: testimonialsLoading } = useApi(getTestimonials);
+
+  const LoadingSpinner = () => (
+    <div className="flex justify-center items-center py-12">
+      <Loader2 className="animate-spin text-orange-600" size={48} />
+    </div>
+  );
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
