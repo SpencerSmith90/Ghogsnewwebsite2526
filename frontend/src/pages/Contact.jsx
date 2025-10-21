@@ -30,13 +30,16 @@ const Contact = () => {
       const { submitContact } = await import('../services/api');
       await submitContact(formData);
       toast.success('Thank you! We\'ll contact you within 24 hours.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
-    });
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      toast.error(error.response?.data?.detail || 'Failed to submit form. Please try again.');
+    }
   };
 
   return (
