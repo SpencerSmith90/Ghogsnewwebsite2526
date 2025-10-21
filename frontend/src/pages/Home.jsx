@@ -224,7 +224,8 @@ const Home = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -240,8 +241,11 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {differentiators.map((item) => {
+          {diffsLoading ? (
+            <LoadingSpinner />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {differentiators && differentiators.map((item) => {
               const IconComponent = LucideIcons[item.icon];
               return (
                 <div key={item.id} className="flex flex-col items-center text-center p-6">
