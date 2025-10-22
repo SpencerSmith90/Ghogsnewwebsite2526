@@ -337,12 +337,12 @@ const Home = () => {
               {differentiators && differentiators.map((item) => {
               const IconComponent = LucideIcons[item.icon];
               return (
-                <div key={item.id} className="flex flex-col items-center text-center p-6">
-                  <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4">
+                <div key={item.id} className="flex flex-col items-center text-center p-6 hover-lift bg-white rounded-lg">
+                  <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                     {IconComponent && <IconComponent className="text-orange-600" size={32} />}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-900">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-gray-900 min-h-[3.5rem] flex items-center">{item.title}</h3>
+                  <p className="text-gray-600 line-clamp-4">{item.description}</p>
                 </div>
               );
             })}
