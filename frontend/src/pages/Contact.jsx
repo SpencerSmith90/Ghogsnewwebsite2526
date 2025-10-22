@@ -290,18 +290,6 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
-
-              <Card className="bg-orange-50 border-orange-200">
-                <CardHeader>
-                  <CardTitle className="text-orange-900">Emergency Services</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-orange-800">
-                    We offer 24/7 emergency foundation repair services for urgent issues. 
-                    Call us anytime if you have a foundation emergency.
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
