@@ -20,6 +20,7 @@ import AdminBlogPosts from "./pages/admin/BlogPosts";
 import AdminTestimonials from "./pages/admin/Testimonials";
 import AdminContacts from "./pages/admin/Contacts";
 import AdminSettings from "./pages/admin/Settings";
+import AdminVideoReels from "./pages/admin/VideoReels";
 
 function App() {
   return (
