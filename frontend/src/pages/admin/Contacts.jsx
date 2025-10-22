@@ -114,9 +114,31 @@ const Contacts = () => {
                         <p className="text-gray-700">{contact.subject}</p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-sm mb-1">Message:</h4>
+                        <h4 className="font-semibold text-sm mb-1">Description:</h4>
                         <p className="text-gray-700 whitespace-pre-wrap">{contact.message}</p>
                       </div>
+                      {contact.photo_urls && contact.photo_urls.length > 0 && (
+                        <div>
+                          <h4 className="font-semibold text-sm mb-2">Attached Photos:</h4>
+                          <div className="grid grid-cols-3 gap-2">
+                            {contact.photo_urls.map((url, index) => (
+                              <a
+                                key={index}
+                                href={`${process.env.REACT_APP_BACKEND_URL}${url}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block"
+                              >
+                                <img
+                                  src={`${process.env.REACT_APP_BACKEND_URL}${url}`}
+                                  alt={`Attachment ${index + 1}`}
+                                  className="w-full h-24 object-cover rounded border hover:opacity-75 transition-opacity"
+                                />
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
