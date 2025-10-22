@@ -190,6 +190,36 @@ testimonials = [
     }
 ]
 
+video_reels = [
+    {
+        "title": "Foundation Repair in Action",
+        "description": "Watch our team expertly repair a foundation using our proven techniques.",
+        "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "thumbnail_url": "https://groundhogs.ca/wp-content/uploads/2025/07/a5d5e1ef688d929bbdb61d03346ececaf2153578-1024x683.png.webp",
+        "duration": 30,
+        "featured": True,
+        "order": 1
+    },
+    {
+        "title": "Push Pier Installation Process",
+        "description": "See how we install push piers to permanently stabilize your foundation.",
+        "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "thumbnail_url": "https://groundhogs.ca/wp-content/uploads/2025/07/a7088875f3309defc93f465c4367f0ce82605caa.png",
+        "duration": 45,
+        "featured": True,
+        "order": 2
+    },
+    {
+        "title": "Waterproofing Excellence",
+        "description": "Complete waterproofing solution that keeps your basement dry year-round.",
+        "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "thumbnail_url": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
+        "duration": 35,
+        "featured": False,
+        "order": 3
+    }
+]
+
 blog_posts = [
     {
         "title": "Sump Pump Installation Guide: Cost, Setup, and Expert Tips",
