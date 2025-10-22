@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Wrench, FolderKanban, FileText, MessageSquare, Mail, Settings, LogOut } from 'lucide-react';
+import { LayoutDashboard, Wrench, FolderKanban, FileText, MessageSquare, Mail, Settings, Video, LogOut } from 'lucide-react';
 import { Button } from './ui/button';
 import { toast } from 'sonner';
 
