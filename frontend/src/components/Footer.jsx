@@ -115,11 +115,15 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Phone size={18} className="mt-1 flex-shrink-0 text-orange-500" />
-                <span>{siteSettings.phone}</span>
+                <a href={`tel:${siteSettings.phone}`} className="hover:text-orange-500">
+                  {siteSettings.phone}
+                </a>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={18} className="mt-1 flex-shrink-0 text-orange-500" />
-                <span>{siteSettings.email}</span>
+                <a href={`mailto:${siteSettings.email}`} className="hover:text-orange-500">
+                  {siteSettings.email}
+                </a>
               </li>
             </ul>
           </div>
