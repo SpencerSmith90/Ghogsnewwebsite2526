@@ -12,18 +12,18 @@ site_settings = {
 
 services = [
     {
-        "title": "Foundation Replacement & Repair",
-        "slug": "foundation-replacement",
-        "description": "If you're looking for foundation repair companies near me, this is our flagship service. We address full foundation replacements and structural issues with permanent, engineered solutions.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a5d5e1ef688d929bbdb61d03346ececaf2153578-1024x683.png.webp",
-        "featured": True,
-        "order": 1
-    },
-    {
         "title": "Exterior & Interior Waterproofing",
         "slug": "waterproofing",
         "description": "Water seepage speeds up structural deterioration. Our teams specialize in exterior waterproofing systems, sump pump installations, and interior systems to keep basements dry all year.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
+        "featured": True,
+        "order": 1
+    },
+    {
+        "title": "Foundation Replacement & Repair",
+        "slug": "foundation-replacement",
+        "description": "If you're looking for foundation repair companies near me, this is our flagship service. We address full foundation replacements and structural issues with permanent, engineered solutions.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a5d5e1ef688d929bbdb61d03346ececaf2153578-1024x683.png.webp",
         "featured": True,
         "order": 2
     },
