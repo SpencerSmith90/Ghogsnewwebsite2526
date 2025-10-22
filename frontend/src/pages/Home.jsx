@@ -372,18 +372,18 @@ const Home = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {testimonials && testimonials.slice(0, 3).map((testimonial) => (
-              <Card key={testimonial.id} className="hover-lift">
-                <CardHeader>
+              <Card key={testimonial.id} className="hover-lift flex flex-col h-full">
+                <CardHeader className="flex-grow">
                   <div className="flex mb-3">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="text-yellow-400 fill-current" size={18} />
                     ))}
                   </div>
-                  <CardDescription className="text-gray-700 text-base italic">
+                  <CardDescription className="text-gray-700 text-base italic line-clamp-5">
                     "{testimonial.text}"
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="pt-0 mt-auto">
                   <div className="flex items-center">
                     <img
                       src={testimonial.avatar}
