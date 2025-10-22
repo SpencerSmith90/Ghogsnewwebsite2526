@@ -21,11 +21,12 @@ app = FastAPI(title="Groundhogs API", version="1.0.0")
 api_router = APIRouter(prefix="/api")
 
 # Import routes
-from routes import public, admin
+from routes import public, admin, video
 
 # Set database for routes
 public.set_db(db)
 admin.set_db(db)
+video.set_db(db)
 
 # Root endpoint
 @api_router.get("/")
