@@ -36,6 +36,7 @@ async def root():
 # Include routers
 api_router.include_router(public.router, tags=["public"])
 api_router.include_router(admin.router, prefix="/admin", tags=["admin"])
+api_router.include_router(video.router, tags=["videos"])
 
 # Include the router in the main app
 app.include_router(api_router)
