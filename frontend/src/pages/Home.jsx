@@ -155,7 +155,7 @@ const Home = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services && services.map((service) => (
-              <Card key={service.id} className="overflow-hidden hover-lift card-shine cursor-pointer">
+              <Card key={service.id} className="overflow-hidden hover-lift card-shine cursor-pointer flex flex-col h-full">
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={service.image}
@@ -164,16 +164,16 @@ const Home = () => {
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-xl">{service.title}</CardTitle>
+                <CardHeader className="flex-grow">
+                  <CardTitle className="text-xl min-h-[3.5rem] flex items-center">{service.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-gray-600 mb-4">
+                <CardContent className="flex flex-col justify-between pt-0">
+                  <CardDescription className="text-gray-600 mb-6 line-clamp-4">
                     {service.description}
                   </CardDescription>
                   <Link
                     to={`/services#${service.slug}`}
-                    className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center"
+                    className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center mt-auto"
                   >
                     Learn More <ArrowRight size={16} className="ml-1" />
                   </Link>
