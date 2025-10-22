@@ -73,6 +73,10 @@ async def seed_database():
     print("📝 Inserting blog posts...")
     await db.blog_posts.insert_many(blog_posts)
     
+    # Insert video reels
+    print("🎬 Inserting video reels...")
+    await db.video_reels.insert_many(video_reels)
+    
     # Create default admin user (username: admin, password: admin123)
     print("👤 Creating default admin user...")
     admin_user = {
