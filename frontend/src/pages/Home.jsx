@@ -85,6 +85,55 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Stats Counter Section */}
+      <section className="py-16 bg-white border-y">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
+                <AnimatedCounter end={500} suffix="+" />
+              </div>
+              <div className="text-gray-600">Projects Completed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
+                <AnimatedCounter end={25} suffix="+" />
+              </div>
+              <div className="text-gray-600">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
+                <AnimatedCounter end={98} suffix="%" />
+              </div>
+              <div className="text-gray-600">Client Satisfaction</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
+                <AnimatedCounter end={15} suffix="+" />
+              </div>
+              <div className="text-gray-600">Expert Technicians</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Reels Section */}
+      {videoReels && videoReels.length > 0 && (
+        <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                See Our Work in Action
+              </h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Watch real projects and learn about our foundation repair process
+              </p>
+            </div>
+            <VideoReelsCarousel reels={videoReels} />
+          </div>
+        </section>
+      )}
+
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
