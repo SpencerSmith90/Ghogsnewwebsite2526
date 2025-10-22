@@ -208,18 +208,24 @@ class ContactSubmission(BaseModel):
     id: str = Field(default_factory=generate_id)
     name: str
     email: str
-    phone: Optional[str] = None
+    phone: str
+    address: Optional[str] = None
+    city: Optional[str] = None
     subject: str
     message: str
+    photo_urls: List[str] = []
     status: str = "new"  # new, contacted, resolved
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
 class ContactSubmissionCreate(BaseModel):
     name: str
     email: str
-    phone: Optional[str] = None
+    phone: str
+    address: Optional[str] = None
+    city: Optional[str] = None
     subject: str
     message: str
+    photo_urls: List[str] = []
 
 class ContactSubmissionUpdate(BaseModel):
     status: str
