@@ -4,10 +4,12 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { siteSettings } from '../mock';
 import { toast } from 'sonner';
+import { useApi } from '../hooks/useApi';
+import { getSiteSettings } from '../services/api';
 
 const Contact = () => {
+  const { data: siteSettings, loading: settingsLoading } = useApi(getSiteSettings);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
