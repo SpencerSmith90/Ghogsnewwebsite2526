@@ -199,7 +199,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium mb-2">
-                      Message *
+                      Description *
                     </label>
                     <Textarea
                       id="message"
@@ -211,8 +211,33 @@ const Contact = () => {
                       placeholder="Tell us about your foundation concerns..."
                     />
                   </div>
-                  <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700">
-                    Send Message
+                  <div>
+                    <label htmlFor="photos" className="block text-sm font-medium mb-2">
+                      Upload Photos (Optional)
+                    </label>
+                    <Input
+                      id="photos"
+                      type="file"
+                      multiple
+                      accept="image/*"
+                      onChange={handleFileChange}
+                      className="cursor-pointer"
+                    />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Upload photos of the issue (max 5 files, 10MB each)
+                    </p>
+                    {selectedFiles.length > 0 && (
+                      <div className="mt-2 text-sm text-gray-600">
+                        {selectedFiles.length} file(s) selected
+                      </div>
+                    )}
+                  </div>
+                  <Button 
+                    type="submit" 
+                    className="w-full bg-orange-600 hover:bg-orange-700"
+                    disabled={uploading}
+                  >
+                    {uploading ? 'Uploading photos...' : 'Send Message'}
                   </Button>
                 </form>
               </CardContent>
