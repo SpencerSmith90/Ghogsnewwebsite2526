@@ -294,19 +294,20 @@ const Home = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {propertyTypes && propertyTypes.map((type) => (
-              <Card key={type.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+              <Card key={type.id} className="overflow-hidden hover-lift card-shine flex flex-col h-full">
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={type.image}
                     alt={type.type}
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-lg">{type.type}</CardTitle>
+                <CardHeader className="flex-grow">
+                  <CardTitle className="text-lg min-h-[2rem] flex items-center">{type.type}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-gray-600">
+                <CardContent className="pt-0">
+                  <CardDescription className="text-gray-600 line-clamp-3">
                     {type.description}
                   </CardDescription>
                 </CardContent>
