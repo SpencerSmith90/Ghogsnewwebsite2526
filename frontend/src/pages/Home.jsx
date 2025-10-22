@@ -197,8 +197,8 @@ const Home = () => {
                   </Link>
                 </CardContent>
               </Card>
-              )})}
-            </div>
+              );
+            })}
             </div>
           )}
         </div>
