@@ -12,9 +12,14 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
+    address: '',
+    city: '',
     subject: '',
-    message: ''
+    message: '',
+    photo_urls: []
   });
+  const [selectedFiles, setSelectedFiles] = useState([]);
+  const [uploading, setUploading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
