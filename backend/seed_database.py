@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from seed_data import (
     site_settings, services, materials, projects,
-    property_types, differentiators, testimonials, blog_posts
+    property_types, differentiators, testimonials, blog_posts, video_reels
 )
 from auth import get_password_hash
 
