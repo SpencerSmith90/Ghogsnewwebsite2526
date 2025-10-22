@@ -148,7 +148,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                      Phone Number
+                      Phone Number *
                     </label>
                     <Input
                       id="phone"
@@ -157,6 +157,31 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="(555) 123-4567"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="address" className="block text-sm font-medium mb-2">
+                      Address
+                    </label>
+                    <Input
+                      id="address"
+                      name="address"
+                      value={formData.address}
+                      onChange={handleChange}
+                      placeholder="123 Main Street"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="city" className="block text-sm font-medium mb-2">
+                      City
+                    </label>
+                    <Input
+                      id="city"
+                      name="city"
+                      value={formData.city}
+                      onChange={handleChange}
+                      placeholder="Winnipeg"
                     />
                   </div>
                   <div>
