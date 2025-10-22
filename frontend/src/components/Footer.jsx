@@ -1,9 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-import { siteSettings } from '../mock';
+import { useApi } from '../hooks/useApi';
+import { getSiteSettings } from '../services/api';
 
 const Footer = () => {
+  const { data: siteSettings, loading } = useApi(getSiteSettings);
+
+  if (loading || !siteSettings) {
+    return null; // Or a loading skeleton
+  }
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-12">
@@ -12,7 +19,7 @@ const Footer = () => {
           <div>
             <img
               src={siteSettings.logo}
-              alt={siteSettings.companyName}
+              alt={siteSettings.company_name}
               className="h-10 mb-4 brightness-0 invert"
             />
             <p className="text-sm mb-4">
