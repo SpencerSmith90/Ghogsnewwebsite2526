@@ -241,7 +241,7 @@ const Home = () => {
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
                 {projects && projects.slice(0, 3).map((project) => (
-              <Card key={project.id} className="overflow-hidden hover-lift card-shine">
+              <Card key={project.id} className="overflow-hidden hover-lift card-shine flex flex-col h-full">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={project.image}
@@ -250,14 +250,14 @@ const Home = () => {
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <CardHeader>
+                <CardHeader className="flex-grow">
                   <div className="text-xs font-semibold text-orange-600 mb-2">
                     {project.category}
                   </div>
-                  <CardTitle className="text-lg">{project.title}</CardTitle>
+                  <CardTitle className="text-lg min-h-[3.5rem] flex items-start">{project.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-gray-600">
+                <CardContent className="pt-0">
+                  <CardDescription className="text-gray-600 line-clamp-3">
                     {project.description}
                   </CardDescription>
                 </CardContent>
