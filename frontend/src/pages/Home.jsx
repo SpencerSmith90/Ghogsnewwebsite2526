@@ -4,10 +4,12 @@ import { ArrowRight, CheckCircle, Star } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { useApi } from '../hooks/useApi';
-import { getServices, getMaterials, getProjects, getPropertyTypes, getDifferentiators, getTestimonials } from '../services/api';
+import { getServices, getMaterials, getProjects, getPropertyTypes, getDifferentiators, getTestimonials, getVideoReels } from '../services/api';
 import * as LucideIcons from 'lucide-react';
 import SEO from '../components/SEO';
 import { ServiceCardSkeleton, ProjectCardSkeleton, TestimonialSkeleton } from '../components/SkeletonLoader';
+import VideoReelsCarousel from '../components/VideoReelsCarousel';
+import AnimatedCounter from '../components/AnimatedCounter';
 
 // Keep hero content from mock for now
 const heroContent = {
