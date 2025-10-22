@@ -69,4 +69,13 @@ export const adminUpdateContactStatus = (id, status) => api.put(`/admin/contacts
 export const adminGetSiteSettings = () => api.get('/admin/site-settings');
 export const adminUpdateSiteSettings = (data) => api.put('/admin/site-settings', data);
 
+// Video Reels (Public)
+export const getVideoReels = () => api.get('/video-reels');
+
+// Admin Video Reels
+export const adminGetVideoReels = () => api.get('/admin/video-reels');
+export const adminCreateVideoReel = (data) => api.post('/admin/video-reels', data);
+export const adminUpdateVideoReel = (id, data) => api.put(`/admin/video-reels/${id}`, data);
+export const adminDeleteVideoReel = (id) => api.delete(`/admin/video-reels/${id}`);
+
 export default api;
