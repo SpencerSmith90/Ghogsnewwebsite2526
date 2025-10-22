@@ -28,20 +28,64 @@ const Contact = () => {
     });
   };
 
+  const handleFileChange = (e) => {
+    const files = Array.from(e.target.files);
+    setSelectedFiles(files);
+  };
+
+  const uploadFiles = async () => {
+    if (selectedFiles.length === 0) return [];
+
+    setUploading(true);
+    const formData = new FormData();
+    selectedFiles.forEach((file) => {
+      formData.append('files', file);
+    });
+
+    try {
+      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+      const response = await fetch(`${BACKEND_URL}/api/upload`, {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await response.json();
+      return data.urls || [];
+    } catch (error) {
+      toast.error('Failed to upload photos');
+      return [];
+    } finally {
+      setUploading(false);
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
     try {
+      // Upload photos first
+      let photoUrls = [];
+      if (selectedFiles.length > 0) {
+        photoUrls = await uploadFiles();
+      }
+
       const { submitContact } = await import('../services/api');
-      await submitContact(formData);
+      await submitContact({
+        ...formData,
+        photo_urls: photoUrls
+      });
+      
       toast.success('Thank you! We\'ll contact you within 24 hours.');
       setFormData({
         name: '',
         email: '',
         phone: '',
+        address: '',
+        city: '',
         subject: '',
-        message: ''
+        message: '',
+        photo_urls: []
       });
+      setSelectedFiles([]);
     } catch (error) {
       toast.error(error.response?.data?.detail || 'Failed to submit form. Please try again.');
     }
