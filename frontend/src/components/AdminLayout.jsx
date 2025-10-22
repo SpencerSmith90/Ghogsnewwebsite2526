@@ -19,6 +19,7 @@ const AdminLayout = ({ children }) => {
     { icon: LayoutDashboard, label: 'Dashboard', path: '/admin/dashboard' },
     { icon: Wrench, label: 'Services', path: '/admin/services' },
     { icon: FolderKanban, label: 'Projects', path: '/admin/projects' },
+    { icon: Video, label: 'Video Reels', path: '/admin/videos' },
     { icon: FileText, label: 'Blog Posts', path: '/admin/blog' },
     { icon: MessageSquare, label: 'Testimonials', path: '/admin/testimonials' },
     { icon: Mail, label: 'Contacts', path: '/admin/contacts' },
