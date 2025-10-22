@@ -73,19 +73,22 @@ const Contacts = () => {
                               {contact.email}
                             </a>
                           </div>
-                          {contact.phone && (
-                            <div className="flex items-center gap-2">
-                              <Phone size={16} />
-                              <a href={`tel:${contact.phone}`} className="hover:text-orange-600">
-                                {contact.phone}
-                              </a>
-                            </div>
-                          )}
+                          <div className="flex items-center gap-2">
+                            <Phone size={16} />
+                            <a href={`tel:${contact.phone}`} className="hover:text-orange-600">
+                              {contact.phone}
+                            </a>
+                          </div>
                           <div className="flex items-center gap-2">
                             <Calendar size={16} />
                             {new Date(contact.created_at).toLocaleDateString()}
                           </div>
                         </div>
+                        {(contact.address || contact.city) && (
+                          <div className="mt-2 text-sm text-gray-600">
+                            <strong>Location:</strong> {contact.address && `${contact.address}, `}{contact.city}
+                          </div>
+                        )}
                       </div>
                       <div className="ml-4">
                         <Select
