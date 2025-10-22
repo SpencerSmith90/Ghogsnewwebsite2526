@@ -287,17 +287,19 @@ const Contact = () => {
                           <p className="text-gray-600">{siteSettings.address}</p>
                         </div>
                       </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Clock className="text-orange-600" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Business Hours</h3>
-                      <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                      <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
-                      <p className="text-gray-600">Sunday: Closed</p>
-                    </div>
-                  </div>
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Clock className="text-orange-600" size={24} />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-1">Business Hours</h3>
+                          <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                          <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
+                          <p className="text-gray-600">Sunday: Closed</p>
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </CardContent>
               </Card>
             </div>
