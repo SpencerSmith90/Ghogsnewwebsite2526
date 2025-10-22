@@ -26,6 +26,7 @@ const Home = () => {
   const { data: propertyTypes, loading: typesLoading } = useApi(getPropertyTypes);
   const { data: differentiators, loading: diffsLoading } = useApi(getDifferentiators);
   const { data: testimonials, loading: testimonialsLoading } = useApi(getTestimonials);
+  const { data: videoReels, loading: reelsLoading } = useApi(getVideoReels);
 
   // Structured data for SEO
   const structuredData = {
