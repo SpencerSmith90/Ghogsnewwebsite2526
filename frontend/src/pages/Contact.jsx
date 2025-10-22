@@ -252,33 +252,41 @@ const Contact = () => {
                   <CardTitle>Contact Information</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="text-orange-600" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-gray-600">{siteSettings.phone}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Mail className="text-orange-600" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-gray-600">{siteSettings.email}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-orange-600" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Service Area</h3>
-                      <p className="text-gray-600">{siteSettings.address}</p>
-                    </div>
-                  </div>
+                  {settingsLoading || !siteSettings ? (
+                    <div className="text-center py-8 text-gray-500">Loading...</div>
+                  ) : (
+                    <>
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Phone className="text-orange-600" size={24} />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-1">Phone</h3>
+                          <a href={`tel:${siteSettings.phone}`} className="text-gray-600 hover:text-orange-600">
+                            {siteSettings.phone}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Mail className="text-orange-600" size={24} />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-1">Email</h3>
+                          <a href={`mailto:${siteSettings.email}`} className="text-gray-600 hover:text-orange-600">
+                            {siteSettings.email}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <MapPin className="text-orange-600" size={24} />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-1">Service Area</h3>
+                          <p className="text-gray-600">{siteSettings.address}</p>
+                        </div>
+                      </div>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Clock className="text-orange-600" size={24} />
