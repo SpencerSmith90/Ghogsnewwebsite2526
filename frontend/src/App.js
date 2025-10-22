@@ -55,6 +55,14 @@ function App() {
             }
           />
           <Route
+            path="/admin/videos"
+            element={
+              <ProtectedRoute>
+                <AdminVideoReels />
+              </ProtectedRoute>
+            }
+          />
+          <Route
             path="/admin/blog"
             element={
               <ProtectedRoute>
