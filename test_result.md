@@ -105,65 +105,41 @@
 user_problem_statement: "Completely redesign the 'What Makes Groundhogs Different' section with new content structure including title, subtitle, intro paragraphs, and 5 detailed differentiators with emojis, taglines, descriptions, and SEO keywords"
 
 backend:
-  - task: "Public API Endpoints Testing"
+  - task: "Update Differentiator Model"
+    implemented: true
+    working: true
+    file: "/app/backend/models.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Updated Differentiator model to include new fields: emoji, tagline, and keywords. Made icon field optional for backwards compatibility. All fields properly defined with Optional types."
+        
+  - task: "Update Seed Data with New Differentiators"
+    implemented: true
+    working: true
+    file: "/app/backend/seed_data.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Replaced old differentiators data with 5 new detailed items: Root Cause Eradication, Exclusive Systems & Engineering, Elite Tradespeople You Can Trust, Systemized Efficiency, and Compliance & Professionalism. Each includes emoji, tagline, description, and SEO keywords."
+        
+  - task: "Differentiators API Endpoint"
     implemented: true
     working: true
     file: "/app/backend/routes/public.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
         - working: true
-          agent: "testing"
-          comment: "All public endpoints tested successfully. Root endpoint, site-settings, services (with slug lookup), projects (with category filtering), materials, property-types, differentiators, testimonials, blog posts (with category filtering and slug lookup), and contact form submission all working correctly. 13/13 public endpoint tests passed."
-
-  - task: "Admin Authentication System"
-    implemented: true
-    working: true
-    file: "/app/backend/routes/admin.py"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-        - working: true
-          agent: "testing"
-          comment: "Admin login system working correctly. Successfully authenticated with credentials (admin/admin123) and received JWT token. Token-based authentication is functioning properly."
-
-  - task: "Admin API Endpoints Testing"
-    implemented: true
-    working: true
-    file: "/app/backend/routes/admin.py"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-        - working: true
-          agent: "testing"
-          comment: "All admin endpoints tested successfully. Dashboard stats, admin services/projects/blog/testimonials/contacts lists, site settings, and CRUD operations (create, update, delete) all working correctly. 9/9 admin endpoint tests passed."
-
-  - task: "Error Handling and Security"
-    implemented: true
-    working: true
-    file: "/app/backend/routes/public.py, /app/backend/routes/admin.py"
-    stuck_count: 0
-    priority: "medium"
-    needs_retesting: false
-    status_history:
-        - working: true
-          agent: "testing"
-          comment: "Minor: Error handling mostly correct. 404 errors for non-existent resources work properly. Invalid login credentials return 401 as expected. One minor issue: unauthorized admin access returns 403 instead of 401, but this is acceptable behavior and doesn't affect functionality. 3/4 error scenario tests passed."
-
-  - task: "Database Integration and Data Persistence"
-    implemented: true
-    working: true
-    file: "/app/backend/server.py, /app/backend/seed_database.py"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-        - working: true
-          agent: "testing"
-          comment: "Database integration working perfectly. MongoDB connection established, seed data loaded successfully, CRUD operations persist data correctly. Contact form submissions are saved and retrievable through admin interface."
+          agent: "main"
+          comment: "API endpoint /api/differentiators tested successfully via curl. Returns all 5 new differentiators with correct data structure including emoji (as unicode), tagline, description, and keywords fields."
 
 frontend:
   - task: "Frontend Testing"
