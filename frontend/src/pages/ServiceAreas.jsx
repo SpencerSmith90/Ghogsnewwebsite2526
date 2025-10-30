@@ -9,35 +9,35 @@ const ServiceAreas = () => {
   const coreServices = [
     {
       icon: "⭐",
-      title: "Exterior Waterproofing",
-      description: "Our flagship service and the foundation of our reputation. We stop water before it reaches your home, protecting your foundation from leaks, frost, and hydrostatic pressure. Our systems use engineered membranes, drainage boards, and sealing processes designed for Northern Ontario and Manitoba's extreme weather conditions.",
+      title: "Exterior Waterproofing — Our Flagship Service",
+      description: "We stop water before it reaches your home, protecting your foundation from leaks, frost, and hydrostatic pressure. Our systems use engineered membranes, drainage boards, and sealing processes designed for Northern Ontario and Manitoba's extreme weather conditions.",
       keywords: "exterior waterproofing Ontario, basement waterproofing Thunder Bay, foundation waterproofing Manitoba",
       serviceAreas: "Thunder Bay • Shuniah • Oliver-Paipoonge • Kakabeka Falls • Nipigon • Red Rock • Sudbury • Valley East • Lively • Greater Sudbury • Chelmsford • Winnipeg • St. Andrews • Headingley • Oak Bluff • Selkirk • Steinbach • Stonewall"
     },
     {
       icon: "🏆",
-      title: "Foundation Repair & Replacement",
+      title: "Foundation Repair & Replacement for Permanent Stability",
       description: "When it comes to structural integrity, we deliver permanent, engineered solutions that fix the problem, not just cover it up. Our teams handle everything from foundation wall reconstruction and structural crack repair to full replacements. Many of our systems even have the ability to reverse foundation failure through controlled lifting and stabilization.",
       keywords: "foundation repair Ontario, foundation replacement Manitoba, structural repair contractors",
       serviceAreas: "Thunder Bay • Sudbury • Winnipeg • and surrounding regions"
     },
     {
       icon: "⚙️",
-      title: "Push Pier Installation",
+      title: "Push Pier & Pile Systems for Sinking Foundations",
       description: "Our engineered push pier systems permanently stabilize and lift settling foundations. Each pier is hydraulically driven deep into load-bearing strata, transferring the weight of your home to stable ground. Groundhogs' systems work from both inside and outside, minimizing excavation while maximizing structural gain.",
       keywords: "push pier installation Ontario, foundation stabilization Manitoba, underpinning systems",
       serviceAreas: "Thunder Bay • Oliver-Paipoonge • Nipigon • Sudbury • Lively • Winnipeg • St. Andrews • Lockport • Headingley"
     },
     {
       icon: "💧",
-      title: "Interior Waterproofing",
+      title: "Interior Waterproofing Systems for Dry, Healthy Basements",
       description: "When exterior excavation isn't an option, we bring waterproofing inside. Our interior drainage channels, vapor barriers, and sump systems keep basements dry and healthy year-round, providing cost-effective protection for homes where exterior work isn't feasible.",
       keywords: "interior waterproofing Ontario, basement drainage systems Manitoba, sump pump installation Thunder Bay",
       serviceAreas: "Thunder Bay • Sudbury • Winnipeg • North Bay • St. Clements • East St. Paul"
     },
     {
       icon: "🧱",
-      title: "Steel Post & Beam Systems",
+      title: "Steel Post & Beam Systems for Sagging Floors",
       description: "We rebuild sagging or uneven floors with custom-engineered steel post and beam systems designed to carry real loads and restore strength beneath your home. Every system is measured, fabricated, and installed for precision, ensuring long-term stability that wood alone can't deliver.",
       keywords: "sagging floor repair Ontario, steel beam foundation support, crawlspace reinforcement Manitoba",
       serviceAreas: "Thunder Bay • Sudbury • Winnipeg • and surrounding communities"
