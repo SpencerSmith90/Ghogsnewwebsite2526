@@ -473,6 +473,38 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Service Areas Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+              Our Service Areas
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+              We proudly serve specific areas throughout Ontario and Manitoba including Winnipeg, Thunder Bay, and Sudbury.
+            </p>
+          </div>
+          
+          <div className="max-w-5xl mx-auto">
+            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/7fwt70or_Screenshot%202025-10-30%20154852.png"
+                alt="Service Areas Map - Winnipeg, Thunder Bay, and Sudbury"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="text-center mt-8">
+              <Button asChild variant="outline" size="lg">
+                <Link to="/service-areas">
+                  Learn More About Our Service Areas
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 via-orange-500 to-orange-700 text-white animate-gradient">
         <div className="container mx-auto px-4 text-center">
