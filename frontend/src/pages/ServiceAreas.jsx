@@ -253,7 +253,7 @@ const ServiceAreas = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-900">
-              Why Northern Homes Need Northern Systems
+              Why Northern Homes Need Northern Solutions
             </h2>
             <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
               Homes across Ontario and Manitoba face unique geological challenges — and we've built our systems specifically for them.
