@@ -94,6 +94,16 @@ const PushPierSystems = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
+            {/* Feature Image */}
+            <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rb9oihh2_Groundhogs-8.jpeg"
+                alt="Push pier system installation with hydraulic equipment"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
+
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Why Push Pier Systems Work
             </h2>
