@@ -111,6 +111,7 @@ function App() {
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/:slug" element={<Blog />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/service-areas" element={<ServiceAreas />} />
                   </Routes>
                 </main>
                 <Footer />
