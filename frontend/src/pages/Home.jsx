@@ -213,36 +213,64 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Materials Section */}
+      {/* Materials/Systems Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-              Top Materials We Use at Groundhogs
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-900">
+              ⚙️ Advanced Systems We Use at Groundhogs
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Premium materials for lasting foundation solutions
+            <p className="text-xl font-semibold text-orange-600 mb-6">
+              Innovation. Precision. Proven Results.
             </p>
+            <div className="max-w-5xl mx-auto text-gray-700 text-lg leading-relaxed mb-6 space-y-3">
+              <p>
+                We're always pushing for better — smarter systems, stronger materials, and more efficient methods.
+                Through our strategic partnerships, Groundhogs delivers industry-leading foundation and waterproofing systems that go beyond minimum building code standards.
+              </p>
+              <p>
+                Every product we use is carefully selected for its long-term performance, engineering integrity, and proven results in Ontario and Manitoba's toughest conditions.
+              </p>
+            </div>
           </div>
 
           {materialsLoading ? (
-            <div className="text-center py-8 text-gray-500">Loading materials...</div>
+            <div className="text-center py-8 text-gray-500">Loading systems...</div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-              {materials && materials.map((material) => (
-              <div
-                key={material.id}
-                className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center"
-              >
-                <img
-                  src={material.image}
-                  alt={material.name}
-                  className="w-full h-32 object-contain mb-4"
-                />
-                <h3 className="text-sm font-medium text-gray-900">{material.name}</h3>
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                {materials && materials.map((material) => (
+                <Card
+                  key={material.id}
+                  className="bg-white hover:shadow-xl transition-shadow flex flex-col h-full"
+                >
+                  <div className="aspect-video overflow-hidden bg-gray-50 flex items-center justify-center p-4">
+                    <img
+                      src={material.image}
+                      alt={material.name}
+                      loading="lazy"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg">{material.name}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex-grow">
+                    <CardDescription className="text-gray-600 text-base leading-relaxed">
+                      {material.description}
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              ))}
               </div>
-            ))}
-            </div>
+
+              {/* Closing Line */}
+              <div className="text-center bg-gradient-to-r from-orange-50 to-orange-100 py-8 px-6 rounded-xl border border-orange-200">
+                <p className="text-lg md:text-xl text-gray-800 font-medium max-w-4xl mx-auto">
+                  💡 Groundhogs combines engineering, innovation, and experience to deliver the most advanced foundation systems available in Canada — protecting homes for generations.
+                </p>
+              </div>
+            </>
           )}
         </div>
       </section>
