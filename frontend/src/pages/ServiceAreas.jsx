@@ -232,11 +232,6 @@ const ServiceAreas = () => {
                       <p className="text-gray-700 mb-4 leading-relaxed">
                         {service.description}
                       </p>
-                      <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                        <p className="text-sm text-gray-600 italic">
-                          <strong>Keywords:</strong> {service.keywords}
-                        </p>
-                      </div>
                       <div className="bg-orange-50 p-4 rounded-lg">
                         <p className="text-sm font-semibold text-gray-800 mb-2">Service Areas:</p>
                         <p className="text-sm text-gray-700">{service.serviceAreas}</p>
