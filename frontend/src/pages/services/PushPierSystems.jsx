@@ -75,16 +75,16 @@ const PushPierSystems = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Push Pier & Pile Systems for Sinking Foundations
+              Push Pier Systems & Basement Underpinning for Sinking Foundations
             </h1>
             <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-6">
-              Permanent Stabilization. Controlled Lifting. Engineered Precision.
+              Permanent Stabilization. Controlled Lifting. Engineered Underpinning.
             </p>
             <p className="text-lg text-gray-200 leading-relaxed mb-4">
-              Our engineered push pier systems permanently stabilize and lift settling foundations.
+              Our engineered push pier underpinning systems permanently stabilize and lift settling foundations.
             </p>
             <p className="text-lg text-gray-200 leading-relaxed">
-              Each pier is hydraulically driven deep into load-bearing strata, transferring the weight of your home to stable ground. Groundhogs' systems work from both inside and outside, minimizing excavation while maximizing structural gain.
+              Each pier is hydraulically driven deep into load-bearing strata, transferring the weight of your home to stable ground. Groundhogs' underpinning systems work from both inside and outside, minimizing excavation while maximizing structural gain.
             </p>
           </div>
         </div>
