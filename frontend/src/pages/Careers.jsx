@@ -96,6 +96,26 @@ const Careers = () => {
                 </Card>
               ))}
             </div>
+
+            {/* Team Showcase Images */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/zdpk5x36_Groundhogs-8.jpeg"
+                  alt="Groundhogs team working professionally on site"
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/ncgkdha4_Groundhogs-2.jpeg"
+                  alt="Skilled foundation repair professionals at work"
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
