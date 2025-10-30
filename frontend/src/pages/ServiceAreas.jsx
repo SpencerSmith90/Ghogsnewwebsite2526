@@ -48,7 +48,7 @@ const ServiceAreas = () => {
           <div className="max-w-6xl mx-auto">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/7fwt70or_Screenshot%202025-10-30%20154852.png"
+                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/0fnmlefu_Screenshot%202025-10-30%20160555.png"
                 alt="Service Areas Map - Winnipeg, Thunder Bay, and Sudbury"
                 className="w-full h-auto"
               />
