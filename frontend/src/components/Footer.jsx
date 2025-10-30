@@ -20,7 +20,7 @@ const Footer = () => {
             <img
               src={siteSettings.logo}
               alt={siteSettings.company_name}
-              className="h-10 mb-4 brightness-0 invert"
+              className="h-10 mb-4"
             />
             <p className="text-sm mb-4">
               {siteSettings.description}
