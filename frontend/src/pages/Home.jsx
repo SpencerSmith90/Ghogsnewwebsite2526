@@ -62,8 +62,8 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-32 pb-20 animate-gradient">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[url('https://groundhogs.ca/wp-content/uploads/2025/07/4b3410535d681cf11935b4eae51e98393481c676-2048x1280.png.webp')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 bg-[url('https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/g1ptxv1v_Groundhogs-6.jpeg')] bg-cover bg-center" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
