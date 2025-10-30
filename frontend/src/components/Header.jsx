@@ -7,7 +7,9 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [resourcesDropdownOpen, setResourcesDropdownOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -33,6 +35,14 @@ const Header = () => {
     { name: 'Push Pier Systems', path: '/services/push-pier-systems' },
     { name: 'Interior Waterproofing', path: '/services/interior-waterproofing' },
     { name: 'Steel Post & Beam Systems', path: '/services/steel-post-beam-systems' }
+  ];
+
+  const resourceLinks = [
+    { name: 'Testimonials', path: '/testimonials' },
+    { name: 'Warranty & Guarantee', path: '/warranty' },
+    { name: 'Our Systems & Technology', path: '/our-systems' },
+    { name: 'Resources & FAQ', path: '/resources' },
+    { name: 'Careers', path: '/careers' }
   ];
 
   return (
