@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the Groundhogs website backend API comprehensively"
+user_problem_statement: "Completely redesign the 'What Makes Groundhogs Different' section with new content structure including title, subtitle, intro paragraphs, and 5 detailed differentiators with emojis, taglines, descriptions, and SEO keywords"
 
 backend:
   - task: "Public API Endpoints Testing"
