@@ -57,7 +57,7 @@ materials = [
     {
         "name": "Push Pier Systems",
         "description": "Engineered galvanized steel piers that stabilize and lift settling foundations by reaching load-bearing strata deep below unstable soils.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a15dc97e7027d7120c107ba05a131982d86ccf05-400x320.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rb9oihh2_Groundhogs-8.jpeg",
         "order": 1
     },
     {
