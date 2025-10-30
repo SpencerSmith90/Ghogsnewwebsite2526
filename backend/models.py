@@ -121,18 +121,27 @@ class Differentiator(BaseModel):
     id: str = Field(default_factory=generate_id)
     title: str
     description: str
-    icon: str
+    emoji: Optional[str] = None
+    tagline: Optional[str] = None
+    keywords: Optional[str] = None
+    icon: Optional[str] = None  # keeping for backwards compatibility
     order: int = 0
 
 class DifferentiatorCreate(BaseModel):
     title: str
     description: str
-    icon: str
+    emoji: Optional[str] = None
+    tagline: Optional[str] = None
+    keywords: Optional[str] = None
+    icon: Optional[str] = None
     order: int = 0
 
 class DifferentiatorUpdate(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
+    emoji: Optional[str] = None
+    tagline: Optional[str] = None
+    keywords: Optional[str] = None
     icon: Optional[str] = None
     order: Optional[int] = None
 
