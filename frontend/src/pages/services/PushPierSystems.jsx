@@ -150,12 +150,12 @@ const PushPierSystems = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-              When Do You Need Push Pier Systems?
+              When Do You Need Push Pier Underpinning?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="p-6">
                 <h3 className="text-lg font-bold mb-3 text-gray-900">Foundation Settlement</h3>
-                <p className="text-gray-700">Your foundation is sinking into unstable soil, causing cracks and structural damage.</p>
+                <p className="text-gray-700">Your foundation is sinking into unstable soil, causing cracks and structural damage that requires basement underpinning.</p>
               </Card>
               <Card className="p-6">
                 <h3 className="text-lg font-bold mb-3 text-gray-900">Uneven Floors</h3>
@@ -169,6 +169,35 @@ const PushPierSystems = () => {
                 <h3 className="text-lg font-bold mb-3 text-gray-900">Door & Window Issues</h3>
                 <p className="text-gray-700">Doors and windows stick or won't close properly due to foundation settling.</p>
               </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What is Basement Underpinning */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">
+              What is Basement Underpinning?
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-lg mb-4 leading-relaxed">
+                <strong>Basement underpinning</strong> is the process of strengthening and stabilizing an existing foundation by extending it to deeper, more stable soil or bedrock. Push pier underpinning is one of the most effective and minimally invasive methods available today.
+              </p>
+              <p className="text-lg mb-4 leading-relaxed">
+                Unlike traditional underpinning methods that require extensive excavation, push pier underpinning uses hydraulically-driven steel piers to reach load-bearing strata. This modern approach to foundation underpinning offers:
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li>✓ Minimal excavation and disruption</li>
+                <li>✓ Can be installed from interior or exterior</li>
+                <li>✓ Faster installation than traditional underpinning</li>
+                <li>✓ Engineered load transfer to stable soil</li>
+                <li>✓ Ability to lift and level settled foundations</li>
+              </ul>
+              <p className="text-lg leading-relaxed">
+                Whether you're searching for <strong>"basement underpinning near me"</strong> or need expert <strong>underpinning contractors</strong> in Ontario or Manitoba, Groundhogs delivers proven push pier underpinning solutions backed by engineering and warranty protection.
+              </p>
             </div>
           </div>
         </div>
