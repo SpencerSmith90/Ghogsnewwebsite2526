@@ -401,7 +401,6 @@ const Home = () => {
               {differentiators && differentiators.map((item) => (
                 <Card key={item.id} className="hover-lift flex flex-col h-full p-6">
                   <div className="text-center mb-4">
-                    <div className="text-5xl mb-4">{item.emoji}</div>
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{item.title}</h3>
                     {item.tagline && (
                       <p className="text-base font-semibold text-gray-800 mb-3">
