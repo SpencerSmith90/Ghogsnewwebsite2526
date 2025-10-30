@@ -244,7 +244,51 @@ const Header = () => {
                 )}
               </div>
 
-              {navLinks.slice(1).map((link) => (
+              <Link
+                to="/projects"
+                onClick={() => setMobileMenuOpen(false)}
+                className={`text-sm font-medium transition-colors hover:text-orange-600 ${
+                  location.pathname === '/projects'
+                    ? 'text-orange-600'
+                    : 'text-gray-700'
+                }`}
+              >
+                Projects
+              </Link>
+
+              {/* Mobile Resources Dropdown */}
+              <div>
+                <button
+                  onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
+                  className={`text-sm font-medium transition-colors hover:text-orange-600 flex items-center gap-1 w-full ${
+                    resourceLinks.some(r => location.pathname === r.path)
+                      ? 'text-orange-600'
+                      : 'text-gray-700'
+                  }`}
+                >
+                  Resources
+                  <ChevronDown size={16} className={`transition-transform ${mobileResourcesOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {mobileResourcesOpen && (
+                  <div className="ml-4 mt-2 space-y-2">
+                    {resourceLinks.map((resource) => (
+                      <Link
+                        key={resource.path}
+                        to={resource.path}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className={`block text-sm transition-colors hover:text-orange-600 text-gray-600 ${
+                          location.pathname === resource.path ? 'text-orange-600' : ''
+                        }`}
+                      >
+                        {resource.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {navLinks.slice(2).map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
