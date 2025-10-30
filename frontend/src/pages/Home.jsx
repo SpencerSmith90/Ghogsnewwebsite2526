@@ -412,11 +412,6 @@ const Home = () => {
                     <p className="text-gray-600 text-base leading-relaxed mb-3">
                       {item.description}
                     </p>
-                    {item.keywords && (
-                      <p className="text-sm text-gray-500 italic mt-4">
-                        ({item.keywords})
-                      </p>
-                    )}
                   </div>
                 </Card>
               ))}
