@@ -160,33 +160,43 @@ property_types = [
 
 differentiators = [
     {
-        "title": "Root cause eradication",
-        "description": "Expert estimators identify the true cause and develop permanent solutions.",
-        "icon": "Target",
+        "title": "Root Cause Eradication",
+        "emoji": "🧱",
+        "tagline": "We don't patch symptoms — we eliminate them.",
+        "description": "Our expert estimators dig deeper to identify the true source of foundation failure and design permanent, engineered solutions that protect your home for decades.",
+        "keywords": "foundation repair Ontario, permanent foundation solutions, structural repair experts",
         "order": 1
     },
     {
-        "title": "Exclusive products & methods",
-        "description": "Authorized Canadian firm to install exclusive pier systems.",
-        "icon": "Award",
+        "title": "Exclusive Systems & Engineering",
+        "emoji": "⚙️",
+        "tagline": "We're one of Canada's only authorized installers of advanced pier, pile and waterproofing systems, offering trusted technology that goes beyond minimum code requirements.",
+        "description": "Every Groundhogs repair is built with proven structural products designed for long-term performance.",
+        "keywords": "pier systems Ontario, engineered waterproofing systems, foundation stabilization",
         "order": 2
     },
     {
-        "title": "Elite tradespeople you can trust",
-        "description": "Arrive punctually, safeguard property, and document each stage.",
-        "icon": "Users",
+        "title": "Elite Tradespeople You Can Trust",
+        "emoji": "🛠️",
+        "tagline": "Our crews show up prepared, on time, and take pride in their work.",
+        "description": "We safeguard your property, communicate clearly, and document each stage so you always know what's happening beneath your home.",
+        "keywords": "professional foundation contractors, trusted foundation repair team",
         "order": 3
     },
     {
-        "title": "Systemized efficiency",
-        "description": "Complete projects up to 50% quicker than typical contractors.",
-        "icon": "Zap",
+        "title": "Systemized Efficiency",
+        "emoji": "⚡",
+        "tagline": "Experience and process make the difference.",
+        "description": "Our crews operate with precision workflows that allow us to complete projects up to 50% faster than typical contractors without cutting corners.",
+        "keywords": "efficient foundation repair, professional foundation systems Ontario",
         "order": 4
     },
     {
-        "title": "Compliance & professionalism",
-        "description": "Fully code compliant with transparent invoicing and peace of mind.",
-        "icon": "Shield",
+        "title": "Compliance & Professionalism",
+        "emoji": "📋",
+        "tagline": "Every project is built to meet or exceed the Ontario Building Code.",
+        "description": "From permits to transparent invoicing, we deliver full accountability and lasting peace of mind.",
+        "keywords": "code-compliant foundation repair, Ontario foundation experts",
         "order": 5
     }
 ]
