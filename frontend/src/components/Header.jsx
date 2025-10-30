@@ -148,18 +148,20 @@ const Header = () => {
               </button>
               
               {resourcesDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
-                  {resourceLinks.map((resource) => (
-                    <Link
-                      key={resource.path}
-                      to={resource.path}
-                      className={`block px-4 py-3 text-sm transition-colors hover:bg-orange-50 text-gray-700 hover:text-orange-600 ${
-                        location.pathname === resource.path ? 'bg-orange-50' : ''
-                      }`}
-                    >
-                      {resource.name}
-                    </Link>
-                  ))}
+                <div className="absolute top-full left-0 mt-0 pt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
+                  <div className="py-2">
+                    {resourceLinks.map((resource) => (
+                      <Link
+                        key={resource.path}
+                        to={resource.path}
+                        className={`block px-4 py-3 text-sm transition-colors hover:bg-orange-50 text-gray-700 hover:text-orange-600 ${
+                          location.pathname === resource.path ? 'bg-orange-50' : ''
+                        }`}
+                      >
+                        {resource.name}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
