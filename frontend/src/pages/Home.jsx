@@ -88,7 +88,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
-                <AnimatedCounter end={500} suffix="+" />
+                <AnimatedCounter end={2000} suffix="+" />
               </div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
