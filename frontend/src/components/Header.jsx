@@ -114,7 +114,55 @@ const Header = () => {
               )}
             </div>
 
-            {navLinks.slice(1).map((link) => (
+            {navLinks.slice(1, 2).map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className={`text-sm font-medium transition-colors hover:text-orange-600 ${
+                  location.pathname === link.path
+                    ? 'text-orange-600'
+                    : 'text-gray-700'
+                }`}
+              >
+                {link.name}
+              </Link>
+            ))}
+
+            {/* Resources Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setResourcesDropdownOpen(true)}
+              onMouseLeave={() => setResourcesDropdownOpen(false)}
+            >
+              <button
+                className={`text-sm font-medium transition-colors hover:text-orange-600 flex items-center gap-1 ${
+                  resourceLinks.some(r => location.pathname === r.path)
+                    ? 'text-orange-600'
+                    : 'text-gray-700'
+                }`}
+              >
+                Resources
+                <ChevronDown size={16} className={`transition-transform ${resourcesDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {resourcesDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                  {resourceLinks.map((resource) => (
+                    <Link
+                      key={resource.path}
+                      to={resource.path}
+                      className={`block px-4 py-3 text-sm transition-colors hover:bg-orange-50 text-gray-700 hover:text-orange-600 ${
+                        location.pathname === resource.path ? 'bg-orange-50' : ''
+                      }`}
+                    >
+                      {resource.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {navLinks.slice(2).map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
