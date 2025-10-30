@@ -386,7 +386,7 @@ const Home = () => {
             </p>
             <div className="max-w-5xl mx-auto text-gray-700 text-lg leading-relaxed mb-6 space-y-3">
               <p>
-                We don't chase surface fixes — we solve root problems with precision and purpose.
+                We don't chase surface fixes, we solve root problems with precision and purpose.
               </p>
               <p>
                 Groundhogs is redefining foundation repair across Ontario and Manitoba through smarter systems, disciplined execution, and a deep respect for every home we work under.
