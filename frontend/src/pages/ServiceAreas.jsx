@@ -48,7 +48,7 @@ const ServiceAreas = () => {
           <div className="max-w-6xl mx-auto">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden" style={{ height: '600px' }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m64!1m12!1m3!1d5726842.843649494!2d-93.68551563544921!3d48.783916149491656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e6!4m5!1s0x52ea73c39a7ec915%3A0x5b9c39e3ddf58489!2sWinnipeg%2C%20MB%2C%20Canada!3m2!1d49.895136!2d-97.13850679999999!4m5!1s0x4d5921474d18632d%3A0x670c8a85a695fed2!2sThunder%20Bay%2C%20ON%2C%20Canada!3m2!1d48.382221699999995!2d-89.25906509999999!4m5!1s0x4d2efa87be203ab1%3A0x5037b28c7231d10!2sSudbury%2C%20ON%2C%20Canada!3m2!1d46.522529799999996!2d-80.95267!4m5!1s0x52ea73c39a7ec915%3A0x5b9c39e3ddf58489!2sWinnipeg%2C%20MB%2C%20Canada!3m2!1d49.895136!2d-97.13850679999999!4m5!1s0x4d5921474d18632d%3A0x670c8a85a695fed2!2sThunder%20Bay%2C%20ON%2C%20Canada!3m2!1d48.382221699999995!2d-89.25906509999999!4m5!1s0x4d2efa87be203ab1%3A0x5037b28c7231d10!2sSudbury%2C%20ON%2C%20Canada!3m2!1d46.522529799999996!2d-80.95267!4m5!1s0x52ea73c39a7ec915%3A0x5b9c39e3ddf58489!2sWinnipeg%2C%20MB%2C%20Canada!3m2!1d49.895136!2d-97.13850679999999!5e0!3m2!1sen!2sca!4v1698765432109!5m2!1sen!2sca&z=5"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Winnipeg,MB|Thunder+Bay,ON|Sudbury,ON&center=48.5,-91&zoom=5"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
