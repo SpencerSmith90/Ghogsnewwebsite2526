@@ -210,11 +210,8 @@ const ServiceAreas = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-                Core Foundation Services
+                Systemized Foundation Solutions Built to Last
               </h2>
-              <p className="text-xl font-semibold text-orange-600 mb-4">
-                Systemized Solutions. Built to Last.
-              </p>
               <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-2">
                 Our methods are standardized, our crews are trained to perfection, and our materials are chosen for performance, not shortcuts.
               </p>
