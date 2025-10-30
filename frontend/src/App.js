@@ -111,6 +111,11 @@ function App() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/services" element={<Services />} />
+                    <Route path="/services/exterior-waterproofing" element={<ExteriorWaterproofing />} />
+                    <Route path="/services/foundation-repair-replacement" element={<FoundationRepair />} />
+                    <Route path="/services/push-pier-systems" element={<PushPierSystems />} />
+                    <Route path="/services/interior-waterproofing" element={<InteriorWaterproofing />} />
+                    <Route path="/services/steel-post-beam-systems" element={<SteelPostBeam />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/blog" element={<Blog />} />
