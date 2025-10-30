@@ -135,11 +135,15 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-              Core Foundation Repair Services We Offer
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-900">
+              Core Foundation Services
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Comprehensive solutions for all your foundation needs
+            <p className="text-xl font-semibold text-orange-600 mb-6">
+              Systemized Solutions. Built to Last.
+            </p>
+            <p className="text-gray-700 max-w-4xl mx-auto text-lg leading-relaxed">
+              Our reputation is built on precision, reliability, and results that stand the test of time.
+              We specialize in Exterior Waterproofing and Foundation Repair & Replacement, serving homeowners across Ontario and Manitoba including Thunder Bay, Winnipeg, and Sudbury.
             </p>
           </div>
 
