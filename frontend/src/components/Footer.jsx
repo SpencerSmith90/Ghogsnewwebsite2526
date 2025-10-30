@@ -88,23 +88,60 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/services" className="hover:text-orange-500 transition-colors">
-                  Foundation Replacement
+                <Link to="/services/exterior-waterproofing" className="hover:text-orange-500 transition-colors">
+                  Exterior Waterproofing
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-orange-500 transition-colors">
-                  Waterproofing
+                <Link to="/services/foundation-repair-replacement" className="hover:text-orange-500 transition-colors">
+                  Foundation Repair
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-orange-500 transition-colors">
-                  Push Pier Installation
+                <Link to="/services/push-pier-systems" className="hover:text-orange-500 transition-colors">
+                  Push Pier Systems
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-orange-500 transition-colors">
-                  Wall Stabilization
+                <Link to="/services/interior-waterproofing" className="hover:text-orange-500 transition-colors">
+                  Interior Waterproofing
+                </Link>
+              </li>
+              <li>
+                <Link to="/services/steel-post-beam-systems" className="hover:text-orange-500 transition-colors">
+                  Steel Post & Beam
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h3 className="text-white font-semibold mb-4">Resources</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link to="/testimonials" className="hover:text-orange-500 transition-colors">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link to="/warranty" className="hover:text-orange-500 transition-colors">
+                  Warranty & Guarantee
+                </Link>
+              </li>
+              <li>
+                <Link to="/our-systems" className="hover:text-orange-500 transition-colors">
+                  Our Systems
+                </Link>
+              </li>
+              <li>
+                <Link to="/resources" className="hover:text-orange-500 transition-colors">
+                  FAQ & Resources
+                </Link>
+              </li>
+              <li>
+                <Link to="/careers" className="hover:text-orange-500 transition-colors">
+                  Careers
                 </Link>
               </li>
             </ul>
