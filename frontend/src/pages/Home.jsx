@@ -486,17 +486,13 @@ const Home = () => {
           </div>
           
           <div className="max-w-5xl mx-auto">
-            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ height: '500px' }}>
-              <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Winnipeg,MB|Thunder+Bay,ON|Sudbury,ON&center=48.5,-91&zoom=5"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
+            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/7fwt70or_Screenshot%202025-10-30%20154852.png"
+                alt="Service Areas Map - Winnipeg, Thunder Bay, and Sudbury"
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Groundhogs Service Areas - Winnipeg, Thunder Bay, and Sudbury"
-              ></iframe>
+                className="w-full h-auto"
+              />
             </div>
             <div className="text-center mt-8">
               <Button asChild variant="outline" size="lg">
