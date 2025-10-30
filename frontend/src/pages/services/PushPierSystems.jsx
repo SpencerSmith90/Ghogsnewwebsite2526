@@ -248,10 +248,10 @@ const PushPierSystems = () => {
       <section className="py-20 bg-gradient-to-r from-orange-600 via-orange-500 to-orange-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Stabilize Your Foundation Permanently
+            Get Expert Basement Underpinning & Foundation Stabilization
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Get a free assessment and engineered solution for your settling foundation
+            Contact our underpinning specialists for a free assessment and engineered solution for your settling foundation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch">
             <Button asChild size="lg" className="bg-white text-orange-600 hover:bg-gray-100 text-lg px-8 py-6 h-auto">
