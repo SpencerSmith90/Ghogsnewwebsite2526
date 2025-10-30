@@ -11,11 +11,11 @@ import { ServiceCardSkeleton, ProjectCardSkeleton, TestimonialSkeleton } from '.
 import VideoReelsCarousel from '../components/VideoReelsCarousel';
 import AnimatedCounter from '../components/AnimatedCounter';
 
-// Keep hero content from mock for now
+// Hero content
 const heroContent = {
-  title: 'LOCAL FOUNDATION SERVICES IN ONTARIO AND MANITOBA',
-  subtitle: 'Foundation Experts You Can Trust',
-  description: 'Grounded in experience, ready for any challenge under your home. Proudly serving Winnipeg, Thunder Bay, Sudbury, and beyond.',
+  title: 'Ontario & Manitoba\'s Fastest-Growing Foundation Repair Experts',
+  subtitle: '',
+  description: 'Groundhogs delivers trusted, engineered, long-term foundation solutions built on experience, precision, and pride. Serving Winnipeg, Thunder Bay, Sudbury and in-between.',
   ctaText: 'Get a Free Estimate'
 };
 
