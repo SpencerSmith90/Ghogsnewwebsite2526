@@ -80,16 +80,19 @@ class ProjectUpdate(BaseModel):
 class Material(BaseModel):
     id: str = Field(default_factory=generate_id)
     name: str
+    description: Optional[str] = None
     image: str
     order: int = 0
 
 class MaterialCreate(BaseModel):
     name: str
+    description: Optional[str] = None
     image: str
     order: int = 0
 
 class MaterialUpdate(BaseModel):
     name: Optional[str] = None
+    description: Optional[str] = None
     image: Optional[str] = None
     order: Optional[int] = None
 
