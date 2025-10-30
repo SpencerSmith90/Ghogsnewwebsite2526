@@ -75,10 +75,73 @@ const ServiceAreas = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Service Areas - Foundation Repair & Waterproofing | Thunder Bay, Sudbury, Winnipeg"
-        description="Groundhogs provides expert foundation repair, exterior waterproofing, push pier installation, and structural solutions across Thunder Bay, Sudbury, Winnipeg and surrounding Ontario & Manitoba communities."
-        keywords="foundation repair Thunder Bay, exterior waterproofing Sudbury, basement waterproofing Winnipeg, push pier installation Ontario, foundation repair Manitoba, structural repair Ontario, interior waterproofing Thunder Bay"
+        title="Foundation Repair & Waterproofing in Ontario & Manitoba | Groundhogs"
+        description="Groundhogs delivers engineered foundation repair, waterproofing, and stabilization systems built for Northern Ontario & Manitoba's toughest conditions."
+        keywords="foundation repair Ontario, waterproofing Manitoba, foundation repair Thunder Bay, basement waterproofing Sudbury, push pier installation Winnipeg, structural repair Ontario, interior waterproofing Thunder Bay"
       />
+
+      {/* Schema Markup for Local SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Groundhogs",
+          "image": "https://groundhogs.ca/wp-content/themes/groundhogs/img/logo-footer.svg",
+          "description": "Groundhogs delivers engineered foundation repair, waterproofing, and stabilization systems built for Northern Ontario & Manitoba's toughest conditions.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Groundhogs"
+          },
+          "serviceType": [
+            "Foundation Repair",
+            "Waterproofing",
+            "Push Piers",
+            "Structural Repair",
+            "Exterior Waterproofing",
+            "Interior Waterproofing",
+            "Foundation Replacement",
+            "Steel Post & Beam Systems"
+          ],
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Thunder Bay",
+              "containedIn": {
+                "@type": "State",
+                "name": "Ontario"
+              }
+            },
+            {
+              "@type": "City",
+              "name": "Sudbury",
+              "containedIn": {
+                "@type": "State",
+                "name": "Ontario"
+              }
+            },
+            {
+              "@type": "City",
+              "name": "Winnipeg",
+              "containedIn": {
+                "@type": "State",
+                "name": "Manitoba"
+              }
+            },
+            {
+              "@type": "State",
+              "name": "Ontario"
+            },
+            {
+              "@type": "State",
+              "name": "Manitoba"
+            }
+          ],
+          "telephone": "1-888-907-3777",
+          "email": "hello@groundhogs.ca",
+          "url": "https://groundhogs.ca",
+          "priceRange": "$$"
+        })}
+      </script>
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-32 pb-20">
