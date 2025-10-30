@@ -173,17 +173,19 @@ const ServiceAreas = () => {
             <p className="text-lg text-gray-700 mb-8">
               Upload drawings, permits, or site photos — our estimators will review your project and provide a detailed, transparent quote.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6">
-                <Link to="/contact">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch">
+              <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6 h-auto">
+                <Link to="/contact" className="inline-flex items-center justify-center">
                   <Upload className="mr-2" size={20} />
                   Get Free Estimate
                 </Link>
               </Button>
-              <a href="tel:1-888-907-3777" className="inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-white text-lg font-semibold px-8 py-6 rounded-md transition-colors">
-                <Phone className="mr-2" size={20} />
-                1-888-907-3777
-              </a>
+              <Button asChild size="lg" className="bg-slate-900 hover:bg-slate-800 text-white text-lg px-8 py-6 h-auto">
+                <a href="tel:1-888-907-3777" className="inline-flex items-center justify-center">
+                  <Phone className="mr-2" size={20} />
+                  1-888-907-3777
+                </a>
+              </Button>
             </div>
           </div>
         </div>
