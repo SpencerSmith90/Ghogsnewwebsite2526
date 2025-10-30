@@ -137,24 +137,49 @@ const About = () => {
       {/* Our Story */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-900">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Our Story — Built from the Ground Up in Northern Ontario
             </h2>
-            <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="text-lg mb-6 leading-relaxed">
-                Foundation problems in Northern Ontario and Manitoba aren't just an inconvenience — they're a battle against harsh geology, deep frost, and unpredictable soil.
-                Expanding clays, immovable bedrock, and seasonal flooding test every structure built above them.
-              </p>
-              <p className="text-lg mb-6 leading-relaxed">
-                Groundhogs was born out of that environment — designed, staffed, and equipped locally to provide real, engineered solutions for the toughest conditions.
-              </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="prose prose-lg text-gray-700">
+                <p className="text-lg mb-6 leading-relaxed">
+                  Foundation problems in Northern Ontario and Manitoba aren't just an inconvenience — they're a battle against harsh geology, deep frost, and unpredictable soil.
+                  Expanding clays, immovable bedrock, and seasonal flooding test every structure built above them.
+                </p>
+                <p className="text-lg mb-6 leading-relaxed">
+                  Groundhogs was born out of that environment — designed, staffed, and equipped locally to provide real, engineered solutions for the toughest conditions.
+                </p>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/tm5c73r9_Groundhogs-6.jpeg"
+                  alt="Groundhogs service vehicle"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="prose prose-lg max-w-none text-gray-700 mb-12">
               <p className="text-lg mb-6 leading-relaxed">
                 Through our partnership with <strong>Foundation Supportworks of Omaha, Nebraska</strong>, we're the authorized Canadian dealer of some of the most advanced piering and waterproofing systems in North America.
               </p>
               <p className="text-lg leading-relaxed">
                 That partnership gives us access to world-class engineering, research, and innovation — combined with the hands-on, local experience that only Northern contractors understand.
               </p>
+            </div>
+
+            {/* Team Photo */}
+            <div className="max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">Our Team</h3>
+              <div className="rounded-lg overflow-hidden shadow-xl">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/fsswd8qn_image000001.JPG"
+                  alt="Groundhogs team members"
+                  className="w-full h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
