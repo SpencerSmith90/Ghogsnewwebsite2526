@@ -57,7 +57,7 @@ const PushPierSystems = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Service",
-          "serviceType": "Push Pier Systems",
+          "serviceType": "Push Pier Systems and Basement Underpinning",
           "provider": {
             "@type": "LocalBusiness",
             "name": "Groundhogs"
@@ -66,7 +66,7 @@ const PushPierSystems = () => {
             "@type": "City",
             "name": area
           })),
-          "description": "Engineered push pier systems for permanent foundation stabilization and lifting of settling foundations."
+          "description": "Engineered push pier systems and basement underpinning for permanent foundation stabilization and lifting of settling foundations. Expert underpinning contractors serving Ontario and Manitoba."
         })}
       </script>
 
