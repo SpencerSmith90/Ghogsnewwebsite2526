@@ -148,10 +148,10 @@ const ServiceAreas = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Groundhogs – Strength from the Ground Up
+              Expert Foundation Repair & Waterproofing Across Ontario & Manitoba
             </h1>
             <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-6">
-              Systemized Foundation Repair and Waterproofing Solutions Across Ontario & Manitoba
+              Systemized Foundation Repair and Waterproofing Solutions — Strength from the Ground Up
             </p>
             <p className="text-lg text-gray-200 leading-relaxed mb-4">
               At Groundhogs, we deliver engineered foundation and waterproofing systems that redefine what homeowners can expect from the construction industry.
