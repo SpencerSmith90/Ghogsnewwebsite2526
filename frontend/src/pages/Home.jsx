@@ -156,7 +156,17 @@ const Home = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services && services.map((service) => {
-                const isParamount = service.slug === 'waterproofing';
+                const isParamount = service.slug === 'exterior-waterproofing';
+                // Assign icons based on service slug
+                const serviceIcons = {
+                  'exterior-waterproofing': '⭐',
+                  'foundation-replacement': '🏆',
+                  'push-piers': '⚙️',
+                  'interior-waterproofing': '💧',
+                  'steel-post-beam': '🧱'
+                };
+                const icon = serviceIcons[service.slug] || '🔧';
+                
                 return (
               <Card key={service.id} className={`overflow-hidden hover-lift card-shine cursor-pointer flex flex-col h-full ${
                 isParamount ? 'border-2 border-orange-500 shadow-xl relative' : ''
@@ -164,7 +174,7 @@ const Home = () => {
                 {isParamount && (
                   <div className="absolute top-4 right-4 z-10">
                     <div className="bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg animate-pulse-slow">
-                      ⭐ Paramount Service
+                      Our Flagship Service
                     </div>
                   </div>
                 )}
@@ -177,21 +187,19 @@ const Home = () => {
                   />
                 </div>
                 <CardHeader className={`flex-grow ${isParamount ? 'bg-orange-50' : ''}`}>
-                  <CardTitle className="text-xl min-h-[3.5rem] flex items-center">
-                    {service.title}
-                    {isParamount && (
-                      <span className="ml-2 text-orange-600">🏆</span>
-                    )}
+                  <CardTitle className="text-xl min-h-[3.5rem] flex items-start">
+                    <span className="text-2xl mr-2 flex-shrink-0">{icon}</span>
+                    <span>{service.title}</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className={`flex flex-col justify-between pt-0 ${isParamount ? 'bg-orange-50' : ''}`}>
-                  <CardDescription className="text-gray-600 mb-6 line-clamp-4">
+                  <CardDescription className="text-gray-600 mb-6 line-clamp-5 text-base leading-relaxed">
                     {service.description}
                   </CardDescription>
                   <Link
                     to={`/services#${service.slug}`}
-                    className={`font-medium inline-flex items-center mt-auto ${
-                      isParamount ? 'text-orange-600 hover:text-orange-700 text-lg font-bold' : 'text-orange-600 hover:text-orange-700'
+                    className={`font-semibold inline-flex items-center mt-auto ${
+                      isParamount ? 'text-orange-600 hover:text-orange-700 text-lg' : 'text-orange-600 hover:text-orange-700'
                     }`}
                   >
                     Learn More <ArrowRight size={16} className="ml-1" />
