@@ -31,7 +31,7 @@ services = [
         "title": "Push Pier Installation",
         "slug": "push-piers",
         "description": "Stabilize and lift your foundation with precision-engineered steel piers and piles. Our hydraulic push pier systems reach competent load-bearing strata, stopping settlement and restoring your home's original elevation safely and permanently. Underpinning has never been so easy and our systems work from both inside OR outside.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a7088875f3309defc93f465c4367f0ce82605caa.png",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rb9oihh2_Groundhogs-8.jpeg",
         "featured": True,
         "order": 3
     },
