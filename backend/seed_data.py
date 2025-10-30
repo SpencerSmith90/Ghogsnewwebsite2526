@@ -4,8 +4,8 @@ site_settings = {
     "company_name": "Groundhogs",
     "tagline": "Foundation Repair Experts in Ontario & Manitoba",
     "description": "Groundhogs provides foundation repair, waterproofing, and pier systems in Ontario & Manitoba. Permanent solutions backed by expert service.",
-    "phone": "1-800-GROUNDHOGS",
-    "email": "info@groundhogs.ca",
+    "phone": "1-888-907-3777",
+    "email": "hello@groundhogs.ca",
     "address": "Serving Ontario and Manitoba",
     "logo": "https://groundhogs.ca/wp-content/themes/groundhogs/img/logo-footer.svg"
 }
