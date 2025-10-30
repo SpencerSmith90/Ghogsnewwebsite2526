@@ -12,17 +12,17 @@ site_settings = {
 
 services = [
     {
-        "title": "Exterior & Interior Waterproofing",
-        "slug": "waterproofing",
-        "description": "Water seepage speeds up structural deterioration. Our teams specialize in exterior waterproofing systems, sump pump installations, and interior systems to keep basements dry all year.",
+        "title": "Exterior Waterproofing",
+        "slug": "exterior-waterproofing",
+        "description": "Protect your home from the outside in. Our exterior waterproofing systems are engineered to stop water before it reaches your foundation, eliminating leaks, protecting structural integrity, and keeping your basement dry for decades. From excavation to membrane installation, every step is standardized, efficient, and guaranteed to last.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
         "featured": True,
         "order": 1
     },
     {
-        "title": "Foundation Replacement & Repair",
+        "title": "Foundation Repair & Replacement",
         "slug": "foundation-replacement",
-        "description": "If you're looking for foundation repair companies near me, this is our flagship service. We address full foundation replacements and structural issues with permanent, engineered solutions.",
+        "description": "Permanent, engineered solutions for any structural issue. Whether it's settling, cracking, or total foundation failure, we repair and rebuild from the ground up. Restoring your home's stability with proven systems and expert craftsmanship. Many of our systems even have the ability to reverse foundation failure.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a5d5e1ef688d929bbdb61d03346ececaf2153578-1024x683.png.webp",
         "featured": True,
         "order": 2
@@ -30,10 +30,26 @@ services = [
     {
         "title": "Push Pier Installation",
         "slug": "push-piers",
-        "description": "Expert installation for both residential and commercial foundations. Our specialized equipment and skilled team protect your property from shifting soils and structural damage.",
+        "description": "Stabilize and lift your foundation with precision-engineered steel piers and piles. Our hydraulic push pier systems reach competent load-bearing strata, stopping settlement and restoring your home's original elevation safely and permanently. Underpinning has never been so easy and our systems work from both inside OR outside.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a7088875f3309defc93f465c4367f0ce82605caa.png",
         "featured": True,
         "order": 3
+    },
+    {
+        "title": "Interior Waterproofing",
+        "slug": "interior-waterproofing",
+        "description": "When exterior access isn't possible, we install interior drainage, water barriers, and sump systems that keep water out and your basement dry for good.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
+        "featured": False,
+        "order": 4
+    },
+    {
+        "title": "Steel Post & Beam Systems",
+        "slug": "steel-post-beam",
+        "description": "Strengthen sagging or uneven floors with custom-engineered steel post and beam supports. Designed to carry real loads and eliminate bounce, our systems restore long-term strength to aging or under-supported homes.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/52e581515fd8cd3a65c498322014f6e718a96dd1-300x400.png.webp",
+        "featured": False,
+        "order": 5
     }
 ]
 
