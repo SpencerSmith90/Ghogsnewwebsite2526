@@ -378,30 +378,49 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-              What Makes Us Different
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-900">
+              What Makes Groundhogs Different
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Why Groundhogs is the trusted choice for foundation repair
+            <p className="text-xl font-semibold text-orange-600 mb-6">
+              Trusted. Proven. Built to Last.
             </p>
+            <div className="max-w-5xl mx-auto text-gray-700 text-lg leading-relaxed mb-6 space-y-3">
+              <p>
+                We don't chase surface fixes — we solve root problems with precision and purpose.
+              </p>
+              <p>
+                Groundhogs is redefining foundation repair across Ontario and Manitoba through smarter systems, disciplined execution, and a deep respect for every home we work under.
+              </p>
+            </div>
           </div>
 
           {diffsLoading ? (
             <div className="text-center py-8 text-gray-500">Loading...</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {differentiators && differentiators.map((item) => {
-              const IconComponent = LucideIcons[item.icon];
-              return (
-                <div key={item.id} className="flex flex-col items-center text-center p-6 hover-lift bg-white rounded-lg">
-                  <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
-                    {IconComponent && <IconComponent className="text-orange-600" size={32} />}
+              {differentiators && differentiators.map((item) => (
+                <Card key={item.id} className="hover-lift flex flex-col h-full p-6">
+                  <div className="text-center mb-4">
+                    <div className="text-5xl mb-4">{item.emoji}</div>
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">{item.title}</h3>
+                    {item.tagline && (
+                      <p className="text-base font-semibold text-gray-800 mb-3">
+                        {item.tagline}
+                      </p>
+                    )}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-900 min-h-[3.5rem] flex items-center">{item.title}</h3>
-                  <p className="text-gray-600 line-clamp-4">{item.description}</p>
-                </div>
-              );
-            })}
+                  <div className="flex-grow">
+                    <p className="text-gray-600 text-base leading-relaxed mb-3">
+                      {item.description}
+                    </p>
+                    {item.keywords && (
+                      <p className="text-sm text-gray-500 italic mt-4">
+                        ({item.keywords})
+                      </p>
+                    )}
+                  </div>
+                </Card>
+              ))}
             </div>
           )}
         </div>
