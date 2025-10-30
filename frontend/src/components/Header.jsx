@@ -96,20 +96,22 @@ const Header = () => {
               </button>
               
               {servicesDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
-                  {serviceLinks.map((service) => (
-                    <Link
-                      key={service.path}
-                      to={service.path}
-                      className={`block px-4 py-3 text-sm transition-colors hover:bg-orange-50 ${
-                        service.flagship 
-                          ? 'font-semibold text-orange-600 hover:text-orange-700' 
-                          : 'text-gray-700 hover:text-orange-600'
-                      } ${location.pathname === service.path ? 'bg-orange-50' : ''}`}
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
+                <div className="absolute top-full left-0 mt-0 pt-2 w-80 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
+                  <div className="py-2">
+                    {serviceLinks.map((service) => (
+                      <Link
+                        key={service.path}
+                        to={service.path}
+                        className={`block px-4 py-3 text-sm transition-colors hover:bg-orange-50 ${
+                          service.flagship 
+                            ? 'font-semibold text-orange-600 hover:text-orange-700' 
+                            : 'text-gray-700 hover:text-orange-600'
+                        } ${location.pathname === service.path ? 'bg-orange-50' : ''}`}
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
