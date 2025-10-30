@@ -55,34 +55,46 @@ services = [
 
 materials = [
     {
-        "name": "Galvanized Steel Push Piers",
+        "name": "Push Pier Systems",
+        "description": "Engineered galvanized steel piers that stabilize and lift settling foundations by reaching load-bearing strata deep below unstable soils.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a15dc97e7027d7120c107ba05a131982d86ccf05-400x320.png.webp",
         "order": 1
     },
     {
-        "name": "SmartJack Systems",
+        "name": "SmartJack® Post & Beam Systems",
+        "description": "Adjustable galvanized steel supports that permanently reinforce sagging or uneven floors which are ideal for crawlspaces and basements.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/e10daa006d09d2dea47c8354accfb4eeef0a42f3-400x178.png.webp",
         "order": 2
     },
     {
-        "name": "Concrete & Masonry",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/59c4fd23a449a77e78f79cfd541a41402517748e-400x304.png.webp",
+        "name": "Engineered Waterproofing Systems",
+        "description": "Exterior and interior waterproofing assemblies that exceed building code requirements by integrating BlueSkin™ membranes, Delta® drainage boards, and advanced sealants for unmatched protection.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/94566cd3f89260313a6553ea758f60816262d33e-400x265.png.webp",
         "order": 3
     },
     {
-        "name": "Permanent Wood Foundations",
+        "name": "GeoLock® Earth Anchors",
+        "description": "High-tension anchoring systems that permanently stabilize and often reverse bowing foundation walls without major excavation.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/5f0197306385f2f3d629420214315ac11edd0fa8-300x400.png.webp",
         "order": 4
     },
     {
-        "name": "Galvanized Steel PowerBraces",
+        "name": "PowerBrace™ Systems",
+        "description": "Galvanized steel I-beams engineered to straighten and stabilize foundation walls over time with no excavation required.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/07/52e581515fd8cd3a65c498322014f6e718a96dd1-300x400.png.webp",
         "order": 5
     },
     {
-        "name": "BlueSkin ™",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/94566cd3f89260313a6553ea758f60816262d33e-400x265.png.webp",
+        "name": "ICF Foundation Systems",
+        "description": "Insulated Concrete Form foundations offering exceptional strength, moisture resistance, and thermal performance. The modern standard for durable, energy-efficient construction.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/59c4fd23a449a77e78f79cfd541a41402517748e-400x304.png.webp",
         "order": 6
+    },
+    {
+        "name": "Concrete & Masonry Solutions",
+        "description": "Precision-poured and reinforced concrete systems built to last. From structural footings and retaining walls to full foundation replacements.",
+        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/59c4fd23a449a77e78f79cfd541a41402517748e-400x304.png.webp",
+        "order": 7
     }
 ]
 
