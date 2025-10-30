@@ -394,6 +394,26 @@ const Home = () => {
             </div>
           </div>
 
+          {/* Team at Work Images */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/ncgkdha4_Groundhogs-2.jpeg"
+                alt="Groundhogs team at work on foundation repair project"
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/9o4c00sv_Groundhogs-3.jpeg"
+                alt="Professional foundation repair crew working"
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           {diffsLoading ? (
             <div className="text-center py-8 text-gray-500">Loading...</div>
           ) : (
