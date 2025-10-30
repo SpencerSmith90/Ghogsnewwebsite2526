@@ -127,6 +127,15 @@ function App() {
                     <Route path="/blog/:slug" element={<Blog />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/service-areas" element={<ServiceAreas />} />
+                    <Route path="/testimonials" element={<Testimonials />} />
+                    <Route path="/warranty" element={<Warranty />} />
+                    <Route path="/our-systems" element={<OurSystems />} />
+                    <Route path="/resources" element={<Resources />} />
+                    <Route path="/careers" element={<Careers />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/blog/:slug" element={<Blog />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/service-areas" element={<ServiceAreas />} />
                   </Routes>
                 </main>
                 <Footer />
