@@ -66,14 +66,11 @@ const Home = () => {
           <div className="absolute inset-0 bg-[url('https://groundhogs.ca/wp-content/uploads/2025/07/4b3410535d681cf11935b4eae51e98393481c676-2048x1280.png.webp')] bg-cover bg-center" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
               {heroContent.title}
             </h1>
-            <p className="text-xl md:text-2xl mb-4 text-orange-400 font-semibold">
-              {heroContent.subtitle}
-            </p>
-            <p className="text-lg mb-8 text-gray-300">
+            <p className="text-lg md:text-xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
               {heroContent.description}
             </p>
             <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6 animate-pulse-slow hover:animate-none shadow-xl hover:shadow-2xl">
