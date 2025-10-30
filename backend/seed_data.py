@@ -162,7 +162,7 @@ differentiators = [
     {
         "title": "Root Cause Eradication",
         "emoji": "🧱",
-        "tagline": "We don't patch symptoms — we eliminate them.",
+        "tagline": "We don't patch symptoms, we eliminate them.",
         "description": "Our expert estimators dig deeper to identify the true source of foundation failure and design permanent, engineered solutions that protect your home for decades.",
         "keywords": "foundation repair Ontario, permanent foundation solutions, structural repair experts",
         "order": 1
