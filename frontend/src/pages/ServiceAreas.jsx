@@ -46,12 +46,17 @@ const ServiceAreas = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/7fwt70or_Screenshot%202025-10-30%20154852.png"
-                alt="Service Areas Map - Winnipeg, Thunder Bay, and Sudbury"
-                className="w-full h-auto"
-              />
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden" style={{ height: '600px' }}>
+              <iframe
+                src="https://www.google.com/maps/d/embed?mid=1K3xB0Y8oGZE6pEhxZ-9B0eQYqFY&ehbc=2E312F"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Groundhogs Service Areas - Winnipeg, Thunder Bay, and Sudbury"
+              ></iframe>
             </div>
           </div>
         </div>
