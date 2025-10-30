@@ -47,9 +47,9 @@ const PushPierSystems = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Push Pier Systems Ontario & Manitoba | Foundation Stabilization"
-        description="Expert push pier installation in Thunder Bay, Sudbury, and Winnipeg. Permanently stabilize and lift settling foundations with engineered pier systems."
-        keywords="push pier installation Ontario, foundation stabilization Manitoba, underpinning systems, push piers Thunder Bay, foundation piers Sudbury, pier systems Winnipeg"
+        title="Push Pier Systems & Basement Underpinning Ontario & Manitoba"
+        description="Expert push pier installation and basement underpinning in Thunder Bay, Sudbury, and Winnipeg. Permanently stabilize and lift settling foundations with engineered underpinning systems."
+        keywords="basement underpinning Ontario, underpinning Manitoba, push pier installation, foundation underpinning Thunder Bay, underpinning contractors Sudbury, basement underpinning Winnipeg, push pier underpinning systems"
       />
 
       {/* Schema Markup */}
