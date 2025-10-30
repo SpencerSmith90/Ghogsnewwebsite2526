@@ -12,6 +12,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import ServiceAreas from "./pages/ServiceAreas";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/admin/Dashboard";
 import AdminServices from "./pages/admin/Services";
