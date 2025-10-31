@@ -39,7 +39,7 @@ const Resources = () => {
         },
         {
           q: "Can waterproofing be done in winter?",
-          a: "Interior waterproofing can be done year-round. Exterior waterproofing requires excavation and is best done when ground isn't frozen, typically May through November in our service areas."
+          a: "Our company is equipped to tackle both interior and exterior projects year-round as required. However, best practice is exterior season typically runs from March until December, and interior systems are usually installed from December until February."
         }
       ]
     },
