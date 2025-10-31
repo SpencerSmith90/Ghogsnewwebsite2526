@@ -71,7 +71,7 @@ const EverBrace = () => {
       <SEO
         title="EverBrace Foundation Wall System Ontario & Manitoba | Stone Foundation Repair"
         description="EverBrace steel I-beam wall restoration system for failing stone, block, and concrete foundations. Permanent alternative to foundation replacement. Ideal for dugouts and limited access properties."
-        keywords="EverBrace system Ontario, stone foundation repair Manitoba, foundation wall restoration, basement underpinning Thunder Bay, dugout foundation support, failing foundation alternative, EverBrace installation Sudbury, foundation replacement alternative Winnipeg"
+        keywords="EverBrace system Ontario, stone foundation repair Manitoba, foundation wall restoration, EverBrace installation Thunder Bay, dugout foundation support, failing foundation alternative, EverBrace installation Sudbury, foundation replacement alternative Winnipeg"
       />
 
       {/* Schema Markup */}
