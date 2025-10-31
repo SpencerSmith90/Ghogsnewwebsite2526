@@ -126,7 +126,7 @@ projects = [
     {
         "title": "EverBrace Wall Restoration",
         "description": "Foundation was failing and shearing from the footing. Installed EverBrace system to permanently stabilize for years to come.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/everbrace-wall-restoration-system-city-state-04-1024x768-1.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/scj8izxz_image000001.JPG",
         "category": "Stabilization"
     }
 ]
