@@ -9,7 +9,7 @@ const ExteriorWaterproofing = () => {
   const benefits = [
     "Stops water before it reaches your foundation walls",
     "Protects against frost heave and hydrostatic pressure",
-    "Engineered membranes rated for -40°C Northern conditions",
+    "Engineered membranes rated for -40°C and beyond Northern conditions",
     "Prevents basement flooding and moisture damage",
     "Increases property value and structural integrity",
     "Long-term solution backed by engineering"
