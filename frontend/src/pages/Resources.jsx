@@ -56,7 +56,7 @@ const Resources = () => {
         },
         {
           q: "How long does it take to get an estimate?",
-          a: "We can typically schedule an on-site assessment within 3-5 business days. After the assessment, you'll receive a detailed written estimate within 24-48 hours."
+          a: "We offer fast virtual estimates to serve our customers more efficiently. Our estimators handle hundreds of inquiries every week and work diligently to provide quotes as quickly as possible. We've systemized our estimation process so effectively that even the most significant foundation failures can be accurately estimated virtually — trust us, we do this all the time. We also provide rapid virtual quotes for both interior and exterior waterproofing projects. Simply send us as much detail as possible along with photos of your foundation or waterproofing concerns, and you should receive a detailed estimate within a matter of hours or just a couple of days. For complex projects requiring on-site assessment, we'll let you know upfront."
         }
       ]
     },
