@@ -114,7 +114,7 @@ projects = [
     {
         "title": "Foundation Rebuild",
         "description": "Rebuilt failed and compromised foundation with new ICF Foundation, proper insulation and drainage.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/08/foundation-rebuild-6895c91befdb7-1024x714.webp.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/7niypb0e_um3kol1z_unnamed.jpg",
         "category": "Rebuild"
     },
     {
