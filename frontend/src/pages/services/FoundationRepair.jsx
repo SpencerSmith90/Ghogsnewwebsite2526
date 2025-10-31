@@ -17,20 +17,28 @@ const FoundationRepair = () => {
 
   const services = [
     {
-      title: "Foundation Wall Reconstruction",
-      description: "Complete rebuild of damaged or failing foundation walls using modern materials and techniques."
+      title: "Foundation Wall Reconstruction & Replacement",
+      description: "Complete rebuild and replacement of damaged, deteriorating, or failing foundation walls using modern ICF systems, concrete block, or poured concrete. When your foundation is beyond economical repair, we provide permanent, engineered replacement solutions."
     },
     {
-      title: "Structural Crack Repair",
-      description: "Professional repair of foundation cracks with epoxy injection or carbon fiber reinforcement systems."
+      title: "Bowing Foundation Wall Stabilization & Reversal",
+      description: "Permanently stabilize and reverse bowing, bulging, or leaning foundation walls using advanced steel reinforcement systems. Our solutions include PowerBrace™ I-beams, GeoLock® Earth Anchors, and carbon fiber reinforcement — preventing further movement and restoring structural integrity."
     },
     {
-      title: "Foundation Replacement",
-      description: "Full foundation replacement when existing structure is beyond economical repair."
+      title: "EverBrace™ Wall Restoration for Compromised Foundations",
+      description: "The ultimate solution for severely compromised foundation walls, especially deteriorating stone and mortar foundations. The EverBrace™ system uses rigid steel I-beam panels to permanently stabilize failing walls without requiring full replacement — ideal for old stone foundations that are crumbling or shifting."
     },
     {
-      title: "Controlled Foundation Lifting",
-      description: "Hydraulic lifting systems to restore foundations to original position and grade."
+      title: "Structural Crack Repair & Sealing",
+      description: "Professional repair of foundation cracks using epoxy injection, polyurethane foam, or carbon fiber reinforcement systems. We diagnose the root cause of cracking and provide permanent solutions that restore structural integrity and prevent water intrusion."
+    },
+    {
+      title: "Foundation Lifting & Leveling (Push Pier Systems)",
+      description: "Hydraulic push pier systems that stabilize settling foundations and restore them to original position. Our engineered underpinning solutions transfer the weight of your home to stable load-bearing soil, reversing foundation settlement and eliminating floor slopes."
+    },
+    {
+      title: "Sagging Floor Repair & Structural Support",
+      description: "Reinforce weak or bouncy floors with SmartJack® adjustable steel post systems and supplemental beam supports. Designed for crawl spaces and basements where floor joists are undersized, deteriorating, or compromised."
     }
   ];
 
