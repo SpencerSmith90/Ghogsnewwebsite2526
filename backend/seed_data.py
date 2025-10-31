@@ -103,6 +103,12 @@ materials = [
         "description": "Precision-poured and reinforced concrete systems built to last. From structural footings and retaining walls to full foundation replacements.",
         "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/um3kol1z_unnamed.jpg",
         "order": 7
+    },
+    {
+        "name": "Concentric Pier Systems",
+        "description": "Advanced pier technology designed for deep foundation stabilization. Concentric pier systems provide superior load distribution in challenging soil conditions, offering enhanced stability beyond conventional pier methods.",
+        "image": "https://cdn.treehouseinternetgroup.com/uploads/photo_gallery/medium/410828-cederwall-4.jpg",
+        "order": 8
     }
 ]
 
