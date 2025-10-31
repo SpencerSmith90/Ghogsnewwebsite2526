@@ -53,8 +53,8 @@ const EverBrace = () => {
       description: "Walls that have bowed beyond the point where traditional bracing systems can provide adequate support."
     },
     {
-      title: "Basement Underpinning & Dugout Support",
-      description: "Creating additional basement depth (dugouts) by supporting the perimeter foundation walls during excavation and providing permanent structural reinforcement."
+      title: "Dugout & Basement Lowering Projects",
+      description: "Creating additional basement depth by supporting the perimeter foundation walls during excavation and providing permanent structural reinforcement."
     },
     {
       title: "Alternative to Full Foundation Replacement",
