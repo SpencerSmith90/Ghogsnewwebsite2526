@@ -226,7 +226,9 @@ const ServiceAreas = () => {
               {coreServices.map((service, index) => (
                 <Card key={index} className="p-8 hover:shadow-xl transition-shadow">
                   <div className="flex flex-col md:flex-row gap-6">
-                    <div className="text-6xl flex-shrink-0">{service.icon}</div>
+                    <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0">
+                      {service.icon}
+                    </div>
                     <div className="flex-grow">
                       <h3 className="text-2xl font-bold mb-4 text-gray-900">{service.title}</h3>
                       <p className="text-gray-700 mb-4 leading-relaxed">
