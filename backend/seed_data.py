@@ -39,7 +39,7 @@ services = [
         "title": "Interior Waterproofing",
         "slug": "interior-waterproofing",
         "description": "When exterior access isn't possible, we install interior drainage, water barriers, and sump systems that keep water out and your basement dry for good.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/k7dgi04k_OIP.webp",
         "featured": False,
         "order": 4
     },
