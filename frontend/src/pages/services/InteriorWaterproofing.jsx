@@ -91,13 +91,23 @@ const InteriorWaterproofing = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Why Interior Waterproofing?
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
                   <p className="text-lg text-gray-700">{benefit}</p>
                 </div>
               ))}
+            </div>
+
+            {/* Feature Image */}
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/k7dgi04k_OIP.webp"
+                alt="Interior waterproofing system with drainage channel and sump pump installation"
+                loading="lazy"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
