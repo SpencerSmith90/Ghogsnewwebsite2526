@@ -148,7 +148,7 @@ const EverBrace = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               How EverBrace™ Works
             </h2>
-            <div className="space-y-6">
+            <div className="space-y-6 mb-12">
               {howItWorks.map((item, index) => (
                 <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
                   <div className="flex gap-6 items-start">
@@ -162,6 +162,16 @@ const EverBrace = () => {
                   </div>
                 </Card>
               ))}
+            </div>
+
+            {/* Installation Image */}
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/jniibf8a_2021_02_04%20Updated%20Everbrace%20Installation%20-%20194.jpg"
+                alt="Professional installation of EverBrace steel I-beam system on foundation wall"
+                loading="lazy"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
