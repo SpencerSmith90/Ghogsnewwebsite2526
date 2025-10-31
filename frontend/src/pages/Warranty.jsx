@@ -24,15 +24,6 @@ const Warranty = () => {
     }
   ];
 
-  const guarantees = [
-    "Lifetime warranty on push pier systems",
-    "25-year warranty on exterior waterproofing membranes",
-    "Manufacturer warranties on all materials",
-    "Workmanship guarantee on all installations",
-    "Code-compliant installations with permits",
-    "Free annual inspections for warranty holders"
-  ];
-
   return (
     <div className="min-h-screen">
       <SEO
