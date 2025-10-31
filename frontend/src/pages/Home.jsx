@@ -187,7 +187,7 @@ const Home = () => {
                 </div>
                 <CardHeader className={`flex-grow ${isParamount ? 'bg-orange-50' : ''}`}>
                   <CardTitle className="text-xl min-h-[3.5rem] flex items-start">
-                    <span className="text-2xl mr-2 flex-shrink-0">{icon}</span>
+                    <span className="bg-orange-100 rounded-full p-2 mr-3 flex-shrink-0">{icon}</span>
                     <span>{service.title}</span>
                   </CardTitle>
                 </CardHeader>
