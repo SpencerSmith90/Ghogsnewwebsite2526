@@ -184,13 +184,23 @@ const EverBrace = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               When is EverBrace™ the Right Solution?
             </h2>
-            <div className="space-y-6">
+            <div className="space-y-6 mb-12">
               {whenToUse.map((item, index) => (
                 <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
                   <h3 className="text-xl font-bold mb-3 text-gray-900">{item.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{item.description}</p>
                 </Card>
               ))}
+            </div>
+
+            {/* Workers Installing EverBrace */}
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/ojtdmjvh_2020_10Everbrace%20Afters%20-%20006.jpg"
+                alt="Groundhogs team installing EverBrace wall restoration system"
+                loading="lazy"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
