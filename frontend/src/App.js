@@ -5,6 +5,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from "./components/ui/sonner";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -38,6 +39,7 @@ function App() {
     <HelmetProvider>
       <div className="App">
         <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           {/* Admin Routes (without header/footer) */}
           <Route path="/admin/login" element={<AdminLogin />} />
