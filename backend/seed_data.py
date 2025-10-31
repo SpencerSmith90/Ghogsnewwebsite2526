@@ -23,7 +23,7 @@ services = [
         "title": "Foundation Repair & Replacement",
         "slug": "foundation-replacement",
         "description": "Permanent, engineered solutions for any structural issue. Whether it's settling, cracking, or total foundation failure, we repair and rebuild from the ground up. Restoring your home's stability with proven systems and expert craftsmanship. Many of our systems even have the ability to reverse foundation failure.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/a5d5e1ef688d929bbdb61d03346ececaf2153578-1024x683.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/uh9o2xgj_thumb_IMG_9260.png",
         "featured": True,
         "order": 2
     },
