@@ -158,13 +158,13 @@ const Home = () => {
                 const isParamount = service.slug === 'exterior-waterproofing';
                 // Assign icons based on service slug
                 const serviceIcons = {
-                  'exterior-waterproofing': '⭐',
-                  'foundation-replacement': '🏆',
-                  'push-piers': '⚙️',
-                  'interior-waterproofing': '💧',
-                  'steel-post-beam': '🧱'
+                  'exterior-waterproofing': <Star className="w-8 h-8 text-orange-600" />,
+                  'foundation-replacement': <Award className="w-8 h-8 text-orange-600" />,
+                  'push-piers': <Wrench className="w-8 h-8 text-orange-600" />,
+                  'interior-waterproofing': <Droplets className="w-8 h-8 text-orange-600" />,
+                  'steel-post-beam': <Construction className="w-8 h-8 text-orange-600" />
                 };
-                const icon = serviceIcons[service.slug] || '🔧';
+                const icon = serviceIcons[service.slug] || <Wrench className="w-8 h-8 text-orange-600" />;
                 
                 return (
               <Card key={service.id} className={`overflow-hidden hover-lift card-shine cursor-pointer flex flex-col h-full ${
