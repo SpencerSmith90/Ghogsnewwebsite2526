@@ -47,7 +47,7 @@ services = [
         "title": "Steel Post & Beam Systems",
         "slug": "steel-post-beam",
         "description": "Strengthen sagging or uneven floors with custom-engineered steel post and beam supports. Designed to carry real loads and eliminate bounce, our systems restore long-term strength to aging or under-supported homes.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/52e581515fd8cd3a65c498322014f6e718a96dd1-300x400.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/lubny32g_smartjack-install_2024_HI-RES-355.jpg",
         "featured": False,
         "order": 5
     }
