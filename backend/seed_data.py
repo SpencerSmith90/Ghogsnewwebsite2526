@@ -75,7 +75,7 @@ materials = [
     {
         "name": "GeoLock® Earth Anchors",
         "description": "High-tension anchoring systems that permanently stabilize and often reverse bowing foundation walls without major excavation.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/5f0197306385f2f3d629420214315ac11edd0fa8-300x400.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/ifadt9jd_FN_RES_WR_GeoLock-Channel-Anchor_Cross-Section_01.png",
         "order": 4
     },
     {
