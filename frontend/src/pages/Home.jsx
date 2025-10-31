@@ -249,7 +249,7 @@ const Home = () => {
                       src={material.image}
                       alt={material.name}
                       loading="lazy"
-                      className="w-full h-full object-contain"
+                      className={`w-full h-full ${material.name === 'Push Pier & Pile Systems' ? 'object-cover' : 'object-contain'}`}
                     />
                   </div>
                   <CardHeader>
