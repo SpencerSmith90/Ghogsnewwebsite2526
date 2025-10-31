@@ -261,7 +261,9 @@ const ServiceAreas = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {northernSystems.map((system, index) => (
                 <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
-                  <div className="text-4xl mb-4">{system.icon}</div>
+                  <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                    {system.icon}
+                  </div>
                   <h3 className="text-xl font-bold mb-3 text-gray-900">{system.title}</h3>
                   <p className="text-gray-700 leading-relaxed">
                     {system.description}
