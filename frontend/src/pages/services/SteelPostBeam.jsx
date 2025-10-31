@@ -140,7 +140,7 @@ const SteelPostBeam = () => {
             <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
               The Groundhogs Approach to Floor Support
             </h2>
-            <div className="prose prose-lg max-w-none text-gray-700">
+            <div className="prose prose-lg max-w-none text-gray-700 mb-12">
               <p className="mb-4">
                 <strong>Engineering Assessment:</strong> We calculate actual load requirements based on your home's structure, not guesswork or generic solutions.
               </p>
@@ -156,6 +156,16 @@ const SteelPostBeam = () => {
               <p>
                 <strong>Long-Term Performance:</strong> Steel doesn't rot, warp, or deteriorate like wood. Your floors stay level and solid for decades.
               </p>
+            </div>
+
+            {/* Second Feature Image */}
+            <div className="rounded-lg overflow-hidden shadow-xl max-w-3xl mx-auto">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/1qsm4tfv_2020_01_31%20104%20Smartjack.jpg"
+                alt="Completed SmartJack steel post installation supporting floor joists in crawl space"
+                loading="lazy"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
