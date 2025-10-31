@@ -102,7 +102,7 @@ projects = [
     {
         "title": "Permanent Wall Stabilization with EverBrace™ System",
         "description": "We installed the EverBrace™ Foundation Wall System which permanently stabilizes compromised walls. Added interior waterproofing system for long-term protection.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/08/permanent-wall-stabilization-with-everbrace-system-6895c9161d105-1024x714.webp.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/1npqx8zn_image000001.JPG",
         "category": "Stabilization"
     },
     {
