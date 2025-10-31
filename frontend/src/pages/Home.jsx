@@ -7,7 +7,7 @@ import { useApi } from '../hooks/useApi';
 import { getServices, getMaterials, getPropertyTypes, getDifferentiators, getTestimonials, getVideoReels } from '../services/api';
 import * as LucideIcons from 'lucide-react';
 import SEO from '../components/SEO';
-import { ServiceCardSkeleton, ProjectCardSkeleton, TestimonialSkeleton } from '../components/SkeletonLoader';
+import { ServiceCardSkeleton, TestimonialSkeleton } from '../components/SkeletonLoader';
 import VideoReelsCarousel from '../components/VideoReelsCarousel';
 import AnimatedCounter from '../components/AnimatedCounter';
 
