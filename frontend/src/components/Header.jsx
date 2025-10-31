@@ -32,6 +32,7 @@ const Header = () => {
     { name: 'Exterior Waterproofing — Flagship Service', path: '/services/exterior-waterproofing', flagship: true },
     { name: 'Foundation Repair & Replacement', path: '/services/foundation-repair-replacement' },
     { name: 'Push Pier Systems', path: '/services/push-pier-systems' },
+    { name: 'Concentric Pier Systems', path: '/services/concentric-pier-systems' },
     { name: 'Interior Waterproofing', path: '/services/interior-waterproofing' },
     { name: 'Steel Post & Beam Systems', path: '/services/steel-post-beam-systems' },
     { name: 'EverBrace™ Wall Restoration', path: '/services/everbrace-wall-restoration' }
