@@ -152,7 +152,7 @@ const ExteriorWaterproofing = () => {
                 <strong>Northern Climate Expertise:</strong> Our systems are specifically engineered for Ontario and Manitoba's freeze-thaw cycles, high groundwater tables, and extreme temperature swings.
               </p>
               <p className="mb-4">
-                <strong>Premium Materials:</strong> We use only the highest-grade waterproofing membranes that remain flexible to -40°C and resist punctures, tears, and UV degradation.
+                <strong>Premium Materials:</strong> We use only the highest-grade waterproofing membranes that remain flexible to -40°C and beyond and resist punctures, tears, and UV degradation.
               </p>
               <p className="mb-4">
                 <strong>Proper Drainage:</strong> Every waterproofing system includes comprehensive perimeter drainage to manage both surface water and hydrostatic pressure.
