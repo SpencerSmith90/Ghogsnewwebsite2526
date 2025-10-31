@@ -88,7 +88,7 @@ const EverBrace = () => {
             "@type": "City",
             "name": area
           })),
-          "description": "EverBrace steel I-beam wall restoration system providing permanent stabilization for failing foundation walls without requiring full replacement or exterior excavation."
+          "description": "EverBrace steel I-beam wall restoration system providing permanent stabilization for failing foundation walls without requiring full replacement or exterior excavation. Integrates with interior waterproofing for complete protection."
         })}
       </script>
 
