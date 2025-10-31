@@ -27,9 +27,9 @@ const Warranty = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Warranty & Guarantee | Groundhogs Foundation Repair"
-        description="Groundhogs stands behind every foundation repair and waterproofing project with comprehensive warranties. Lifetime warranties on pier systems, 25-year waterproofing coverage."
-        keywords="foundation repair warranty Ontario, waterproofing guarantee Manitoba, lifetime foundation warranty, foundation repair guarantee Thunder Bay"
+        title="Foundation Repair Warranty & Waterproofing Guarantee Ontario Manitoba"
+        description="Groundhogs foundation repair warranties: 25-year warranty on steel systems, 5-year transferable warranty on full perimeter waterproofing. Job-specific coverage for Thunder Bay, Sudbury, Winnipeg."
+        keywords="foundation repair warranty Ontario, waterproofing guarantee Manitoba, 25-year steel foundation warranty, transferable waterproofing warranty, foundation warranty Thunder Bay, push pier warranty Sudbury, waterproofing warranty Winnipeg"
       />
 
       {/* Hero Section */}
