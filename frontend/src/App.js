@@ -19,6 +19,7 @@ import FoundationRepair from "./pages/services/FoundationRepair";
 import PushPierSystems from "./pages/services/PushPierSystems";
 import InteriorWaterproofing from "./pages/services/InteriorWaterproofing";
 import SteelPostBeam from "./pages/services/SteelPostBeam";
+import EverBrace from "./pages/services/EverBrace";
 import Testimonials from "./pages/Testimonials";
 import Warranty from "./pages/Warranty";
 import OurSystems from "./pages/OurSystems";
