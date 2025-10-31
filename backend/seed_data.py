@@ -53,7 +53,7 @@ services = [
     },
     {
         "title": "Concentric Pier Systems",
-        "slug": "concentric-piers",
+        "slug": "concentric-pier-systems",
         "description": "Advanced pier technology for settling foundations. Our concentric pier systems provide superior load transfer and stabilization, ideal for challenging soil conditions and deep installations where traditional piers fall short.",
         "image": "https://cdn.treehouseinternetgroup.com/uploads/photo_gallery/medium/410828-cederwall-4.jpg",
         "featured": False,
