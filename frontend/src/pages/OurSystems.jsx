@@ -75,6 +75,63 @@ const OurSystems = () => {
         </div>
       </section>
 
+      {/* Innovation & Systemization */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-gray-900">
+              Systemized Excellence: 2x Faster Without Compromise
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700 mb-8">
+              <p className="text-lg leading-relaxed mb-4">
+                At Groundhogs, we've taken traditional <strong>foundation repair</strong> and <strong>waterproofing methods</strong> and completely reimagined them. Through relentless innovation and process optimization, we've developed <strong>systemized installation protocols</strong> that allow us to complete projects <strong>up to 2x faster than our competitors</strong> — without cutting corners or compromising results.
+              </p>
+              <p className="text-lg leading-relaxed mb-4">
+                <strong>Speed isn't about rushing — it's about efficiency.</strong> Our crews operate with precision workflows, standardized equipment setups, and engineered solutions that eliminate guesswork. Every step of a Groundhogs installation follows a proven process, from excavation to final backfill, ensuring consistent quality at significantly faster timelines.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <Card className="p-6 bg-orange-50 border-l-4 border-orange-600">
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Continuous Improvement</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  We don't just install systems — we constantly refine them. Our field teams provide real-world feedback that drives product selection, tool innovation, and installation method improvements. This commitment to evolution means you get the benefit of decades of learned efficiency.
+                </p>
+              </Card>
+
+              <Card className="p-6 bg-orange-50 border-l-4 border-orange-600">
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Embracing Complexity</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Most foundation and waterproofing work seems overwhelming to the average contractor. For us, it's where we thrive. We lean into the challenging projects — the ones requiring precision, engineering, and problem-solving — because that's what we're built to do.
+                </p>
+              </Card>
+            </div>
+
+            <div className="bg-slate-900 text-white p-8 rounded-lg">
+              <h3 className="text-2xl font-bold mb-4">The Groundhogs Difference</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-orange-400 font-semibold mb-2">✓ Faster Project Completion</p>
+                  <p className="text-gray-300 text-sm">Systemized workflows complete installations up to 2x faster than traditional methods</p>
+                </div>
+                <div>
+                  <p className="text-orange-400 font-semibold mb-2">✓ Zero Compromise on Quality</p>
+                  <p className="text-gray-300 text-sm">Speed through efficiency, not shortcuts — engineered solutions installed to exact specifications</p>
+                </div>
+                <div>
+                  <p className="text-orange-400 font-semibold mb-2">✓ Proven & Refined Systems</p>
+                  <p className="text-gray-300 text-sm">Decades of field experience translated into optimized installation protocols</p>
+                </div>
+                <div>
+                  <p className="text-orange-400 font-semibold mb-2">✓ Built for Complexity</p>
+                  <p className="text-gray-300 text-sm">We excel at the challenging projects other contractors avoid</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Advanced Systems */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
