@@ -162,7 +162,8 @@ const Home = () => {
                   'foundation-replacement': <Award className="w-8 h-8 text-orange-600" />,
                   'push-piers': <Wrench className="w-8 h-8 text-orange-600" />,
                   'interior-waterproofing': <Droplets className="w-8 h-8 text-orange-600" />,
-                  'steel-post-beam': <Construction className="w-8 h-8 text-orange-600" />
+                  'steel-post-beam': <Construction className="w-8 h-8 text-orange-600" />,
+                  'concentric-piers': <Layers className="w-8 h-8 text-orange-600" />
                 };
                 const icon = serviceIcons[service.slug] || <Wrench className="w-8 h-8 text-orange-600" />;
                 
