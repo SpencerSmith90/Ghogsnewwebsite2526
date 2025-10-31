@@ -108,7 +108,7 @@ projects = [
     {
         "title": "Foundation Replacement",
         "description": "Full foundation replacement completed in under three days. Proven systems and expertise delivered quality results efficiently and affordably.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/08/foundation-replacement-6895c91633d0b-1024x714.webp.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/5dnbndds_0.jpg",
         "category": "Replacement"
     },
     {
