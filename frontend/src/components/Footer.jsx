@@ -172,6 +172,14 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+          {/* Secondary Logo */}
+          <div className="mb-6">
+            <img
+              src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/cyrv7gch_GROUNDHOGS-WORD-TRAMEMARK-WHITE.png"
+              alt="Groundhogs Foundation Repair Trademark"
+              className="h-8 mx-auto opacity-90"
+            />
+          </div>
           <p>
             &copy; {new Date().getFullYear()} {siteSettings.company_name}. All rights reserved.
           </p>
