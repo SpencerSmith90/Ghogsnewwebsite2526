@@ -275,64 +275,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Projects Showcase */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-              Our Successful Projects
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              See how we've transformed foundations across Ontario and Manitoba
-            </p>
-          </div>
-
-          {projectsLoading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-              {[1, 2, 3].map((i) => (
-                <ProjectCardSkeleton key={i} />
-              ))}
-            </div>
-          ) : (
-            <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-                {projects && projects.slice(0, 3).map((project) => (
-              <Card key={project.id} className="overflow-hidden hover-lift card-shine flex flex-col h-full">
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={`${project.title} - ${project.category}`}
-                    loading="lazy"
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <CardHeader className="flex-grow">
-                  <div className="text-xs font-semibold text-orange-600 mb-2">
-                    {project.category}
-                  </div>
-                  <CardTitle className="text-lg min-h-[3.5rem] flex items-start">{project.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="pt-0">
-                  <CardDescription className="text-gray-600 line-clamp-3">
-                    {project.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-              </div>
-
-              <div className="text-center">
-                <Button asChild variant="outline" size="lg">
-                  <Link to="/projects">
-                    View All Projects <ArrowRight className="ml-2" size={18} />
-                  </Link>
-                </Button>
-              </div>
-            </>
-          )}
-        </div>
-      </section>
-
       {/* Property Types */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
