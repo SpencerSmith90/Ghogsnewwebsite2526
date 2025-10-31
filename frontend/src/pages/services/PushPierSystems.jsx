@@ -126,7 +126,7 @@ const PushPierSystems = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               How Push Pier Underpinning Works
             </h2>
-            <div className="space-y-6">
+            <div className="space-y-6 mb-12">
               {howItWorks.map((item, index) => (
                 <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
                   <div className="flex gap-6 items-start">
@@ -140,6 +140,16 @@ const PushPierSystems = () => {
                   </div>
                 </Card>
               ))}
+            </div>
+
+            {/* Second Feature Image */}
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/s6izi5dj_thumb_IMG_9734.png"
+                alt="Push pier installation showing foundation bracket and hydraulic equipment at work site"
+                loading="lazy"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
