@@ -33,11 +33,16 @@ const ExteriorWaterproofing = () => {
     },
     {
       step: "4",
+      title: "Enhanced Insulation & Protection Layer",
+      description: "Install rigid insulation seamlessly around your foundation, providing superior thermal insulation for energy efficiency. All joints are professionally sealed, creating a second waterproofing barrier while protecting your foundation from backfill pressure, rocks, and freeze-thaw damage. This advanced dual-layer system exceeds standard building code requirements."
+    },
+    {
+      step: "5",
       title: "Drainage System",
       description: "Install perimeter drainage tile connected to proper discharge points or sump systems."
     },
     {
-      step: "5",
+      step: "6",
       title: "Backfill & Restoration",
       description: "Carefully backfill with properly graded material and restore landscaping to original or better condition."
     }
