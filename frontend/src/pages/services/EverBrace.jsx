@@ -216,7 +216,7 @@ const EverBrace = () => {
             </h2>
             <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
               <p>
-                <strong>Full foundation replacement</strong> often involves excavating around the entire home, temporarily supporting the structure, removing the old foundation, and building a new one. This process can cost <strong>$50,000–$150,000+</strong> and disrupt your life for weeks or months.
+                <strong>Full foundation replacement</strong> often involves excavating around the entire home, temporarily supporting the structure, removing the old foundation, and building a new one. This process can cost <strong>hundreds of thousands of dollars in some cases</strong> and disrupt your life for weeks or months.
               </p>
               <p>
                 <strong>EverBrace™</strong> offers a permanent, engineered alternative at a <strong>fraction of the cost</strong>, with:
