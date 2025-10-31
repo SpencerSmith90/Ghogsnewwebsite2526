@@ -30,9 +30,9 @@ const OurSystems = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Our Systems & Technology | Groundhogs Foundation Solutions"
-        description="Groundhogs uses advanced foundation repair and waterproofing systems including push piers, SmartJack, engineered membranes, and more. Proven technology for Northern climates."
-        keywords="foundation repair systems, push pier technology, SmartJack systems, foundation waterproofing membranes, Foundation Supportworks"
+        title="Our Systems & Technology | Systemized Foundation Repair 2x Faster Ontario Manitoba"
+        description="Groundhogs systemized foundation repair and waterproofing: 2x faster installation without compromise. Advanced systems, continuous innovation, engineered for Ontario and Manitoba climates."
+        keywords="systemized foundation repair, fast foundation installation Ontario, efficient waterproofing Manitoba, foundation repair systems, push pier technology, innovative foundation solutions Thunder Bay Sudbury Winnipeg"
       />
 
       {/* Hero Section */}
