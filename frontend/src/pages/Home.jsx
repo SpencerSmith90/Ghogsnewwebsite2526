@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Star, Users, Zap, FileCheck, Award, Wrench, Droplets, Construction } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star, Users, Zap, FileCheck, Award, Wrench, Droplets, Construction, Layers } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { useApi } from '../hooks/useApi';
