@@ -167,6 +167,17 @@ const Home = () => {
                 };
                 const icon = serviceIcons[service.slug] || <Wrench className="w-8 h-8 text-orange-600" />;
                 
+                // Map slugs to dedicated service pages
+                const slugToRoute = {
+                  'exterior-waterproofing': '/services/exterior-waterproofing',
+                  'foundation-replacement': '/services/foundation-repair-replacement',
+                  'push-piers': '/services/push-pier-systems',
+                  'interior-waterproofing': '/services/interior-waterproofing',
+                  'steel-post-beam': '/services/steel-post-beam-systems',
+                  'concentric-pier-systems': '/services/concentric-pier-systems'
+                };
+                const serviceRoute = slugToRoute[service.slug] || `/services#${service.slug}`;
+                
                 return (
               <Card key={service.id} className={`overflow-hidden hover-lift card-shine cursor-pointer flex flex-col h-full ${
                 isParamount ? 'border-2 border-orange-500 shadow-xl relative' : ''
