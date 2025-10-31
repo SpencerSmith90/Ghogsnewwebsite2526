@@ -69,7 +69,7 @@ materials = [
     {
         "name": "Engineered Waterproofing Systems",
         "description": "Exterior and interior waterproofing assemblies that exceed building code requirements by integrating BlueSkin™ membranes, Delta® drainage boards, and advanced sealants for unmatched protection.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/94566cd3f89260313a6553ea758f60816262d33e-400x265.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/58s62gnr_unnamed.jpg",
         "order": 3
     },
     {
