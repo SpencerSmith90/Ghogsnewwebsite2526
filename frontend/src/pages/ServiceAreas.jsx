@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Upload, CheckCircle } from 'lucide-react';
+import { Phone, Upload, CheckCircle, Star, Award, Wrench, Droplets, Construction, Mountain, Snowflake, CloudRain, Truck, FileText } from 'lucide-react';
 import SEO from '../components/SEO';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
