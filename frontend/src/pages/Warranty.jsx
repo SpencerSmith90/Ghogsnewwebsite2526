@@ -81,25 +81,6 @@ const Warranty = () => {
         </div>
       </section>
 
-      {/* What's Included */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-              Our Guarantee to You
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {guarantees.map((guarantee, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
-                  <p className="text-lg text-gray-700">{guarantee}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Why It Matters */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
