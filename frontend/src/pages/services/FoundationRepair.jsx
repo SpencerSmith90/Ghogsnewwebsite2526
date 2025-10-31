@@ -49,9 +49,9 @@ const FoundationRepair = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Foundation Repair & Replacement Ontario & Manitoba | Groundhogs"
-        description="Expert foundation repair and replacement in Thunder Bay, Sudbury, and Winnipeg. Permanent engineered solutions for settling foundations, cracks, and structural damage."
-        keywords="foundation repair Ontario, foundation replacement Manitoba, structural repair contractors, foundation crack repair Thunder Bay, foundation contractors Sudbury, foundation repair Winnipeg"
+        title="Foundation Repair & Replacement Ontario & Manitoba | Bowing Wall Repair"
+        description="Expert foundation repair in Thunder Bay, Sudbury, and Winnipeg. Bowing wall stabilization, EverBrace systems, foundation replacement, push pier underpinning. Permanent engineered solutions."
+        keywords="foundation repair Ontario, bowing wall repair Manitoba, EverBrace foundation system, foundation replacement Thunder Bay, stone foundation repair, foundation wall stabilization Sudbury, push pier underpinning Winnipeg, foundation crack repair"
       />
 
       {/* Schema Markup */}
