@@ -418,9 +418,22 @@ const Home = () => {
             <div className="text-center py-8 text-gray-500">Loading...</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {differentiators && differentiators.map((item) => (
+              {differentiators && differentiators.map((item, index) => {
+                // Map icons to each differentiator
+                const iconMap = {
+                  0: <CheckCircle className="w-8 h-8 text-orange-600" />, // Root Cause
+                  1: <Star className="w-8 h-8 text-orange-600" />, // Exclusive Systems
+                  2: <Users className="w-8 h-8 text-orange-600" />, // Elite Tradespeople (need to import)
+                  3: <Zap className="w-8 h-8 text-orange-600" />, // Systemized Efficiency (need to import)
+                  4: <FileCheck className="w-8 h-8 text-orange-600" /> // Compliance (need to import)
+                };
+                
+                return (
                 <Card key={item.id} className="hover-lift flex flex-col h-full p-6">
-                  <div className="text-center mb-4">
+                  <div className="flex flex-col items-center text-center mb-4">
+                    <div className="bg-orange-100 rounded-full p-4 mb-4">
+                      {iconMap[index] || <CheckCircle className="w-8 h-8 text-orange-600" />}
+                    </div>
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{item.title}</h3>
                     {item.tagline && (
                       <p className="text-base font-semibold text-gray-800 mb-3">
@@ -434,7 +447,7 @@ const Home = () => {
                     </p>
                   </div>
                 </Card>
-              ))}
+              )})}
             </div>
           )}
         </div>
