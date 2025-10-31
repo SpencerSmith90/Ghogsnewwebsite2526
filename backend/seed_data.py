@@ -113,7 +113,7 @@ projects = [
     },
     {
         "title": "Foundation Rebuild",
-        "description": "Rebuilt failed foundation from the ground up, installing new footing and Permanent Wood Foundation for superior strength and durability.",
+        "description": "Rebuilt failed and compromised foundation with new ICF Foundation, proper insulation and drainage.",
         "image": "https://groundhogs.ca/wp-content/uploads/2025/08/foundation-rebuild-6895c91befdb7-1024x714.webp.webp",
         "category": "Rebuild"
     },
