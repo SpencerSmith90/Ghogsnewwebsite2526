@@ -48,7 +48,7 @@ const Resources = () => {
       questions: [
         {
           q: "How much does foundation repair cost?",
-          a: "Costs vary widely based on the scope of work. Simple crack repairs may cost $1,500-3,000, while full foundation stabilization with piers can range from $8,000-25,000+. Every project is unique, which is why we provide free, detailed estimates."
+          a: "Foundation repair pricing is highly subjective and varies significantly based on project scope, site conditions, and installation requirements. As a general guide: Crack repairs and smaller jobs typically run $3,000-$5,000. Foundation replacements usually cost $1,500-$2,000 per linear foot. Push pier systems often range from $3,000-$5,000 per pier depending on depth, access, and site variables. Exterior waterproofing can be $200-$500 per linear foot depending on excavation depth and drainage requirements. Interior waterproofing systems typically cost around $200 per linear foot. SmartJack post and beam systems generally run $4,000 per 10-foot span depending on beam size and load requirements. EverBrace wall restoration is often $1,000-$1,500 per linear foot based on wall condition and project complexity. Every project is unique — contact us for a free, detailed estimate tailored to your specific foundation needs."
         },
         {
           q: "Do you offer financing?",
