@@ -124,6 +124,7 @@ function App() {
                     <Route path="/services/push-pier-systems" element={<PushPierSystems />} />
                     <Route path="/services/interior-waterproofing" element={<InteriorWaterproofing />} />
                     <Route path="/services/steel-post-beam-systems" element={<SteelPostBeam />} />
+                    <Route path="/services/everbrace-wall-restoration" element={<EverBrace />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/blog" element={<Blog />} />
