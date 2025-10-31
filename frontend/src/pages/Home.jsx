@@ -22,7 +22,6 @@ const heroContent = {
 const Home = () => {
   const { data: services, loading: servicesLoading } = useApi(getServices);
   const { data: materials, loading: materialsLoading } = useApi(getMaterials);
-  const { data: projects, loading: projectsLoading } = useApi(getProjects);
   const { data: propertyTypes, loading: typesLoading } = useApi(getPropertyTypes);
   const { data: differentiators, loading: diffsLoading } = useApi(getDifferentiators);
   const { data: testimonials, loading: testimonialsLoading } = useApi(getTestimonials);
