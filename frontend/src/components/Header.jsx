@@ -34,7 +34,8 @@ const Header = () => {
     { name: 'Foundation Repair & Replacement', path: '/services/foundation-repair-replacement' },
     { name: 'Push Pier Systems', path: '/services/push-pier-systems' },
     { name: 'Interior Waterproofing', path: '/services/interior-waterproofing' },
-    { name: 'Steel Post & Beam Systems', path: '/services/steel-post-beam-systems' }
+    { name: 'Steel Post & Beam Systems', path: '/services/steel-post-beam-systems' },
+    { name: 'EverBrace™ Wall Restoration', path: '/services/everbrace-wall-restoration' }
   ];
 
   const resourceLinks = [
