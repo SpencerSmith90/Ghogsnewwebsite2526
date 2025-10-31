@@ -116,6 +116,16 @@ const EverBrace = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
+            {/* Feature Image - Completed EverBrace Installation */}
+            <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rcm66s85_Everbrace%20Omaha%20Pics%20-%20Heros-5.jpg"
+                alt="Completed EverBrace steel I-beam panel installation stabilizing foundation wall"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
+
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Why Choose EverBrace™ Wall Restoration?
             </h2>
