@@ -57,7 +57,7 @@ materials = [
     {
         "name": "Push Pier & Pile Systems",
         "description": "Engineered galvanized steel piers that stabilize and lift settling foundations by reaching load-bearing strata deep below unstable soils. The modern version of underpinning your home or building.",
-        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rb9oihh2_Groundhogs-8.jpeg",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/3gk672ap_FN_RES_FDR_Push-Piers_System_01.png",
         "order": 1
     },
     {
