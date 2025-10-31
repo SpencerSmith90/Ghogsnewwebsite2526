@@ -208,7 +208,7 @@ const Home = () => {
                     {service.description}
                   </CardDescription>
                   <Link
-                    to={`/services#${service.slug}`}
+                    to={serviceRoute}
                     className={`font-semibold inline-flex items-center mt-auto ${
                       isParamount ? 'text-orange-600 hover:text-orange-700 text-lg' : 'text-orange-600 hover:text-orange-700'
                     }`}
