@@ -72,6 +72,72 @@ const Warranty = () => {
         </div>
       </section>
 
+      {/* Warranty Coverage Details */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
+              Warranty Coverage by Product & System
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700 mb-8">
+              <p className="text-lg mb-6 leading-relaxed">
+                At Groundhogs, we understand that <strong>foundation repair warranties</strong> and <strong>waterproofing guarantees</strong> are as important as the work itself. Our warranty coverage varies by product, installation method, and project scope to provide the most comprehensive protection specific to your needs.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                  Steel Foundation Systems — 25-Year Manufacturer Warranty
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  Our <strong>steel foundation repair products</strong> including <strong>push pier systems</strong>, <strong>PowerBrace™ wall supports</strong>, <strong>SmartJack® crawl space posts</strong>, and <strong>steel I-beam systems</strong> are backed by a <strong>25-year manufacturer warranty</strong>.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  These engineered steel products are designed and manufactured to withstand extreme loads and environmental conditions, providing long-term structural stability for foundations across Ontario and Manitoba.
+                </p>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                  Full Perimeter Waterproofing Systems — 5-Year Transferable Warranty
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  Our <strong>exterior waterproofing systems</strong> that include <strong>full perimeter excavation</strong>, <strong>membrane installation</strong>, <strong>drainage board application</strong>, and <strong>perimeter drain systems</strong> come with a <strong>5-year fully transferable warranty</strong>.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  This warranty covers both materials and workmanship, protecting against water intrusion and ensuring your basement stays dry. The transferable nature of this warranty adds significant value if you sell your home, providing peace of mind to future homeowners.
+                </p>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                  Job-Specific Warranty Protection
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  Because every foundation and waterproofing project is unique, <strong>warranty coverage varies based on the specific products installed</strong>, <strong>installation methods used</strong>, and <strong>site conditions</strong>. This ensures you receive warranty protection tailored to your exact project scope.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  During your free estimate, we provide a detailed breakdown of all warranty coverage applicable to your project, including manufacturer warranties, workmanship guarantees, and system performance expectations.
+                </p>
+              </Card>
+            </div>
+
+            <div className="mt-8 bg-orange-50 p-6 rounded-lg border-l-4 border-orange-600">
+              <p className="text-gray-800 font-semibold mb-2">
+                All Warranties Include:
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li>✓ Written warranty documentation provided at project completion</li>
+                <li>✓ Clear terms with no hidden fine print or exclusions</li>
+                <li>✓ Backed by a company with decades of foundation repair experience</li>
+                <li>✓ Support from our local Ontario and Manitoba service teams</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why It Matters */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
