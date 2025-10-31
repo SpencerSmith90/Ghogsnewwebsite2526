@@ -176,29 +176,31 @@ const EverBrace = () => {
         </div>
       </section>
 
-      {/* What is Basement Underpinning & Dugout Support */}
+      {/* EverBrace + Interior Waterproofing Integration */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">
-              EverBrace™ for Basement Underpinning & Dugout Projects
+              EverBrace™ + Interior Waterproofing: Complete Wall Protection
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="text-lg mb-4 leading-relaxed">
-                <strong>Basement underpinning</strong> involves excavating additional depth below an existing foundation to create more usable basement space — often called a <strong>"dugout"</strong> or <strong>"basement lowering"</strong>.
+                <strong>EverBrace™</strong> doesn't just stabilize failing foundation walls — it integrates seamlessly with our <strong>interior waterproofing systems</strong> to provide both structural support and moisture protection in a single solution.
               </p>
               <p className="text-lg mb-4 leading-relaxed">
-                During a dugout project, the existing foundation walls must be supported and reinforced to handle new loads and prevent failure. The <strong>EverBrace™ system</strong> is ideal for this application because:
+                When we install the EverBrace™ steel I-beam panel system, we can simultaneously install:
               </p>
               <ul className="space-y-2 mb-6 text-lg">
-                <li>✓ It provides continuous perimeter wall support during excavation</li>
-                <li>✓ Steel I-beam panels distribute loads and prevent wall collapse</li>
-                <li>✓ No exterior excavation required — work is done entirely from the interior</li>
-                <li>✓ Permanent structural solution that remains in place after completion</li>
-                <li>✓ Ideal for older homes with stone or block foundations prone to settling</li>
+                <li>✓ <strong>Interior drainage systems</strong> along the base of the wall to capture water seepage</li>
+                <li>✓ <strong>Vapor barriers and moisture membranes</strong> behind the EverBrace panels to prevent water intrusion</li>
+                <li>✓ <strong>Sump pump systems</strong> to safely discharge collected water away from the foundation</li>
+                <li>✓ <strong>Dehumidification solutions</strong> to maintain a dry, healthy basement environment</li>
               </ul>
+              <p className="text-lg leading-relaxed mb-4">
+                This combined approach means your compromised foundation walls get <strong>permanent structural stabilization</strong> and <strong>long-term waterproofing protection</strong> — all without requiring exterior excavation or full wall replacement.
+              </p>
               <p className="text-lg leading-relaxed">
-                Whether you're creating additional living space, increasing ceiling height, or underpinning for structural reasons, <strong>EverBrace™</strong> ensures your foundation walls remain stable and secure throughout the process and for decades to come.
+                It's the most comprehensive solution available for failing foundation walls that also have moisture problems — addressing both the structural integrity and water intrusion simultaneously.
               </p>
             </div>
           </div>
