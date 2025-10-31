@@ -35,7 +35,7 @@ const Resources = () => {
         },
         {
           q: "How long do waterproofing systems last?",
-          a: "Our full perimeter exterior waterproofing systems come with 5-year transferable warranties. Most modern waterproofing systems built to minimum code should last 50+ years with proper maintenance. Ours are designed to last even longer and make maintenance even easier. Interior drainage systems and sump pumps should last 20+ years with proper maintenance."
+          a: "Our full perimeter exterior waterproofing systems come with 5-year transferable warranties. Most modern waterproofing systems built to minimum code should last 50+ years with proper maintenance. Ours are designed to last even longer and make maintenance even easier. Interior drainage systems are similarly designed for long-term durability. Sump pump lifespan varies based on water hardness and mineral content in your area — pumps handling high-mineral groundwater may require earlier replacement than those in softer water conditions."
         },
         {
           q: "Can waterproofing be done in winter?",
