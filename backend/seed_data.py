@@ -15,7 +15,7 @@ services = [
         "title": "Exterior Waterproofing",
         "slug": "exterior-waterproofing",
         "description": "Protect your home from the outside in. Our exterior waterproofing systems are engineered to stop water before it reaches your foundation, eliminating leaks, protecting structural integrity, and keeping your basement dry for decades. From excavation to membrane installation, every step is standardized, efficient, and guaranteed to last.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/6fc04f4e431d8c7554faec7db7bc9fe46f1e15b5-1024x694.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/58s62gnr_unnamed.jpg",
         "featured": True,
         "order": 1
     },
