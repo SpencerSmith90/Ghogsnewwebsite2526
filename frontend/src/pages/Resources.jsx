@@ -52,7 +52,7 @@ const Resources = () => {
         },
         {
           q: "Do you offer financing?",
-          a: "Yes, we work with financing partners to help make foundation repair affordable. Contact us to discuss payment options that work for your situation."
+          a: "Yes, in specific cases we offer in-house financing with specific terms and conditions. We also provide payment plans in select situations. Contact us to discuss available financing options and payment arrangements that may work for your project."
         },
         {
           q: "How long does it take to get an estimate?",
