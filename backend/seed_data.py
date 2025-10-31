@@ -81,7 +81,7 @@ materials = [
     {
         "name": "PowerBrace™ Systems",
         "description": "Galvanized steel I-beams engineered to straighten and stabilize foundation walls over time with no excavation required.",
-        "image": "https://groundhogs.ca/wp-content/uploads/2025/07/52e581515fd8cd3a65c498322014f6e718a96dd1-300x400.png.webp",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/i4xg1x38_IP_Res_PB_New%20Top%20Bracket_lever_02.01.17-353.jpg",
         "order": 5
     },
     {
