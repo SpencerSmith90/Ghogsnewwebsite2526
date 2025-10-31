@@ -265,9 +265,9 @@ const Home = () => {
               </div>
 
               {/* Closing Line */}
-              <div className="text-center bg-gradient-to-r from-orange-50 to-orange-100 py-8 px-6 rounded-xl border border-orange-200">
-                <p className="text-lg md:text-xl text-gray-800 font-medium max-w-4xl mx-auto">
-                  💡 Groundhogs combines engineering, innovation, and experience to deliver the most advanced foundation systems available in Canada — protecting homes for generations.
+              <div className="text-center py-8 px-6">
+                <p className="text-lg md:text-xl text-gray-700 font-medium max-w-4xl mx-auto">
+                  Groundhogs combines engineering, innovation, and experience to deliver the most advanced foundation systems available in Canada — protecting homes for generations.
                 </p>
               </div>
             </>
