@@ -94,11 +94,11 @@ const PushPierSystems = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            {/* Feature Image */}
-            <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+            {/* Feature Image - Push Pier System Diagram */}
+            <div className="mb-12 rounded-lg overflow-hidden shadow-xl bg-white p-6">
               <img
-                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/rb9oihh2_Groundhogs-8.jpeg"
-                alt="Push pier system installation with hydraulic equipment"
+                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/3gk672ap_FN_RES_FDR_Push-Piers_System_01.png"
+                alt="Push pier and pile system technical diagram showing installation and components"
                 loading="lazy"
                 className="w-full h-auto"
               />
