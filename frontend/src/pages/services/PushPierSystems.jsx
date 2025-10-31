@@ -143,12 +143,13 @@ const PushPierSystems = () => {
             </div>
 
             {/* Second Feature Image */}
-            <div className="rounded-lg overflow-hidden shadow-xl">
+            <div className="rounded-lg overflow-hidden shadow-xl max-w-3xl mx-auto">
               <img
                 src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/s6izi5dj_thumb_IMG_9734.png"
                 alt="Push pier installation showing foundation bracket and hydraulic equipment at work site"
                 loading="lazy"
                 className="w-full h-auto"
+                style={{ imageRendering: 'crisp-edges' }}
               />
             </div>
           </div>
