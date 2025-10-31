@@ -87,7 +87,7 @@ materials = [
     {
         "name": "ICF Foundation Systems",
         "description": "Insulated Concrete Form foundations offering exceptional strength, moisture resistance, and thermal performance. The modern standard for durable, energy-efficient construction.",
-        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/uh9o2xgj_thumb_IMG_9260.png",
+        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/p0r56nkw_IMG_9395.jpeg",
         "order": 6
     },
     {
