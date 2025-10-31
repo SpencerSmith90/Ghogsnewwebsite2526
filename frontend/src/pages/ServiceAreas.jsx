@@ -46,27 +46,27 @@ const ServiceAreas = () => {
 
   const northernSystems = [
     {
-      icon: "🪨",
+      icon: <Mountain className="w-8 h-8 text-orange-600" />,
       title: "Bedrock vs. Clay Soil Conditions",
       description: "We anchor into granite where possible, and when soil is unstable, our pier systems bridge deep to solid strata for unmatched stability."
     },
     {
-      icon: "❄️",
+      icon: <Snowflake className="w-8 h-8 text-orange-600" />,
       title: "Freeze–Thaw Cycles",
-      description: "Our membranes and drains remain flexible to -40°C, resisting frost heave and expansion that damage ordinary foundations."
+      description: "Our membranes and drains remain flexible to -40°C and beyond, resisting frost heave and expansion that damage ordinary foundations."
     },
     {
-      icon: "💧",
+      icon: <CloudRain className="w-8 h-8 text-orange-600" />,
       title: "High Groundwater & Storm Events",
       description: "Lake-effect rainfall and high water tables require specialized waterproofing — our exterior systems manage both pressure and flow."
     },
     {
-      icon: "🚚",
+      icon: <Truck className="w-8 h-8 text-orange-600" />,
       title: "Remote Access & Short Build Seasons",
       description: "Company-owned equipment and trained local crews allow us to mobilize quickly, completing projects efficiently across Northern distances."
     },
     {
-      icon: "🧾",
+      icon: <FileText className="w-8 h-8 text-orange-600" />,
       title: "Permit & Compliance Expertise",
       description: "Our administrative team manages every step of permits, engineering stamps, and inspections, ensuring full compliance and zero headaches for homeowners."
     }
