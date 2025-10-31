@@ -124,7 +124,7 @@ const ExteriorWaterproofing = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
-              Our Proven 5-Step Process
+              Our Proven 6-Step Process
             </h2>
             <div className="space-y-6">
               {process.map((item, index) => (
