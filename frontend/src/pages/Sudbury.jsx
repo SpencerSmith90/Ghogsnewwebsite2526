@@ -165,7 +165,7 @@ const Sudbury = () => {
                 Why Sudbury Homeowners Choose Groundhogs
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                As Greater Sudbury's premier foundation repair company, we deliver what other Northern Ontario contractors can't match - proven expertise, advanced technology, and lasting results.
+                Already recognized as Greater Sudbury's premier foundation repair company, Groundhogs delivers proven expertise, advanced technology, and lasting results.
               </p>
             </div>
 
