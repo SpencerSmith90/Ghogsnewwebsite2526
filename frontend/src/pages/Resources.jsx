@@ -162,19 +162,8 @@ const Resources = () => {
               Understanding Foundation Issues
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <h3>Common Foundation Problems in Northern Climates</h3>
-              <p>
-                Ontario and Manitoba homes face unique challenges due to extreme freeze-thaw cycles, expansive clay soils, and high water tables. Understanding these issues helps you recognize problems early and take action before they worsen.
-              </p>
-              
-              <h3>When to Take Action</h3>
-              <p>
-                Foundation problems don't fix themselves — they only get worse over time. Early intervention is almost always more cost-effective than waiting. If you notice cracks, settling, or water intrusion, get a professional assessment as soon as possible.
-              </p>
-              
-              <h3>What to Expect During Repair</h3>
-              <p>
-                Professional foundation repair follows a systematic process: assessment, engineering analysis, detailed estimate, proper permits, skilled installation, and thorough cleanup. At Groundhogs, we keep you informed at every step.
+              <p className="text-lg leading-relaxed">
+                Ontario and Manitoba homes face unique challenges due to extreme freeze-thaw cycles, expansive clay soils, and high water tables. Understanding these issues helps you recognize problems early and take action before they worsen. Foundation problems don't fix themselves — they only get worse over time, making early intervention almost always more cost-effective than waiting. If you notice cracks, settling, or water intrusion, get a professional assessment as soon as possible. Professional foundation repair follows a systematic process: assessment, engineering analysis, detailed estimate, proper permits, skilled installation, and thorough cleanup. At Groundhogs, we keep you informed at every step, ensuring transparency and peace of mind throughout your foundation repair journey.
               </p>
             </div>
           </div>
