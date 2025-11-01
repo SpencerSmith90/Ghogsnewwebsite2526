@@ -212,7 +212,7 @@ const Sudbury = () => {
               Common Foundation Problems in Greater Sudbury
             </h2>
             <p className="text-xl text-center text-gray-700 mb-12 max-w-3xl mx-auto">
-              Sudbury's unique mining geology and Northern Ontario climate create specific foundation challenges. Our 25+ years of Sudbury experience means we know exactly how to solve them.
+              Sudbury's unique mining geology and Northern Ontario climate create specific foundation challenges. With 25+ years solving these exact problems across Northern Ontario, we know exactly how to address them.
             </p>
 
             <div className="space-y-6">
