@@ -37,9 +37,9 @@ const About = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="About Groundhogs | Elite Foundation Repair Teams in Ontario & Manitoba"
-        description="Meet the elite foundation repair crews at Groundhogs — cross-trained specialists in carpentry, masonry, heavy equipment operation, and structural science. Leaders in their trades serving Ontario & Manitoba."
-        keywords="elite foundation repair crews Ontario, skilled foundation contractors Manitoba, professional foundation repair team, expert foundation tradespeople, foundation repair specialists Thunder Bay Sudbury Winnipeg, cross-trained foundation technicians"
+        title="About Groundhogs | From Pickup Truck to Canada's Fastest Growing Foundation Company"
+        description="Started as a 2-man operation, now one of Canada's largest foundation repair companies. 25+ years, 2000+ projects, elite crews. Thunder Bay, Winnipeg, Sudbury. Our humble beginnings to industry leader story."
+        keywords="Groundhogs foundation repair story, Canadian foundation repair company, Thunder Bay foundation company, fastest growing foundation repair Canada, elite foundation contractors, Foundation Supportworks Canada, foundation repair innovation"
       />
 
       {/* Schema Markup for Organization */}
