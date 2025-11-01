@@ -263,10 +263,10 @@ const AdvancedExteriorWaterproofing = () => {
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                5. Advanced Application Techniques
+                5. Advanced Application Techniques & System Engineering
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We use commercial-grade membrane application methods that are faster AND create stronger bonds. Our blue-skin membrane is applied with professional torches and rollers, not brushed on like paint. The Delta-MS system installs quickly with mechanical fasteners and proper overlap—no waiting for adhesives to cure.
+                We use commercial-grade membrane application methods that are faster AND create stronger bonds. Our waterproofing membrane is applied with professional torches and rollers, not brushed on like paint. Our crews are trained in the critical art of sealing insulation joints—transforming a single protective layer into a complete waterproofing system. When projects require additional drainage capacity, we integrate advanced solutions like Delta-MS dimpled membranes with mechanical fasteners and proper overlap.
               </p>
 
               {/* Cost & Value */}
