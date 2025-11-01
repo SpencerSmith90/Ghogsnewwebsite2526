@@ -21,7 +21,7 @@ const ConcentricPiers = () => {
     {
       step: "1",
       title: "Assessment & Load Analysis",
-      description: "Our engineers evaluate your foundation beams, crawl space structure, and soil conditions to determine pier placement and depth requirements."
+      description: "Our expert technicians evaluate your foundation beams, crawl space structure, and soil conditions to determine pier placement and depth requirements."
     },
     {
       step: "2",
