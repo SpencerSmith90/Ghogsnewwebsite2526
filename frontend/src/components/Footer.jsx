@@ -26,7 +26,7 @@ const Footer = () => {
               {siteSettings.description}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="https://www.facebook.com/GroundhogsLtd" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="hover:text-orange-500 transition-colors">
