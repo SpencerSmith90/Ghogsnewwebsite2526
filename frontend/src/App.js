@@ -129,6 +129,9 @@ function App() {
                     <Route path="/services/steel-post-beam-systems" element={<SteelPostBeam />} />
                     <Route path="/services/everbrace-wall-restoration" element={<EverBrace />} />
                     <Route path="/services/concentric-pier-systems" element={<ConcentricPiers />} />
+                    <Route path="/thunder-bay-foundation-repair" element={<ThunderBay />} />
+                    <Route path="/winnipeg-foundation-repair" element={<Winnipeg />} />
+                    <Route path="/sudbury-foundation-repair" element={<Sudbury />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/:slug" element={<Blog />} />
@@ -139,10 +142,6 @@ function App() {
                     <Route path="/our-systems" element={<OurSystems />} />
                     <Route path="/resources" element={<Resources />} />
                     <Route path="/careers" element={<Careers />} />
-                    <Route path="/blog" element={<Blog />} />
-                    <Route path="/blog/:slug" element={<Blog />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/service-areas" element={<ServiceAreas />} />
                   </Routes>
                 </main>
                 <Footer />
