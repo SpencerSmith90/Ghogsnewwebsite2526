@@ -287,6 +287,91 @@ const About = () => {
         </div>
       </section>
 
+      {/* Our Story - From Pickup Truck to Industry Leader */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                From a Pickup Truck to One of Canada's Fastest Growing Foundation Companies
+              </h2>
+              <p className="text-xl text-orange-600 font-semibold">
+                Our Journey: Hard Work, Innovation & Unwavering Commitment to Real Solutions
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-xl p-8 md:p-12">
+              <div className="prose prose-lg max-w-none text-gray-700">
+                <p className="text-lg leading-relaxed mb-6">
+                  Not that long ago, Groundhogs was a humble two-man operation working out of the back of a pickup truck. Just two determined tradespeople with a simple belief: <strong>homeowners deserve real, long-term foundation solutions—not temporary fixes and empty promises.</strong>
+                </p>
+                
+                <p className="text-lg leading-relaxed mb-6">
+                  We started small, but we never cut corners. Every foundation we repaired, every basement we waterproofed, every customer we served—we did it right. We invested in <strong>better training, better systems, and better technology</strong> when other contractors were taking shortcuts.
+                </p>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  Word spread. Homeowners across Thunder Bay began choosing Groundhogs because we delivered what others couldn't: <strong>permanent solutions backed by exceptional customer service.</strong> Customers told their neighbors. Contractors who saw our work wanted to join our team. We grew—not through flashy marketing, but through <strong>proven results and earned trust.</strong>
+                </p>
+
+                <div className="bg-orange-50 rounded-lg p-6 my-8 border-l-4 border-orange-600">
+                  <p className="text-lg font-semibold text-gray-900 mb-2">
+                    The turning point came when we partnered with Foundation Supportworks.
+                  </p>
+                  <p className="text-gray-700">
+                    We became the authorized Canadian dealer for North America's most advanced foundation repair systems—<strong>EverBrace™, Concentric Piers, PowerBrace™, GeoLock®, SmartJack®.</strong> This wasn't just access to better products; it was access to <strong>world-class engineering, research, and innovation</strong> that transformed how we served our customers.
+                  </p>
+                </div>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  We invested heavily in <strong>systemized processes</strong> that allowed us to complete projects <strong>2x faster</strong> without sacrificing quality. We built an <strong>elite team of cross-trained specialists</strong>—not just foundation workers, but leaders in carpentry, masonry, heavy equipment operation, and structural science.
+                </p>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  From Thunder Bay, we expanded to Sudbury—where we rapidly became the region's most trusted foundation company. Then Winnipeg. Then more communities across Ontario and Manitoba. Today, Groundhogs is <strong>one of the largest and fastest-growing foundation repair companies in Canada,</strong> completing thousands of projects and employing some of the most skilled foundation crews in the country.
+                </p>
+
+                <div className="bg-slate-900 text-white rounded-lg p-8 my-8 text-center">
+                  <p className="text-2xl md:text-3xl font-bold mb-4">
+                    And we're not done yet.
+                  </p>
+                  <p className="text-lg text-gray-300">
+                    We're still the same company that started in that pickup truck—just bigger, better equipped, and more committed than ever to delivering real solutions to Canadian homeowners.
+                  </p>
+                </div>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  Our rapid growth didn't happen by accident. It happened because we <strong>never compromised on quality, never stopped investing in our people, and never lost sight of why we started:</strong> to give homeowners the foundation solutions they deserve.
+                </p>
+
+                <p className="text-xl font-bold text-gray-900 mb-6">
+                  From a two-man crew in a pickup truck to a multi-city operation with elite teams, advanced technology, and thousands of satisfied customers—that's the Groundhogs story.
+                </p>
+
+                <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="text-center p-6 bg-orange-50 rounded-lg">
+                    <div className="text-4xl font-bold text-orange-600 mb-2">2</div>
+                    <p className="text-gray-900 font-semibold">Started with 2 people & 1 pickup truck</p>
+                  </div>
+                  <div className="text-center p-6 bg-orange-50 rounded-lg">
+                    <div className="text-4xl font-bold text-orange-600 mb-2">2000+</div>
+                    <p className="text-gray-900 font-semibold">Projects completed across Ontario & Manitoba</p>
+                  </div>
+                  <div className="text-center p-6 bg-orange-50 rounded-lg">
+                    <div className="text-4xl font-bold text-orange-600 mb-2">3</div>
+                    <p className="text-gray-900 font-semibold">Major markets: Thunder Bay, Winnipeg, Sudbury</p>
+                  </div>
+                </div>
+
+                <p className="text-center text-lg text-gray-700 mt-8 italic">
+                  "We grew because we earned it—one foundation, one customer, one solution at a time."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Mission */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
