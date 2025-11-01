@@ -72,6 +72,10 @@ const Resources = () => {
           a: "Yes, we handle all permit applications and inspections. Our administrative team manages the entire process to ensure code compliance and zero headaches for you."
         },
         {
+          q: "Are engineers required for foundation repair and waterproofing work?",
+          a: "It entirely depends on the scope of work and the specific municipality and province where the project is located. However, most often the type of foundation repair and waterproofing work we perform does require professional engineering oversight. Groundhogs has partnered with some of the best structural engineers throughout Ontario and Manitoba, and we work very closely with them to ensure proper, trustworthy, and code-compliant engineering is completed for every project. This collaborative approach guarantees that all structural repairs meet or exceed local building codes and engineering standards."
+        },
+        {
           q: "What areas do you serve?",
           a: "We serve Thunder Bay, Sudbury, Winnipeg, and surrounding communities throughout Ontario and Manitoba. Contact us to confirm service availability in your specific area."
         }
