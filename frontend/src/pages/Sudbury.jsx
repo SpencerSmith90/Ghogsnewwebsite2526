@@ -426,7 +426,7 @@ const Sudbury = () => {
             </Button>
           </div>
           <p className="mt-6 text-sm opacity-90">
-            Serving Greater Sudbury & Northern Ontario for 25+ Years
+            Already Sudbury's Most Trusted - Backed by 25+ Years Northern Ontario Expertise
           </p>
         </div>
       </section>
