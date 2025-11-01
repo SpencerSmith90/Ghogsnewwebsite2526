@@ -241,7 +241,7 @@ const ServiceAreas = () => {
                     <FileText className="w-10 h-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Sudbury</h3>
-                  <p className="text-orange-600 font-semibold mb-4">Greater Sudbury & Northern Ontario</p>
+                  <p className="text-orange-600 font-semibold mb-4">Already Sudbury's Most Trusted</p>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start text-gray-700">
@@ -250,11 +250,11 @@ const ServiceAreas = () => {
                   </li>
                   <li className="flex items-start text-gray-700">
                     <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span>Mining area geology experts</span>
+                    <span>25+ years Northern Ontario expertise</span>
                   </li>
                   <li className="flex items-start text-gray-700">
                     <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span>Rocky terrain specialists</span>
+                    <span>Mining area geology specialists</span>
                   </li>
                 </ul>
                 <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
