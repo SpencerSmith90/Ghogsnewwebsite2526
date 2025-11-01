@@ -83,6 +83,18 @@ async def send_contact_notification(
                   <div class="label">Message:</div>
                   <div class="value">{message.replace(chr(10), '<br>')}</div>
                 </div>
+                
+                {f'''
+                <div class="field">
+                  <div class="label">📸 Uploaded Photos ({len(photo_urls)}):</div>
+                  <div class="value">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 10px;">
+                      {"".join([f'<div><a href="{url}" target="_blank"><img src="{url}" alt="Customer uploaded photo" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 2px solid #ddd;"></a></div>' for url in photo_urls])}
+                    </div>
+                    <p style="margin-top: 10px; font-size: 12px; color: #666;">Click on any photo to view full size</p>
+                  </div>
+                </div>
+                ''' if photo_urls and len(photo_urls) > 0 else ''}
               </div>
               <div class="footer">
                 This notification was sent from your Groundhogs website contact form.<br>
