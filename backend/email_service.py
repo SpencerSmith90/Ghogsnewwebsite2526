@@ -98,8 +98,10 @@ New Contact Form Submission
 
 Name: {name}
 Email: {email}
-{f'Phone: {phone}' if phone else ''}
-{f'Service Interest: {service}' if service else ''}
+Phone: {phone}
+{f'Address: {address}' if address else ''}
+{f'City: {city}' if city else ''}
+Subject: {subject}
 
 Message:
 {message}
