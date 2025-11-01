@@ -7,9 +7,11 @@ from typing import Optional
 async def send_contact_notification(
     name: str,
     email: str,
-    phone: Optional[str],
-    service: Optional[str],
-    message: str
+    phone: str,
+    subject: str,
+    message: str,
+    address: Optional[str] = None,
+    city: Optional[str] = None
 ):
     """
     Send email notification when a contact form is submitted
