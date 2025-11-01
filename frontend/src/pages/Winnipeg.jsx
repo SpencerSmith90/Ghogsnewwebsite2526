@@ -362,7 +362,7 @@ const Winnipeg = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="border p-4 font-semibold">Manitoba Experience</td>
+                    <td className="border p-4 font-semibold">Northern Experience</td>
                     <td className="border p-4 text-center bg-orange-50 font-bold">25+ Years</td>
                     <td className="border p-4 text-center">5-15 Years</td>
                   </tr>
