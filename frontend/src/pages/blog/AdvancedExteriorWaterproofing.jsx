@@ -58,7 +58,7 @@ const AdvancedExteriorWaterproofing = () => {
               />
               <div className="bg-gray-100 px-6 py-4">
                 <p className="text-sm text-gray-700 italic">
-                  Professional exterior waterproofing installation in Thunder Bay featuring advanced blue-skin membrane system and proper drainage installation. This is how modern waterproofing should be done.
+                  Professional exterior waterproofing installation in Thunder Bay featuring our multi-layer protection system with sealed insulation joints and UV-resistant materials. This is what complete waterproofing engineering looks like.
                 </p>
               </div>
             </div>
