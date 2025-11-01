@@ -203,6 +203,20 @@ const About = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/f7w7nik9_def78056-f0a9-43d5-a14f-71028f140d5d.JPG"
+                    alt="Groundhogs crew member taking a well-deserved break during foundation project"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/45wm5vtc_IMG_8896.JPG"
+                    alt="Professional foundation contractor operating excavation equipment"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
 
               <p className="text-center text-gray-600 mt-8 text-lg italic">
