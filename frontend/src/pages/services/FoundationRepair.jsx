@@ -109,14 +109,32 @@ const FoundationRepair = () => {
               ))}
             </div>
 
-            {/* Feature Image */}
-            <div className="rounded-lg overflow-hidden shadow-xl mt-12">
-              <img
-                src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/uexaek2a_Foundation%20Replacement.jpeg"
-                alt="Foundation repair and replacement in progress showing house lifted on support system"
-                loading="lazy"
-                className="w-full h-auto"
-              />
+            {/* Feature Images Gallery */}
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">
+                Professional Foundation Repair in Action
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="rounded-lg overflow-hidden shadow-xl">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/uexaek2a_Foundation%20Replacement.jpeg"
+                    alt="Foundation repair and replacement in progress showing house lifted on support system"
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-xl">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/ng2q9dux_2019_01_CarbonArmor%20Install%20-%20Update_127.jpg"
+                    alt="Carbon fiber reinforcement system installed on foundation walls for structural stabilization"
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-6 text-lg">
+                From complete foundation replacement to advanced carbon fiber reinforcement systems
+              </p>
             </div>
           </div>
         </div>
