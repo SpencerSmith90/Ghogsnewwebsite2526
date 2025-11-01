@@ -57,7 +57,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="https://groundhogs.ca/wp-content/themes/groundhogs/img/logo-footer.svg"
+              src="https://customer-assets.emergentagent.com/job_waterproof-blog/artifacts/c30ca5bf_IMG_0121.png"
               alt="Groundhogs"
               className="h-10 md:h-12"
             />
