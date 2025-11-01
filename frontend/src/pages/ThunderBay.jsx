@@ -47,8 +47,8 @@ const ThunderBay = () => {
     },
     {
       icon: <MapPin className="w-8 h-8 text-orange-600" />,
-      title: "Thunder Bay Headquarters",
-      description: "Located at 415 Fort William Road - your local foundation repair experts with a permanent Thunder Bay presence."
+      title: "Thunder Bay Headquarters - 415 Fort William Road",
+      description: "Located right here in Thunder Bay at 415 Fort William Road - your local foundation repair experts with a permanent Thunder Bay presence since the 1990s."
     },
     {
       icon: <Users className="w-8 h-8 text-orange-600" />,
