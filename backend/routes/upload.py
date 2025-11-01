@@ -35,8 +35,8 @@ async def upload_files(request: Request, files: List[UploadFile] = File(...)):
             with open(file_path, "wb") as f:
                 f.write(contents)
             
-            # Return full URL
-            file_url = f"{base_url}/uploads/{unique_filename}"
+            # Return full URL with /api prefix for backend routing
+            file_url = f"{base_url}/api/uploads/{unique_filename}"
             uploaded_urls.append(file_url)
         
         return {"urls": uploaded_urls, "message": f"Successfully uploaded {len(files)} file(s)"}
