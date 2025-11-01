@@ -42,8 +42,8 @@ const Sudbury = () => {
   const advantages = [
     {
       icon: <Award className="w-8 h-8 text-orange-600" />,
-      title: "25+ Years Northern Ontario Experience",
-      description: "Over two decades serving Greater Sudbury and Northern Ontario with proven foundation expertise."
+      title: "Quickly Earned Sudbury's Trust",
+      description: "In just a few years serving Greater Sudbury, we've become the region's most trusted foundation company through exceptional results and proven 25+ year expertise from across Northern Ontario."
     },
     {
       icon: <MapPin className="w-8 h-8 text-orange-600" />,
