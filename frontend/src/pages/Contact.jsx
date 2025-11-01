@@ -303,10 +303,8 @@ const Contact = () => {
                           <Clock className="text-orange-600" size={24} />
                         </div>
                         <div>
-                          <h3 className="font-semibold mb-1">Business Hours</h3>
-                          <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                          <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
-                          <p className="text-gray-600">Sunday: Closed</p>
+                          <h3 className="font-semibold mb-1">Office Hours</h3>
+                          <p className="text-gray-600">Monday to Friday: 9am to 5pm</p>
                         </div>
                       </div>
                     </>
