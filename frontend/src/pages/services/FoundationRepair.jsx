@@ -108,6 +108,16 @@ const FoundationRepair = () => {
                 </div>
               ))}
             </div>
+
+            {/* Feature Image */}
+            <div className="rounded-lg overflow-hidden shadow-xl mt-12">
+              <img
+                src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/uexaek2a_Foundation%20Replacement.jpeg"
+                alt="Foundation repair and replacement in progress showing house lifted on support system"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
