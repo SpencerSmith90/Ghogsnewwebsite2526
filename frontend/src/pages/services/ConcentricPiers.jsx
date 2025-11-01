@@ -26,7 +26,7 @@ const ConcentricPiers = () => {
     {
       step: "2",
       title: "Hydraulic Pier Installation",
-      description: "Using specialized hydraulic equipment designed for confined spaces, we drive galvanized steel pier sections directly below the foundation wall or beam until reaching bedrock or competent load-bearing strata."
+      description: "Using specialized hydraulic equipment designed for confined spaces, we drive galvanized steel pier sections directly below the foundation wall or beam until reaching bedrock or competent load-bearing strata. Concentric piers are ideal for both crawl spaces and full basements, providing versatile solutions for any foundation configuration."
     },
     {
       step: "3",
