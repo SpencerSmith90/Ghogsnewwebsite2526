@@ -165,7 +165,7 @@ const Winnipeg = () => {
                 Why Winnipeg Homeowners Choose Groundhogs
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                As Winnipeg's premier foundation repair company, we deliver what other Manitoba contractors can't match - experience, technology, and results built to last in Winnipeg's challenging climate.
+                Groundhogs is expanding to Winnipeg, bringing proven foundation repair expertise, advanced technology, and results built to last in Manitoba's challenging climate.
               </p>
             </div>
 
