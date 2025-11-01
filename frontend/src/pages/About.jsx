@@ -125,7 +125,7 @@ const About = () => {
               </div>
 
               {/* Grid of Team Photos */}
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                   <img
                     src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/l8vwpvwc_Groundhogs.jpeg"
@@ -165,6 +165,41 @@ const About = () => {
                   <img
                     src="https://customer-assets.emergentagent.com/job_635dfeb0-4b33-4d25-ac66-2b110aed98d6/artifacts/tm5c73r9_Groundhogs-6.jpeg"
                     alt="Groundhogs service vehicle and professional crew"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/trtny4kh_ab966434-90b7-4f3e-845a-fdd3daa67a50.JPG"
+                    alt="Groundhogs team working on foundation excavation project"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/3t5cud6n_55c62412-85bd-446a-a841-e7dfbf2c4556.JPG"
+                    alt="Professional foundation repair specialists on residential project"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/h4t2lthl_b6b08dbf-3bd4-44a0-8421-b4643cfac376.JPG"
+                    alt="Expert crew member performing precision foundation work"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/619pn2gu_IMG_8901.jpg"
+                    alt="Groundhogs team at foundation repair work site"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/sphuvymu_IMG_8902.jpg"
+                    alt="Elite foundation repair crew showcasing professional equipment"
                     className="w-full h-full object-cover"
                   />
                 </div>
