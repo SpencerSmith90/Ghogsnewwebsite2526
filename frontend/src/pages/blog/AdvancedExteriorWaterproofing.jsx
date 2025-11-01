@@ -10,8 +10,8 @@ const AdvancedExteriorWaterproofing = () => {
     <div className="min-h-screen pt-24">
       <SEO
         title="Advanced Exterior Waterproofing Thunder Bay | 2x Faster Installation | Groundhogs"
-        description="Discover how Groundhogs installs advanced exterior waterproofing systems in Thunder Bay 2x faster than traditional methods. Blue-skin membrane, Delta-MS protection, engineered for -40°C and beyond."
-        keywords="exterior waterproofing Thunder Bay, basement waterproofing installation, blue skin membrane Thunder Bay, fast waterproofing installation, Delta-MS Thunder Bay, foundation waterproofing Thunder Bay, exterior insulation Thunder Bay"
+        description="Discover how Groundhogs installs complete exterior waterproofing systems in Thunder Bay 2x faster. Multi-layer protection with sealed insulation, UV-resistant materials, and the Waterproofing Triangle system engineered for -40°C."
+        keywords="exterior waterproofing Thunder Bay, basement waterproofing installation, waterproofing triangle, fast waterproofing installation, sealed insulation waterproofing, UV protection waterproofing, foundation waterproofing Thunder Bay, exterior insulation Thunder Bay, complete waterproofing system"
       />
 
       {/* Hero/Header */}
