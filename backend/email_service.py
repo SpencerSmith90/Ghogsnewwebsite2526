@@ -2,7 +2,7 @@ import os
 import aiosmtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from typing import Optional
+from typing import Optional, List
 
 async def send_contact_notification(
     name: str,
@@ -11,7 +11,8 @@ async def send_contact_notification(
     subject: str,
     message: str,
     address: Optional[str] = None,
-    city: Optional[str] = None
+    city: Optional[str] = None,
+    photo_urls: List[str] = []
 ):
     """
     Send email notification when a contact form is submitted
