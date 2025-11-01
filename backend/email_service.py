@@ -106,6 +106,12 @@ async def send_contact_notification(
         """
         
         # Create plain text version as fallback
+        photo_text = ""
+        if photo_urls and len(photo_urls) > 0:
+            photo_text = f"\n\nUploaded Photos ({len(photo_urls)}):\n"
+            for i, url in enumerate(photo_urls, 1):
+                photo_text += f"{i}. {url}\n"
+        
         text_body = f"""
 New Contact Form Submission
 
@@ -117,7 +123,7 @@ Phone: {phone}
 Subject: {subject}
 
 Message:
-{message}
+{message}{photo_text}
 
 ---
 This notification was sent from your Groundhogs website contact form.
