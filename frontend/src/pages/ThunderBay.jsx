@@ -84,9 +84,9 @@ const ThunderBay = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Foundation Repair Thunder Bay | 25+ Years Experience | Call 1-888-907-3777"
-        description="Thunder Bay's most trusted foundation repair and waterproofing company. 25+ years experience, 2000+ projects completed. Serving Thunder Bay & Northwestern Ontario. Call 1-888-907-3777 for a free estimate."
-        keywords="foundation repair Thunder Bay, basement waterproofing Thunder Bay, foundation contractors Thunder Bay, foundation crack repair Thunder Bay, waterproofing companies Thunder Bay, underpinning Thunder Bay, basement flooding Thunder Bay, foundation experts Thunder Bay Ontario"
+        title="Thunder Bay Foundation Repair & Waterproofing | 25+ Years | #1 Rated"
+        description="Thunder Bay's longest-serving foundation repair company. 25+ years, 2000+ projects, Thunder Bay headquarters at 415 Fort William Road. Foundation Supportworks authorized dealer. Call 1-888-907-3777 for free inspection."
+        keywords="Thunder Bay foundation repair, basement waterproofing Thunder Bay, foundation company Thunder Bay, sump pump installation Thunder Bay, weeping tile Thunder Bay, foundation crack repair Thunder Bay, underpinning Thunder Bay, Thunder Bay waterproofing contractors"
       />
 
       {/* Schema Markup */}
