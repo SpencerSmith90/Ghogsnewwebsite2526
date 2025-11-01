@@ -1,4 +1,4 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, UploadFile, File, HTTPException, Request
 from typing import List
 import os
 import uuid
@@ -11,11 +11,17 @@ UPLOAD_DIR = Path("/app/backend/uploads")
 UPLOAD_DIR.mkdir(exist_ok=True)
 
 @router.post("/upload")
-async def upload_files(files: List[UploadFile] = File(...)):
+async def upload_files(request: Request, files: List[UploadFile] = File(...)):
     """
-    Upload multiple files and return their URLs
+    Upload multiple files and return their full URLs
     """
     uploaded_urls = []
+    
+    # Get the base URL from environment or request
+    base_url = os.getenv("BACKEND_BASE_URL")
+    if not base_url:
+        # Fallback: construct from request
+        base_url = str(request.base_url).rstrip('/')
     
     try:
         for file in files:
@@ -29,8 +35,8 @@ async def upload_files(files: List[UploadFile] = File(...)):
             with open(file_path, "wb") as f:
                 f.write(contents)
             
-            # Return URL (adjust based on your deployment setup)
-            file_url = f"/uploads/{unique_filename}"
+            # Return full URL
+            file_url = f"{base_url}/uploads/{unique_filename}"
             uploaded_urls.append(file_url)
         
         return {"urls": uploaded_urls, "message": f"Successfully uploaded {len(files)} file(s)"}
