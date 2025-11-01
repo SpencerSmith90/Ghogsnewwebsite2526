@@ -437,7 +437,7 @@ const Winnipeg = () => {
             </Button>
           </div>
           <p className="mt-6 text-sm opacity-90">
-            Serving Winnipeg & All of Manitoba for 25+ Years
+            Bringing 25+ Years of Foundation Expertise to Winnipeg & Manitoba
           </p>
         </div>
       </section>
