@@ -371,11 +371,11 @@ const AdvancedExteriorWaterproofing = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                At Groundhogs, we've spent 25+ years perfecting our exterior waterproofing systems and processes. We can complete your Thunder Bay project in half the time of traditional contractors—not by rushing, but through superior planning, better equipment, elite crews, and systemized excellence.
+                At Groundhogs, we've spent 25+ years perfecting our exterior waterproofing systems and processes. We engineered the Waterproofing Triangle approach because we learned that membrane alone isn't enough—you need proper drainage and discharge working together. We seal every insulation joint because we know most contractors skip this critical step. We add UV protection at grade because we've seen too many "waterproofed" foundations fail from sun exposure.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Your Thunder Bay foundation is too important to trust to outdated methods and slow contractors. Get it done right, get it done fast, and get peace of mind that lasts decades.
+                We can complete your Thunder Bay project in half the time of traditional contractors—not by rushing, but through superior planning, better equipment, elite crews, and systemized excellence. Your Thunder Bay foundation is too important to trust to outdated methods. Get a complete engineered system, get it done fast, and get peace of mind that lasts decades.
               </p>
 
               <div className="border-t border-gray-200 pt-8 mt-12">
