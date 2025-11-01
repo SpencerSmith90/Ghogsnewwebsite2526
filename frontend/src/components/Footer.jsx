@@ -153,7 +153,12 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="mt-1 flex-shrink-0 text-orange-500" />
-                <span>{siteSettings.address}</span>
+                <div>
+                  <div className="font-semibold text-white mb-1">Main Headquarters</div>
+                  <div>415 Fort William Road</div>
+                  <div>Thunder Bay, Ontario</div>
+                  <div>P7B 2Z5</div>
+                </div>
               </li>
               <li className="flex items-start space-x-3">
                 <Phone size={18} className="mt-1 flex-shrink-0 text-orange-500" />
