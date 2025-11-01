@@ -130,20 +130,20 @@ const ThunderBay = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-4">
-              Thunder Bay's #1 Rated Foundation Repair Company
+              Thunder Bay's Longest-Serving Foundation Repair Company - Since 1990s
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               Thunder Bay Foundation Repair & Waterproofing Experts
             </h1>
             <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-6">
-              25+ Years Serving Thunder Bay & Northwestern Ontario
+              25+ Years Serving Thunder Bay & Northwestern Ontario | Thunder Bay Headquarters
             </p>
             <div className="text-lg text-gray-200 leading-relaxed mb-8 space-y-4">
               <p>
-                When Thunder Bay homeowners need foundation repair, they call Groundhogs - Thunder Bay's most trusted name in foundation and waterproofing services since the 1990s.
+                When Thunder Bay homeowners need foundation repair, they call Groundhogs - <strong>Thunder Bay's most trusted and longest-serving foundation repair company</strong> with our headquarters right here at 415 Fort William Road.
               </p>
               <p>
-                With our headquarters at 415 Fort William Road, we're your local Thunder Bay foundation experts backed by 25+ years of experience, 2000+ successful projects, and the most advanced foundation repair technology in Northwestern Ontario.
+                Proudly Thunder Bay-owned and operated, we're your local Thunder Bay foundation experts backed by 25+ years of experience, 2000+ successful projects, and the most advanced foundation repair technology in Northwestern Ontario. <strong>Your Thunder Bay neighbors trust Groundhogs.</strong>
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
