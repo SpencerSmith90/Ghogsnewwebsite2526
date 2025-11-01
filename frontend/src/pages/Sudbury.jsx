@@ -233,10 +233,10 @@ const Sudbury = () => {
 
             <div className="mt-12 bg-slate-900 text-white rounded-lg p-8 text-center">
               <p className="text-xl md:text-2xl font-bold mb-4">
-                "Sudbury's unique geology demands specialized foundation expertise."
+                "In just a few years, Groundhogs has become Sudbury's go-to foundation experts."
               </p>
               <p className="text-lg text-gray-300">
-                That's why Greater Sudbury homeowners trust Groundhogs for foundation repairs built to last.
+                Greater Sudbury homeowners choose Groundhogs for foundation repairs backed by 25+ years of Northern Ontario expertise and proven results.
               </p>
             </div>
           </div>
