@@ -233,10 +233,10 @@ const Winnipeg = () => {
 
             <div className="mt-12 bg-slate-900 text-white rounded-lg p-8 text-center">
               <p className="text-xl md:text-2xl font-bold mb-4">
-                "Winnipeg's foundation challenges require Manitoba expertise - not guesswork."
+                "Winnipeg's foundation challenges require Manitoba expertise combined with proven experience."
               </p>
               <p className="text-lg text-gray-300">
-                That's why Winnipeg homeowners trust Groundhogs for foundation repairs engineered for Manitoba's toughest conditions.
+                That's why Winnipeg homeowners are choosing Groundhogs - bringing 25+ years of foundation expertise and advanced technology to Manitoba.
               </p>
             </div>
           </div>
