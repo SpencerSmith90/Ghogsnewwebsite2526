@@ -251,7 +251,7 @@ const Winnipeg = () => {
               Our Winnipeg Foundation Repair Services
             </h2>
             <p className="text-xl text-center text-gray-700 mb-12 max-w-3xl mx-auto">
-              From minor crack repairs to complete foundation reconstruction, Groundhogs delivers comprehensive foundation solutions throughout Winnipeg and all of Manitoba.
+              Groundhogs is expanding to Winnipeg, bringing comprehensive foundation solutions backed by 2000+ successful projects and the most advanced technology in the industry.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
