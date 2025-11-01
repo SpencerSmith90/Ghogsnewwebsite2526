@@ -402,7 +402,7 @@ const Winnipeg = () => {
 
             <div className="mt-12 text-center">
               <p className="text-xl text-gray-700 mb-6">
-                When your Winnipeg home's foundation is at stake, choose the company with proven Manitoba experience, superior technology, and a track record of success.
+                When your Winnipeg home's foundation needs repair, choose a company with proven experience across Northern climates, superior technology, and a track record of 2000+ successful projects.
               </p>
               <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                 <Link to="/contact">
