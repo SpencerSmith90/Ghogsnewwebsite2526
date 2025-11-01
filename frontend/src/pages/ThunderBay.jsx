@@ -121,7 +121,75 @@ const ThunderBay = () => {
               "name": "Ontario"
             }
           },
-          "description": "Thunder Bay's premier foundation repair and waterproofing company with 25+ years of experience serving Northwestern Ontario."
+          "description": "Thunder Bay's premier foundation repair and waterproofing company with 25+ years of experience serving Northwestern Ontario.",
+          "foundingDate": "1990s",
+          "slogan": "Thunder Bay's Longest-Serving Foundation Repair Company"
+        })}
+      </script>
+
+      {/* FAQ Schema Markup */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much does foundation repair cost in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Foundation repair costs in Thunder Bay typically range from $3,000 to $15,000 depending on the severity of the damage, type of repair needed, and accessibility. Minor crack repairs may cost $500-$2,000, while major foundation stabilization with push piers can range from $8,000-$15,000. Groundhogs offers free inspections and estimates for all Thunder Bay properties."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who is the best foundation repair company in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Groundhogs is Thunder Bay's longest-serving foundation repair company with 25+ years of experience and headquarters located at 415 Fort William Road. We're the only Foundation Supportworks authorized dealer in Thunder Bay with access to advanced systems like EverBrace, Concentric Piers, and PowerBrace that other Thunder Bay contractors don't have."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does basement waterproofing last in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Professional basement waterproofing in Thunder Bay should last 20-30 years or more when done correctly. Groundhogs waterproofing systems are specifically engineered for Thunder Bay's challenging conditions - rated for temperatures of -40 and beyond, designed to handle Northwestern Ontario's heavy rainfall and snowmelt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a permit for foundation repair in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Thunder Bay, most foundation repair work requires permits and engineering approval, especially for structural repairs like underpinning, push piers, or major excavation work. Groundhogs handles all permit applications and works closely with Thunder Bay's structural engineers to ensure your foundation repair meets all City of Thunder Bay building codes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What causes foundation problems in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Thunder Bay foundations face unique challenges: expansive clay soils, extreme freeze-thaw cycles (temperatures from -40°C to +30°C), high water tables near Lake Superior, and heavy spring snowmelt. These conditions cause foundation settling, cracking, bowing walls, and water intrusion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does foundation repair take in Thunder Bay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most Thunder Bay foundation repair projects are completed in 2-5 days. Simple crack repairs can be done in 1 day, while comprehensive foundation stabilization with push piers typically takes 3-5 days. Groundhogs uses systemized processes that complete Thunder Bay foundation repairs 2x faster than traditional methods."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can foundation repair be done in Thunder Bay's winter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Groundhogs offers year-round foundation repair services in Thunder Bay. Some interior repairs can be done anytime. For exterior work, we assess conditions and use specialized techniques for winter weather. We typically recommend scheduling major exterior work during warmer months (May-October) for optimal results."
+              }
+            }
+          ]
         })}
       </script>
 
