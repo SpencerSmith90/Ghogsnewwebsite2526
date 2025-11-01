@@ -100,14 +100,32 @@ const InteriorWaterproofing = () => {
               ))}
             </div>
 
-            {/* Feature Image */}
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img
-                src="https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/k7dgi04k_OIP.webp"
-                alt="Interior waterproofing system with drainage channel and sump pump installation"
-                loading="lazy"
-                className="w-full h-auto"
-              />
+            {/* Feature Images Gallery */}
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">
+                Professional Interior Waterproofing Installation
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="rounded-lg overflow-hidden shadow-xl">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/lnz9qyot_IMG_9999.JPG"
+                    alt="Interior waterproofing with Delta-MS membrane system installed on foundation walls"
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-xl">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/x542zgo1_IMG_9997.JPG"
+                    alt="Professional interior drainage membrane and waterproofing barrier installation"
+                    loading="lazy"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-6 text-lg">
+                Delta-MS membrane system with interior drainage providing complete basement protection
+              </p>
             </div>
           </div>
         </div>
