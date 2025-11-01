@@ -234,7 +234,7 @@ const Home = () => {
                     Greater Sudbury & Northern Ontario
                   </p>
                   <p className="text-gray-300 mb-4">
-                    Elite foundation specialists
+                    Already Sudbury's most trusted
                   </p>
                   <ul className="text-left text-gray-300 mb-6 space-y-2">
                     <li className="flex items-start">
