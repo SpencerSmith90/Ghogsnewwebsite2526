@@ -314,15 +314,6 @@ const About = () => {
                   Word spread. Homeowners across Thunder Bay began choosing Groundhogs because we delivered what others couldn't: <strong>permanent solutions backed by exceptional customer service.</strong> Customers told their neighbors. Contractors who saw our work wanted to join our team. We grew—not through flashy marketing, but through <strong>proven results and earned trust.</strong>
                 </p>
 
-                <div className="bg-orange-50 rounded-lg p-6 my-8 border-l-4 border-orange-600">
-                  <p className="text-lg font-semibold text-gray-900 mb-2">
-                    The turning point came when we partnered with Foundation Supportworks.
-                  </p>
-                  <p className="text-gray-700">
-                    We became the authorized Canadian dealer for North America's most advanced foundation repair systems—<strong>EverBrace™, Concentric Piers, PowerBrace™, GeoLock®, SmartJack®.</strong> This wasn't just access to better products; it was access to <strong>world-class engineering, research, and innovation</strong> that transformed how we served our customers.
-                  </p>
-                </div>
-
                 <p className="text-lg leading-relaxed mb-6">
                   We invested heavily in <strong>systemized processes</strong> that allowed us to complete projects <strong>2x faster</strong> without sacrificing quality. We built an <strong>elite team of cross-trained specialists</strong>—not just foundation workers, but leaders in carpentry, masonry, heavy equipment operation, and structural science.
                 </p>
