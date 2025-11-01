@@ -129,14 +129,14 @@ const Sudbury = () => {
               Sudbury Foundation Repair & Waterproofing Professionals
             </h1>
             <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-6">
-              25+ Years Serving Greater Sudbury & Northern Ontario
+              Already Sudbury's Most Trusted - Backed by 25+ Years of Northern Ontario Expertise
             </p>
             <div className="text-lg text-gray-200 leading-relaxed mb-8 space-y-4">
               <p>
-                When Sudbury homeowners need foundation repair, they trust Groundhogs - Northern Ontario's most experienced foundation and waterproofing company.
+                In just a few years, Groundhogs has become Greater Sudbury's most trusted foundation repair company - bringing over 25 years of proven Northern Ontario expertise to the region.
               </p>
               <p>
-                Serving all of Greater Sudbury from Azilda to Dowling, Chelmsford to Lively, we're your local Northern Ontario foundation experts with 25+ years of experience, 2000+ successful projects, and the most advanced foundation repair technology in the region.
+                Serving all of Greater Sudbury from Azilda to Dowling, Chelmsford to Lively, we've quickly earned our reputation through exceptional work, advanced technology, and the same elite crews that have completed 2000+ projects across Ontario.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
