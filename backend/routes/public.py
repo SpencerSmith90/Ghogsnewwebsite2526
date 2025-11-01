@@ -79,5 +79,20 @@ async def get_blog_post_by_slug(slug: str):
 @router.post("/contact", response_model=ContactSubmission)
 async def submit_contact(contact: ContactSubmissionCreate):
     contact_obj = ContactSubmission(**contact.dict())
+    
+    # Save to database
     await db.contact_submissions.insert_one(contact_obj.dict())
+    
+    # Send email notification (non-blocking - if it fails, still return success)
+    try:
+        await send_contact_notification(
+            name=contact.name,
+            email=contact.email,
+            phone=contact.phone,
+            service=contact.service,
+            message=contact.message
+        )
+    except Exception as e:
+        print(f"Email notification failed but submission saved: {str(e)}")
+    
     return contact_obj
