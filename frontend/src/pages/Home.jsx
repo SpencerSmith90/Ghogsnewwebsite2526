@@ -192,11 +192,11 @@ const Home = () => {
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-gray-300 mb-4">
-                    <strong className="text-white">Market:</strong><br />
+                    <strong className="text-white">Expanding To:</strong><br />
                     All of Manitoba
                   </p>
                   <p className="text-gray-300 mb-4">
-                    2000+ projects completed
+                    Bringing 25+ years of foundation expertise
                   </p>
                   <ul className="text-left text-gray-300 mb-6 space-y-2">
                     <li className="flex items-start">
