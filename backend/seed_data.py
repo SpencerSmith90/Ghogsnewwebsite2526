@@ -23,7 +23,7 @@ services = [
         "title": "Foundation Repair & Replacement",
         "slug": "foundation-replacement",
         "description": "Permanent, engineered solutions for any structural issue. Whether it's settling, cracking, or total foundation failure, we repair and rebuild from the ground up. Restoring your home's stability with proven systems and expert craftsmanship. Many of our systems even have the ability to reverse foundation failure.",
-        "image": "https://customer-assets.emergentagent.com/job_groundhogs-seo/artifacts/uh9o2xgj_thumb_IMG_9260.png",
+        "image": "https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/uexaek2a_Foundation%20Replacement.jpeg",
         "featured": True,
         "order": 2
     },
