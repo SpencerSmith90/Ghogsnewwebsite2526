@@ -421,7 +421,7 @@ const Winnipeg = () => {
             Ready to Fix Your Winnipeg Foundation?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Call Manitoba's most trusted foundation repair company today for your free, no-obligation inspection and estimate.
+            Groundhogs is expanding to Winnipeg, bringing proven foundation repair expertise for your free, no-obligation inspection and estimate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button asChild size="lg" variant="secondary" className="bg-white text-orange-600 hover:bg-gray-100 text-lg px-8 py-6">
