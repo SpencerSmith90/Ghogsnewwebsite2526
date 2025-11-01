@@ -158,6 +158,36 @@ const ConcentricPiers = () => {
         </div>
       </section>
 
+      {/* Image Showcase Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
+              Concentric Pier Systems in Action
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="rounded-lg overflow-hidden shadow-xl">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/pfh6uzts_20201217%20Concentric%20Smartjack%20Cam%202%20-%20Selects-34%20HiRes.jpg"
+                  alt="Concentric pier with SmartJack system installed in crawl space"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-xl">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/r2ahifk1_ConcentricPier-8.jpg"
+                  alt="Close-up of concentric pier installation showing hydraulic equipment"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+            <p className="text-center text-gray-600 mt-8 text-lg">
+              Professional installation of concentric pier systems with SmartJack support posts
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* When to Use */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
