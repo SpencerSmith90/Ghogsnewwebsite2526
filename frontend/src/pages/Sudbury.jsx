@@ -251,7 +251,7 @@ const Sudbury = () => {
               Our Sudbury Foundation Repair Services
             </h2>
             <p className="text-xl text-center text-gray-700 mb-12 max-w-3xl mx-auto">
-              From crack repairs to complete reconstruction, Groundhogs delivers comprehensive foundation solutions throughout Greater Sudbury and Northern Ontario.
+              Groundhogs has quickly become Greater Sudbury's most trusted foundation company, delivering comprehensive solutions backed by 2000+ successful projects across Northern Ontario.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
