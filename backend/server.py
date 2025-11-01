@@ -34,6 +34,12 @@ video.set_db(db)
 async def root():
     return {"message": "Groundhogs API v1.0", "status": "active"}
 
+# Mount uploads directory for static file serving at /api/uploads
+# IMPORTANT: Mount BEFORE including api_router to avoid route conflicts
+UPLOAD_DIR = Path("/app/backend/uploads")
+UPLOAD_DIR.mkdir(exist_ok=True)
+app.mount("/api/uploads", StaticFiles(directory=str(UPLOAD_DIR)), name="uploads")
+
 # Include routers
 api_router.include_router(public.router, tags=["public"])
 api_router.include_router(admin.router, prefix="/admin", tags=["admin"])
@@ -42,11 +48,6 @@ api_router.include_router(upload.router, tags=["upload"])
 
 # Include the router in the main app
 app.include_router(api_router)
-
-# Mount uploads directory for static file serving at /api/uploads
-UPLOAD_DIR = Path("/app/backend/uploads")
-UPLOAD_DIR.mkdir(exist_ok=True)
-app.mount("/api/uploads", StaticFiles(directory=str(UPLOAD_DIR)), name="uploads")
 
 app.add_middleware(
     CORSMiddleware,
