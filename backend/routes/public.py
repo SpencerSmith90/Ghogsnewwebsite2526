@@ -5,6 +5,7 @@ from models import (
     Differentiator, Testimonial, BlogPost, ContactSubmission, ContactSubmissionCreate
 )
 from motor.motor_asyncio import AsyncIOMotorDatabase
+from email_service import send_contact_notification
 
 router = APIRouter()
 
