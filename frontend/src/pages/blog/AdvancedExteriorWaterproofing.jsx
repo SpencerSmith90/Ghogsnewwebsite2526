@@ -306,7 +306,7 @@ const AdvancedExteriorWaterproofing = () => {
               </ul>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Typical Thunder Bay exterior waterproofing costs range from <strong>$8,000 to $18,000</strong> depending on foundation perimeter, depth, and accessibility. We provide free inspections and detailed estimates—no surprises, no hidden fees.
+                A proper exterior waterproofing system in Thunder Bay typically costs <strong>$200-$500 per linear foot</strong>, depending on foundation depth, soil conditions, accessibility, and system complexity. For most Thunder Bay homes, a complete perimeter waterproofing project generally runs <strong>$25,000 to $55,000</strong>. We provide free inspections and detailed estimates—no surprises, no hidden fees.
               </p>
 
               {/* Thunder Bay Specific */}
