@@ -391,7 +391,7 @@ const Sudbury = () => {
 
             <div className="mt-12 text-center">
               <p className="text-xl text-gray-700 mb-6">
-                When your Sudbury home's foundation needs repair, choose Northern Ontario's most experienced foundation company.
+                When your Sudbury home's foundation needs repair, choose Northern Ontario's most trusted experts with 25+ years of proven experience and a track record of 2000+ successful projects.
               </p>
               <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                 <Link to="/contact">
