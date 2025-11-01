@@ -212,7 +212,7 @@ const Winnipeg = () => {
               Common Foundation Problems in Winnipeg
             </h2>
             <p className="text-xl text-center text-gray-700 mb-12 max-w-3xl mx-auto">
-              Winnipeg's unique geology and Manitoba's extreme climate create specific foundation challenges. Our 25+ years of Winnipeg experience means we know exactly how to solve them.
+              Winnipeg's unique geology and Manitoba's extreme climate create specific foundation challenges. Groundhogs is bringing 25+ years of experience solving these exact problems in similar Northern climates.
             </p>
 
             <div className="space-y-6">
