@@ -31,7 +31,7 @@ const ConcentricPiers = () => {
     {
       step: "3",
       title: "SmartJack® Adapter Connection",
-      description: "A custom adapter plate connects the concentric pier to our adjustable SmartJack® crawl space support posts, creating a direct load path from your home's beams to the stable ground below."
+      description: "A custom adapter plate connects the concentric pier to our adjustable SmartJack® crawl space support posts, creating a direct load path from your home's beams to the stable ground below. This system excels at point load distribution in both full basements and crawl spaces, ensuring optimal structural support where it's needed most."
     },
     {
       step: "4",
