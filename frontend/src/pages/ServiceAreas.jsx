@@ -212,7 +212,7 @@ const ServiceAreas = () => {
                     <Truck className="w-10 h-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Winnipeg</h3>
-                  <p className="text-orange-600 font-semibold mb-4">Manitoba Market</p>
+                  <p className="text-orange-600 font-semibold mb-4">Expanding to Manitoba</p>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start text-gray-700">
@@ -221,11 +221,11 @@ const ServiceAreas = () => {
                   </li>
                   <li className="flex items-start text-gray-700">
                     <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span>Expansive clay specialists</span>
+                    <span>25+ years foundation experience</span>
                   </li>
                   <li className="flex items-start text-gray-700">
                     <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
-                    <span>Spring flooding solutions</span>
+                    <span>Advanced technology & systems</span>
                   </li>
                 </ul>
                 <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
