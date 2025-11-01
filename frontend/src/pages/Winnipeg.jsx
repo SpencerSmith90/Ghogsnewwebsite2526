@@ -42,8 +42,8 @@ const Winnipeg = () => {
   const advantages = [
     {
       icon: <Award className="w-8 h-8 text-orange-600" />,
-      title: "25+ Years Manitoba Experience",
-      description: "Over two decades serving Winnipeg and Manitoba with proven foundation solutions that withstand the prairie climate."
+      title: "25+ Years Foundation Experience Coming to Manitoba",
+      description: "Groundhogs is bringing over two decades of proven foundation expertise to Winnipeg, with 2000+ successful projects across Ontario establishing our reputation for excellence."
     },
     {
       icon: <MapPin className="w-8 h-8 text-orange-600" />,
