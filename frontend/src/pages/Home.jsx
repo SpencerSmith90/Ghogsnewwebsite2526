@@ -130,6 +130,150 @@ const Home = () => {
         </section>
       )}
 
+      {/* Tri-City Market Section */}
+      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Serving Three Major Markets Across Ontario & Manitoba
+              </h2>
+              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                25+ Years of Foundation Excellence in Thunder Bay, Winnipeg & Sudbury
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Thunder Bay */}
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <LucideIcons.MapPin className="w-8 h-8 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl text-white text-center">Thunder Bay</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <p className="text-gray-300 mb-4">
+                    <strong className="text-white">Headquarters:</strong><br />
+                    415 Fort William Road
+                  </p>
+                  <p className="text-gray-300 mb-4">
+                    25+ years serving Northwestern Ontario
+                  </p>
+                  <ul className="text-left text-gray-300 mb-6 space-y-2">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Clay soil expertise</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Extreme weather solutions</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Local headquarters</span>
+                    </li>
+                  </ul>
+                  <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                    <Link to="/thunder-bay-foundation-repair">
+                      Thunder Bay Services <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
+
+              {/* Winnipeg */}
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <LucideIcons.MapPin className="w-8 h-8 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl text-white text-center">Winnipeg</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <p className="text-gray-300 mb-4">
+                    <strong className="text-white">Market:</strong><br />
+                    All of Manitoba
+                  </p>
+                  <p className="text-gray-300 mb-4">
+                    2000+ projects completed
+                  </p>
+                  <ul className="text-left text-gray-300 mb-6 space-y-2">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Expansive clay specialists</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Spring flooding solutions</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Manitoba expertise</span>
+                    </li>
+                  </ul>
+                  <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                    <Link to="/winnipeg-foundation-repair">
+                      Winnipeg Services <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
+
+              {/* Sudbury */}
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <LucideIcons.MapPin className="w-8 h-8 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl text-white text-center">Sudbury</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <p className="text-gray-300 mb-4">
+                    <strong className="text-white">Market:</strong><br />
+                    Greater Sudbury & Northern Ontario
+                  </p>
+                  <p className="text-gray-300 mb-4">
+                    Elite foundation specialists
+                  </p>
+                  <ul className="text-left text-gray-300 mb-6 space-y-2">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Mining area geology</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Rocky terrain experts</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-orange-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>Northern Ontario leaders</span>
+                    </li>
+                  </ul>
+                  <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                    <Link to="/sudbury-foundation-repair">
+                      Sudbury Services <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-lg text-gray-300 mb-4">
+                No matter which market you're in, you get the same Groundhogs advantage:
+              </p>
+              <div className="flex flex-wrap justify-center gap-6 text-sm font-semibold">
+                <span className="bg-orange-600 px-4 py-2 rounded-full">✓ 25+ Years Experience</span>
+                <span className="bg-orange-600 px-4 py-2 rounded-full">✓ 2000+ Projects</span>
+                <span className="bg-orange-600 px-4 py-2 rounded-full">✓ Foundation Supportworks Authorized</span>
+                <span className="bg-orange-600 px-4 py-2 rounded-full">✓ Elite Crews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
