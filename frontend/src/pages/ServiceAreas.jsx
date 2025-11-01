@@ -163,6 +163,120 @@ const ServiceAreas = () => {
         </div>
       </section>
 
+      {/* Primary Markets Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                Our Primary Service Markets
+              </h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                Groundhogs serves three major markets across Ontario & Manitoba with 25+ years of foundation expertise
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <Card className="p-8 hover:shadow-xl transition-shadow border-2 border-orange-200">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Mountain className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Thunder Bay</h3>
+                  <p className="text-orange-600 font-semibold mb-4">Northwestern Ontario HQ</p>
+                </div>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Headquarters: 415 Fort William Road</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Clay soil & bedrock expertise</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Extreme weather solutions</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/thunder-bay-foundation-repair">
+                    Thunder Bay Services →
+                  </Link>
+                </Button>
+              </Card>
+
+              <Card className="p-8 hover:shadow-xl transition-shadow border-2 border-orange-200">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Truck className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Winnipeg</h3>
+                  <p className="text-orange-600 font-semibold mb-4">Manitoba Market</p>
+                </div>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>All Winnipeg neighborhoods</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Expansive clay specialists</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Spring flooding solutions</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/winnipeg-foundation-repair">
+                    Winnipeg Services →
+                  </Link>
+                </Button>
+              </Card>
+
+              <Card className="p-8 hover:shadow-xl transition-shadow border-2 border-orange-200">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <FileText className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sudbury</h3>
+                  <p className="text-orange-600 font-semibold mb-4">Greater Sudbury & Northern Ontario</p>
+                </div>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>All Greater Sudbury communities</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Mining area geology experts</span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-orange-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Rocky terrain specialists</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/sudbury-foundation-repair">
+                    Sudbury Services →
+                  </Link>
+                </Button>
+              </Card>
+            </div>
+
+            <div className="bg-orange-50 rounded-lg p-8 text-center">
+              <p className="text-lg text-gray-700 mb-4">
+                <strong className="text-orange-600">25+ years</strong> serving Ontario & Manitoba | <strong className="text-orange-600">2000+ projects</strong> completed | <strong className="text-orange-600">Foundation Supportworks</strong> authorized dealer
+              </p>
+              <p className="text-gray-600">
+                No matter which market you're in, you get the same Groundhogs advantage: elite crews, advanced technology, and results that last.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Free Estimate CTA */}
       <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
