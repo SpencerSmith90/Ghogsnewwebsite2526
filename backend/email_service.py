@@ -64,9 +64,19 @@ async def send_contact_notification(
                   <div class="value"><a href="mailto:{email}">{email}</a></div>
                 </div>
                 
-                {f'<div class="field"><div class="label">Phone:</div><div class="value"><a href="tel:{phone}">{phone}</a></div></div>' if phone else ''}
+                <div class="field">
+                  <div class="label">Phone:</div>
+                  <div class="value"><a href="tel:{phone}">{phone}</a></div>
+                </div>
                 
-                {f'<div class="field"><div class="label">Service Interest:</div><div class="value">{service}</div></div>' if service else ''}
+                {f'<div class="field"><div class="label">Address:</div><div class="value">{address}</div></div>' if address else ''}
+                
+                {f'<div class="field"><div class="label">City:</div><div class="value">{city}</div></div>' if city else ''}
+                
+                <div class="field">
+                  <div class="label">Subject:</div>
+                  <div class="value">{subject}</div>
+                </div>
                 
                 <div class="field">
                   <div class="label">Message:</div>
