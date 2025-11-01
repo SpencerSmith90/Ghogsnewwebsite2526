@@ -129,14 +129,14 @@ const Winnipeg = () => {
               Winnipeg Foundation Repair & Waterproofing Specialists
             </h1>
             <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-6">
-              25+ Years Serving Winnipeg & All of Manitoba
+              Bringing 25+ Years of Ontario Foundation Expertise to Manitoba
             </p>
             <div className="text-lg text-gray-200 leading-relaxed mb-8 space-y-4">
               <p>
-                When Winnipeg homeowners need foundation repair, they choose Groundhogs - Manitoba's most trusted name in foundation and waterproofing services for over two decades.
+                Groundhogs is expanding to Winnipeg, bringing over 25 years of proven foundation repair and waterproofing expertise to Manitoba homeowners.
               </p>
               <p>
-                Serving all Winnipeg neighborhoods from East Kildonan to Charleswood, we're your local Manitoba foundation experts backed by 25+ years of experience, 2000+ successful projects, and the most advanced foundation repair technology in the province.
+                Serving all Winnipeg neighborhoods from East Kildonan to Charleswood, we're bringing Manitoba the same advanced foundation technology, elite crews, and proven systems that have successfully completed 2000+ projects across Ontario.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
