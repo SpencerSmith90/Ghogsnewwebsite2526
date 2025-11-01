@@ -153,11 +153,28 @@ const AdvancedExteriorWaterproofing = () => {
               </h2>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Look at the image above. That blue membrane you see isn't your grandfather's tar and plastic. This is <strong>Delta-MS dimpled drainage membrane</strong>—one of the most advanced waterproofing technologies available in North America, and we're one of the few Thunder Bay contractors installing it properly.
+                Most Thunder Bay contractors apply waterproofing and call it done. We've engineered a complete system based on what we call the <strong>"Waterproofing Triangle"</strong>—three essential components that must work together for true basement protection.
               </p>
 
+              <div className="bg-orange-50 border-l-4 border-orange-600 p-6 my-8">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  The Groundhogs Waterproofing Triangle
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  A proper waterproofing system needs all three parts working together:
+                </p>
+                <ol className="space-y-2 text-gray-700">
+                  <li><strong>1. The Waterproofing Membrane</strong> – Prevents water from penetrating the foundation wall</li>
+                  <li><strong>2. The Drainage System</strong> – Weeping tile/drainage tile to collect and flow water away</li>
+                  <li><strong>3. The Discharge Point</strong> – Sump pump, storm sewer connection, or gravity drain to remove collected water</li>
+                </ol>
+                <p className="text-gray-700 mt-4">
+                  Miss any one of these, and your waterproofing will eventually fail. That's why we engineer complete systems, not just apply membrane.
+                </p>
+              </div>
+
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Our 6-Layer Thunder Bay Waterproofing System:
+                Our Multi-Layer Thunder Bay Waterproofing System:
               </h3>
 
               <div className="bg-slate-900 text-white rounded-lg p-8 my-8">
@@ -179,29 +196,29 @@ const AdvancedExteriorWaterproofing = () => {
                   <li className="flex items-start gap-3">
                     <span className="bg-orange-600 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">3</span>
                     <div>
-                      <strong>Blue-Skin Membrane Application</strong>
-                      <p className="text-gray-300 mt-1">Commercial-grade rubberized asphalt membrane that bonds molecularly to concrete. Self-sealing and rated for extreme Thunder Bay temperatures (-40°C and beyond).</p>
+                      <strong>Top-Grade Waterproofing Membrane</strong>
+                      <p className="text-gray-300 mt-1">Commercial-grade rubberized asphalt membrane applied directly to the foundation wall. Bonds molecularly to concrete, self-sealing, and rated for extreme Thunder Bay temperatures (-40°C and beyond).</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="bg-orange-600 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">4</span>
                     <div>
-                      <strong>Delta-MS Dimpled Drainage Membrane</strong>
-                      <p className="text-gray-300 mt-1">The blue dimpled sheet you see in the photo. Creates an air gap and drainage plane that channels water down to the weeping tile system. Superior to flat membranes.</p>
+                      <strong>Seamless Rigid Insulation Protection Layer</strong>
+                      <p className="text-gray-300 mt-1">Here's what separates us from other contractors: We install rigid insulation board to protect the foundation, then our crews meticulously seal every single joint. This sealed insulation acts as a second layer of waterproofing protection—something most Thunder Bay contractors skip entirely.</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="bg-orange-600 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">5</span>
                     <div>
-                      <strong>New Weeping Tile & Drainage System</strong>
-                      <p className="text-gray-300 mt-1">4" perforated drainage pipe surrounded by clear stone, properly sloped to direct all water away from your Thunder Bay foundation.</p>
+                      <strong>UV Protection Layer at Grade Level</strong>
+                      <p className="text-gray-300 mt-1">Here's what most contractors don't realize: most waterproofing materials are NOT UV-proof and will deteriorate when exposed to sunlight. We add a third protective layer at grade level specifically to shield the waterproofing system from UV damage. This attention to detail ensures decades of performance.</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="bg-orange-600 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">6</span>
                     <div>
-                      <strong>Enhanced Insulation & Protection Layer</strong>
-                      <p className="text-gray-300 mt-1">Rigid foam insulation board adds R-value while protecting the waterproofing membrane during backfill. Critical for Thunder Bay's freeze-thaw cycles.</p>
+                      <strong>Engineered Drainage System</strong>
+                      <p className="text-gray-300 mt-1">New 4" perforated weeping tile surrounded by clear stone, properly sloped to collect and direct all water away from your foundation. Connected to proper discharge point (sump, storm sewer, or gravity drain). When needed, we incorporate dimpled drainage membranes like Delta-MS for additional drainage capacity.</p>
                     </div>
                   </li>
                 </ol>
