@@ -283,6 +283,17 @@ const Contact = () => {
                           <MapPin className="text-orange-600" size={24} />
                         </div>
                         <div>
+                          <h3 className="font-semibold mb-1">Main Headquarters</h3>
+                          <p className="text-gray-600">415 Fort William Road</p>
+                          <p className="text-gray-600">Thunder Bay, Ontario</p>
+                          <p className="text-gray-600">P7B 2Z5</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <MapPin className="text-orange-600" size={24} />
+                        </div>
+                        <div>
                           <h3 className="font-semibold mb-1">Service Area</h3>
                           <p className="text-gray-600">{siteSettings.address}</p>
                         </div>
