@@ -92,7 +92,8 @@ async def submit_contact(contact: ContactSubmissionCreate):
             subject=contact.subject,
             message=contact.message,
             address=contact.address,
-            city=contact.city
+            city=contact.city,
+            photo_urls=contact.photo_urls
         )
     except Exception as e:
         print(f"Email notification failed but submission saved: {str(e)}")
