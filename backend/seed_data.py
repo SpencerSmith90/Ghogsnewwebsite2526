@@ -107,7 +107,7 @@ materials = [
     {
         "name": "Concentric Pier Systems",
         "description": "Advanced pier technology designed for deep foundation stabilization. Concentric pier systems provide superior load distribution in challenging soil conditions, offering enhanced stability beyond conventional pier methods.",
-        "image": "https://cdn.treehouseinternetgroup.com/uploads/photo_gallery/medium/410828-cederwall-4.jpg",
+        "image": "https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/r2ahifk1_ConcentricPier-8.jpg",
         "order": 8
     }
 ]
