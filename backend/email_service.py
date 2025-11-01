@@ -29,7 +29,7 @@ async def send_contact_notification(
     try:
         # Create the email message
         msg = MIMEMultipart("alternative")
-        msg["Subject"] = f"New Contact Form Submission - {name}"
+        msg["Subject"] = f"🔔 New Inquiry: {subject}"
         msg["From"] = smtp_user
         msg["To"] = notification_email
         
