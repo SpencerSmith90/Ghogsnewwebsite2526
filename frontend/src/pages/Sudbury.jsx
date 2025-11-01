@@ -361,7 +361,12 @@ const Sudbury = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="border p-4 font-semibold">Northern Ontario Experience</td>
+                    <td className="border p-4 font-semibold">Time in Sudbury Market</td>
+                    <td className="border p-4 text-center bg-orange-50 font-bold">Newest - Already #1 Trusted</td>
+                    <td className="border p-4 text-center">5-15 Years</td>
+                  </tr>
+                  <tr>
+                    <td className="border p-4 font-semibold">Overall Foundation Experience</td>
                     <td className="border p-4 text-center bg-orange-50 font-bold">25+ Years</td>
                     <td className="border p-4 text-center">5-15 Years</td>
                   </tr>
