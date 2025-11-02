@@ -28,6 +28,7 @@ from routes import public, admin, video, upload, sitemap
 public.set_db(db)
 admin.set_db(db)
 video.set_db(db)
+sitemap.set_db(db)
 
 # Root endpoint
 @api_router.get("/")
