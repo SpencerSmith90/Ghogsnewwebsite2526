@@ -45,6 +45,7 @@ api_router.include_router(public.router, tags=["public"])
 api_router.include_router(admin.router, prefix="/admin", tags=["admin"])
 api_router.include_router(video.router, tags=["videos"])
 api_router.include_router(upload.router, tags=["upload"])
+api_router.include_router(sitemap.router, tags=["sitemap"])
 
 # Include the router in the main app
 app.include_router(api_router)
