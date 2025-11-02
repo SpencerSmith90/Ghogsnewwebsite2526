@@ -88,10 +88,10 @@ async def get_sitemap():
     Dynamically generate sitemap.xml with all static pages and blog posts
     """
     try:
-        # Get all published blog posts from database
+        # Get all blog posts from database (including those without status field)
         blog_posts = []
         if db is not None:
-            cursor = db.blog_posts.find({"status": "published"})
+            cursor = db.blog_posts.find({})
             blog_posts = await cursor.to_list(length=None)
         
         # Generate sitemap XML
