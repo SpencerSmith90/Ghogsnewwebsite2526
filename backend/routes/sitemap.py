@@ -39,6 +39,9 @@ STATIC_PAGES = [
     {"loc": "/services/interior-waterproofing", "priority": "0.7", "changefreq": "monthly"},
     {"loc": "/services/steel-post-beam-systems", "priority": "0.7", "changefreq": "monthly"},
     {"loc": "/services/everbrace-wall-restoration", "priority": "0.7", "changefreq": "monthly"},
+    
+    # Blog posts (as static pages for now)
+    {"loc": "/blog/advanced-exterior-waterproofing-thunder-bay", "priority": "0.7", "changefreq": "monthly"},
 ]
 
 def generate_sitemap_xml(pages: List[Dict], blog_posts: List[Dict]) -> str:
