@@ -311,7 +311,16 @@ const Header = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button asChild className="bg-orange-600 hover:bg-orange-700 text-white w-full">
+              
+              {/* Phone Number - Mobile */}
+              <a 
+                href="tel:1-888-907-3777" 
+                className="block text-center bg-orange-100 text-orange-600 font-bold text-xl py-4 rounded-lg hover:bg-orange-200 transition-colors mt-4"
+              >
+                📞 1-888-907-3777
+              </a>
+              
+              <Button asChild className="bg-orange-600 hover:bg-orange-700 text-white w-full mt-3">
                 <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
                   Get Free Estimate
                 </Link>
