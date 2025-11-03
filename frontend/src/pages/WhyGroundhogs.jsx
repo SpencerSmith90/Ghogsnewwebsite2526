@@ -20,7 +20,7 @@ const WhyGroundhogs = () => {
     },
     {
       feature: "Warranty",
-      groundhogs: "Lifetime transferable warranty on most services",
+      groundhogs: "Strong warranties we actually stand behind and honor",
       others: "Limited or no warranty coverage",
       icon: Shield
     },
