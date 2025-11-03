@@ -135,6 +135,7 @@ function App() {
                     <Route path="/winnipeg-foundation-repair" element={<Winnipeg />} />
                     <Route path="/sudbury-foundation-repair" element={<Sudbury />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/why-groundhogs" element={<WhyGroundhogs />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/advanced-exterior-waterproofing-thunder-bay" element={<AdvancedExteriorWaterproofing />} />
                     <Route path="/contact" element={<Contact />} />
