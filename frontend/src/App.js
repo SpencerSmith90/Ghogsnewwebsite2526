@@ -139,6 +139,7 @@ function App() {
                     <Route path="/why-groundhogs" element={<WhyGroundhogs />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/advanced-exterior-waterproofing-thunder-bay" element={<AdvancedExteriorWaterproofing />} />
+                    <Route path="/blog/interior-waterproofing-systems" element={<InteriorWaterproofingSystems />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/service-areas" element={<ServiceAreas />} />
                     <Route path="/testimonials" element={<Testimonials />} />
