@@ -14,7 +14,7 @@ const Blog = () => {
       category: 'Waterproofing',
       date: 'November 3, 2025',
       author: 'Groundhogs Team',
-      image: 'https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/interior-waterproofing-system.jpg'
+      image: 'https://customer-assets.emergentagent.com/job_waterproof-blog/artifacts/xgonyi7l_IMG_0004.jpeg'
     },
     {
       slug: 'advanced-exterior-waterproofing-thunder-bay',
