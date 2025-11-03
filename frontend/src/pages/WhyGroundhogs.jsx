@@ -177,9 +177,9 @@ const WhyGroundhogs = () => {
                 <div className="text-orange-600 mb-4">
                   <Shield size={48} />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Lifetime Warranties</h3>
+                <h3 className="text-xl font-bold mb-2">Strong Warranties</h3>
                 <p className="text-gray-600">
-                  Transferable warranties that protect your investment for as long as you own your home.
+                  Comprehensive warranties we actually honor and stand behind. Your investment is protected.
                 </p>
               </div>
               
