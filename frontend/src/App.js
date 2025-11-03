@@ -39,6 +39,7 @@ import AdminContacts from "./pages/admin/Contacts";
 import AdminSettings from "./pages/admin/Settings";
 import AdminVideoReels from "./pages/admin/VideoReels";
 import AdvancedExteriorWaterproofing from "./pages/blog/AdvancedExteriorWaterproofing";
+import InteriorWaterproofingSystems from "./pages/blog/InteriorWaterproofingSystems";
 
 function App() {
   return (
