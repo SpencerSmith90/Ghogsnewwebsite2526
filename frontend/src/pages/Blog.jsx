@@ -8,11 +8,20 @@ import SEO from '../components/SEO';
 const Blog = () => {
   const blogPosts = [
     {
+      slug: 'interior-waterproofing-systems',
+      title: 'Interior Waterproofing Systems: When & Why They Work Best',
+      excerpt: 'Learn when interior waterproofing is the right solution for your basement. Discover how interior systems control water, reduce humidity, and protect your home when exterior excavation isn\'t possible.',
+      category: 'Waterproofing',
+      date: 'November 3, 2025',
+      author: 'Groundhogs Team',
+      image: 'https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/interior-waterproofing-system.jpg'
+    },
+    {
       slug: 'advanced-exterior-waterproofing-thunder-bay',
       title: 'Advanced Exterior Waterproofing Systems in Thunder Bay: How We Install 2x Faster',
-      excerpt: 'Discover how Groundhogs completes exterior waterproofing projects in 3-5 days (not 7-10 days) using advanced Delta-MS systems, elite crews, and systemized processes. See the technology that makes us Thunder Bay\'s fastest waterproofing company.',
+      excerpt: 'Discover how Groundhogs completes exterior waterproofing projects in 3-5 days (not 7-10 days) using advanced systems, elite crews, and systemized processes.',
       category: 'Waterproofing',
-      date: 'November 1, 2024',
+      date: 'November 1, 2025',
       author: 'Groundhogs Team',
       image: 'https://customer-assets.emergentagent.com/job_foundation-fix/artifacts/gcc633o0_wp.jpg'
     }
