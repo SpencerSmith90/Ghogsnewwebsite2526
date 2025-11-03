@@ -12,6 +12,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import WhyGroundhogs from "./pages/WhyGroundhogs";
 import ServiceAreas from "./pages/ServiceAreas";
 import ThunderBay from "./pages/ThunderBay";
 import Winnipeg from "./pages/Winnipeg";
