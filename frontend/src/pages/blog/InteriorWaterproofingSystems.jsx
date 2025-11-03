@@ -44,6 +44,21 @@ const InteriorWaterproofingSystems = () => {
           Not every basement water problem can be solved from the outside. When excavation limitations prevent exterior waterproofing, interior systems provide effective protection for your Thunder Bay, Winnipeg, or Sudbury home.
         </div>
 
+        {/* Featured Image */}
+        <div className="mb-12">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_waterproof-blog/artifacts/xgonyi7l_IMG_0004.jpeg" 
+            alt="Interior waterproofing system installation showing drainage and sump pump setup"
+            className="w-full rounded-lg shadow-xl"
+            loading="lazy"
+          />
+          <div className="bg-gray-100 px-6 py-4 rounded-b-lg">
+            <p className="text-sm text-gray-700 italic">
+              Professional interior waterproofing system with perimeter drainage and sump pump installation. This approach works when exterior excavation isn't possible.
+            </p>
+          </div>
+        </div>
+
         {/* Call to Action Box */}
         <div className="bg-orange-50 border-l-4 border-orange-600 p-6 mb-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
