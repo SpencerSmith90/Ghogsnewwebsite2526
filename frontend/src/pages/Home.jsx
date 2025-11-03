@@ -67,13 +67,27 @@ const Home = () => {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4 leading-tight">
               {heroContent.title}
             </h1>
+            <p className="text-xl md:text-2xl mb-6 text-orange-400 font-semibold">
+              {heroContent.subtitle}
+            </p>
             <p className="text-lg md:text-xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
               {heroContent.description}
             </p>
-            <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6 animate-pulse-slow hover:animate-none shadow-xl hover:shadow-2xl">
+            
+            {/* Phone Number - Prominent */}
+            <div className="mb-8">
+              <a href="tel:1-888-907-3777" className="inline-block">
+                <div className="text-3xl md:text-4xl font-bold text-white bg-orange-600 px-8 py-4 rounded-lg hover:bg-orange-700 transition-all shadow-2xl hover:scale-105">
+                  📞 {heroContent.phone}
+                </div>
+              </a>
+              <p className="text-sm text-gray-300 mt-2">Call Now for Your Free Estimate</p>
+            </div>
+            
+            <Button asChild size="lg" className="bg-white hover:bg-gray-100 text-orange-600 text-lg px-8 py-6 hover:animate-none shadow-xl hover:shadow-2xl">
               <Link to="/contact" className="no-hover">
                 {heroContent.ctaText} <ArrowRight className="ml-2" size={20} />
               </Link>
