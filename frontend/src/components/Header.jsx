@@ -23,6 +23,7 @@ const Header = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Service Areas', path: '/service-areas' },
+    { name: 'Why Groundhogs', path: '/why-groundhogs' },
     { name: 'About', path: '/about' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' }
