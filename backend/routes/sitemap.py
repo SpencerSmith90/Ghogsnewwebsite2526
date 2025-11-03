@@ -42,6 +42,7 @@ STATIC_PAGES = [
     {"loc": "/services/everbrace-wall-restoration", "priority": "0.7", "changefreq": "monthly"},
     
     # Blog posts (as static pages for now)
+    {"loc": "/blog/interior-waterproofing-systems", "priority": "0.7", "changefreq": "monthly"},
     {"loc": "/blog/advanced-exterior-waterproofing-thunder-bay", "priority": "0.7", "changefreq": "monthly"},
 ]
 
