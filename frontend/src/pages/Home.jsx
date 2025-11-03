@@ -13,9 +13,10 @@ import AnimatedCounter from '../components/AnimatedCounter';
 
 // Hero content
 const heroContent = {
-  title: 'Ontario & Manitoba\'s Most Trusted Foundation Specialists',
-  subtitle: '',
-  description: 'Groundhogs delivers trusted, engineered, long-term foundation solutions built on experience, precision, and pride. Serving Winnipeg, Thunder Bay, Sudbury and in-between.',
+  title: 'Ontario & Manitoba\'s #1 Foundation Repair Experts',
+  subtitle: 'Serving Thunder Bay, Winnipeg, Sudbury & Surrounding Areas',
+  phone: '1-888-907-3777',
+  description: 'Groundhogs delivers trusted, engineered, long-term foundation solutions built on experience, precision, and pride.',
   ctaText: 'Get a Free Estimate'
 };
 
