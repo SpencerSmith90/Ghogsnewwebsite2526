@@ -254,18 +254,6 @@ const Header = () => {
                 )}
               </div>
 
-              <Link
-                to="/projects"
-                onClick={() => setMobileMenuOpen(false)}
-                className={`text-sm font-medium transition-colors hover:text-orange-600 ${
-                  location.pathname === '/projects'
-                    ? 'text-orange-600'
-                    : 'text-gray-700'
-                }`}
-              >
-                Projects
-              </Link>
-
               {/* Mobile Resources Dropdown */}
               <div>
                 <button
