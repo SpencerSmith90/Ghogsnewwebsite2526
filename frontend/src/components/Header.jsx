@@ -182,8 +182,12 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* Phone Number & CTA Button */}
+          <div className="hidden lg:flex items-center gap-4">
+            <a href="tel:1-888-907-3777" className="flex items-center gap-2 text-orange-600 hover:text-orange-700 font-bold text-lg transition-colors">
+              <span className="text-2xl">📞</span>
+              <span>1-888-907-3777</span>
+            </a>
             <Button asChild className="bg-orange-600 hover:bg-orange-700 text-white">
               <Link to="/contact">Get Free Estimate</Link>
             </Button>
