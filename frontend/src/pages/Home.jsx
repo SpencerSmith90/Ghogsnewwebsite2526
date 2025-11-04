@@ -14,9 +14,9 @@ import AnimatedCounter from '../components/AnimatedCounter';
 // Hero content
 const heroContent = {
   title: 'Ontario & Manitoba\'s #1 Foundation Repair Experts',
-  subtitle: 'Serving Thunder Bay, Winnipeg, Sudbury & Surrounding Areas',
+  subtitle: '5 Crews Serving Thunder Bay, Winnipeg, Sudbury – 3x Faster Exterior Waterproofing',
   phone: '1-888-907-3777',
-  description: 'Groundhogs delivers trusted, engineered, long-term foundation solutions built on experience, precision, and pride.',
+  description: 'Groundhogs delivers permanent waterproofing and foundation solutions across Ontario and Manitoba. With 5 full-time crews and a systemized process, we install 3x faster than traditional methods — including rigid insulation for frost protection and energy savings. Get your fast virtual estimate today.',
   ctaText: 'Get a Free Estimate'
 };
 
