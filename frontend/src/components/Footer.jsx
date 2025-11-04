@@ -185,6 +185,9 @@ const Footer = () => {
               className="h-8 mx-auto opacity-90"
             />
           </div>
+          <p className="mb-2 text-gray-400">
+            Proudly Serving Ontario & Manitoba | 5 Crews | 3x Faster
+          </p>
           <p>
             &copy; {new Date().getFullYear()} {siteSettings.company_name}. All rights reserved.
           </p>
