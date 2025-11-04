@@ -105,41 +105,29 @@
 user_problem_statement: "Multi-city SEO optimization with focus on exterior waterproofing - creating 3 geo landing pages (Thunder Bay, Winnipeg, Sudbury), updating homepage hero, adding trust bars, enhancing contact page with virtual estimates, and updating schema markup"
 
 backend:
-  - task: "Update Differentiator Model"
+  - task: "Update Dynamic Sitemap with Geo Pages"
     implemented: true
     working: true
-    file: "/app/backend/models.py"
+    file: "/app/backend/routes/sitemap.py"
     stuck_count: 0
     priority: "high"
     needs_retesting: false
     status_history:
         - working: true
           agent: "main"
-          comment: "Updated Differentiator model to include new fields: emoji, tagline, and keywords. Made icon field optional for backwards compatibility. All fields properly defined with Optional types."
-        
-  - task: "Update Seed Data with New Differentiators"
+          comment: "Added 4 new high-priority pages to sitemap: /exterior-waterproofing (hub), /exterior-waterproofing-thunder-bay, /exterior-waterproofing-winnipeg, /exterior-waterproofing-sudbury. All set to priority 1.0 with weekly changefreq for maximum SEO impact."
+  
+  - task: "Update Schema Markup on Homepage"
     implemented: true
     working: true
-    file: "/app/backend/seed_data.py"
+    file: "/app/frontend/src/pages/Home.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: true
           agent: "main"
-          comment: "Replaced old differentiators data with 5 new detailed items: Root Cause Eradication, Exclusive Systems & Engineering, Elite Tradespeople You Can Trust, Systemized Efficiency, and Compliance & Professionalism. Each includes emoji, tagline, description, and SEO keywords."
-        
-  - task: "Differentiators API Endpoint"
-    implemented: true
-    working: true
-    file: "/app/backend/routes/public.py"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: true
-    status_history:
-        - working: true
-          agent: "main"
-          comment: "API endpoint /api/differentiators tested successfully via curl. Returns all 5 new differentiators with correct data structure including emoji (as unicode), tagline, description, and keywords fields."
+          comment: "Updated LocalBusiness schema with complete NAP (415 Fort William Road, Thunder Bay), phone 1-888-907-3777, areaServed as City objects (Thunder Bay, Winnipeg, Sudbury), openingHours, and makesOffer for Exterior Waterproofing service with 3x faster messaging."
 
 frontend:
   - task: "Update Home.jsx Differentiators Section"
