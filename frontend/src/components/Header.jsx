@@ -33,7 +33,6 @@ const Header = () => {
 
   const serviceLinks = [
     { name: 'Exterior Waterproofing — Flagship Service', path: '/services/exterior-waterproofing', flagship: true },
-    { name: 'Exterior Waterproofing by City', path: '/exterior-waterproofing', special: true },
     { name: 'Foundation Repair & Replacement', path: '/services/foundation-repair-replacement' },
     { name: 'Push Pier Systems', path: '/services/push-pier-systems' },
     { name: 'Concentric Pier Systems', path: '/services/concentric-pier-systems' },
