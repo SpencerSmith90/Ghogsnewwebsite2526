@@ -99,7 +99,7 @@ const Home = () => {
       {/* Stats Counter Section */}
       <section className="py-16 bg-white border-y">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
                 <AnimatedCounter end={2000} suffix="+" />
@@ -123,6 +123,28 @@ const Home = () => {
                 <AnimatedCounter end={15} suffix="+" />
               </div>
               <div className="text-gray-600">Expert Technicians</div>
+            </div>
+          </div>
+          
+          {/* Trust Bar */}
+          <div className="border-t pt-8">
+            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 text-sm md:text-base font-semibold text-gray-700">
+              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+                <CheckCircle className="text-orange-600 w-5 h-5" />
+                <span>5 Full-Time Crews</span>
+              </div>
+              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+                <Zap className="text-orange-600 w-5 h-5" />
+                <span>3x Faster Installs</span>
+              </div>
+              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+                <Layers className="text-orange-600 w-5 h-5" />
+                <span>Rigid Insulation Included</span>
+              </div>
+              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+                <Award className="text-orange-600 w-5 h-5" />
+                <span>Robust Transferable Warranty</span>
+              </div>
             </div>
           </div>
         </div>
