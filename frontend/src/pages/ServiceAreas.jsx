@@ -313,8 +313,8 @@ const ServiceAreas = () => {
                     <span>Pricing: $20k-$60k full house</span>
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
-                  <Link to="/exterior-waterproofing-thunder-bay">
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 py-3">
+                  <Link to="/exterior-waterproofing-thunder-bay" className="inline-flex items-center justify-center">
                     View Thunder Bay Details →
                   </Link>
                 </Button>
@@ -342,8 +342,8 @@ const ServiceAreas = () => {
                     <span>Pricing: $20k-$60k full house</span>
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
-                  <Link to="/exterior-waterproofing-winnipeg">
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 py-3">
+                  <Link to="/exterior-waterproofing-winnipeg" className="inline-flex items-center justify-center">
                     View Winnipeg Details →
                   </Link>
                 </Button>
@@ -371,8 +371,8 @@ const ServiceAreas = () => {
                     <span>Pricing: $20k-$60k full house</span>
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
-                  <Link to="/exterior-waterproofing-sudbury">
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 py-3">
+                  <Link to="/exterior-waterproofing-sudbury" className="inline-flex items-center justify-center">
                     View Sudbury Details →
                   </Link>
                 </Button>
