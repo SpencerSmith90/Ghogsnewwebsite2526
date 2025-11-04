@@ -48,6 +48,7 @@ import WaterproofingCalculator from "./pages/WaterproofingCalculator";
 import InteriorWaterproofingCalculator from "./pages/InteriorWaterproofingCalculator";
 import FoundationReplacementCalculator from "./pages/FoundationReplacementCalculator";
 import PushPiersCalculator from "./pages/PushPiersCalculator";
+import SmartJackCalculator from "./pages/SmartJackCalculator";
 
 function App() {
   return (
