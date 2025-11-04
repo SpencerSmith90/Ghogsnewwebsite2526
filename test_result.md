@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Completely redesign the 'What Makes Groundhogs Different' section with new content structure including title, subtitle, intro paragraphs, and 5 detailed differentiators with emojis, taglines, descriptions, and SEO keywords"
+user_problem_statement: "Multi-city SEO optimization with focus on exterior waterproofing - creating 3 geo landing pages (Thunder Bay, Winnipeg, Sudbury), updating homepage hero, adding trust bars, enhancing contact page with virtual estimates, and updating schema markup"
 
 backend:
   - task: "Update Differentiator Model"
