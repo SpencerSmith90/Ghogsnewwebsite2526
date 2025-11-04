@@ -189,6 +189,25 @@ const Contact = () => {
                     />
                   </div>
                   <div>
+                    <label htmlFor="estimate_type" className="block text-sm font-medium mb-2">
+                      Estimate Type *
+                    </label>
+                    <select
+                      id="estimate_type"
+                      name="estimate_type"
+                      value={formData.estimate_type}
+                      onChange={handleChange}
+                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    >
+                      <option value="Virtual Estimate">Virtual Estimate (Fast - Upload Photos)</option>
+                      <option value="In-Person">In-Person Estimate</option>
+                    </select>
+                    <p className="text-xs text-gray-500 mt-1">
+                      Virtual estimates typically provided within hours
+                    </p>
+                  </div>
+                  <div>
                     <label htmlFor="subject" className="block text-sm font-medium mb-2">
                       Subject *
                     </label>
