@@ -51,7 +51,8 @@ const Header = () => {
 
   const calculatorLinks = [
     { name: 'Exterior Waterproofing Calculator', path: '/calculators/waterproofing' },
-    { name: 'Interior Waterproofing Calculator', path: '/calculators/interior-waterproofing' }
+    { name: 'Interior Waterproofing Calculator', path: '/calculators/interior-waterproofing' },
+    { name: 'Foundation Replacement Calculator', path: '/calculators/foundation-replacement' }
   ];
 
   return (
