@@ -151,6 +151,7 @@ function App() {
                     <Route path="/calculators/foundation-replacement" element={<FoundationReplacementCalculator />} />
                     <Route path="/calculators/push-piers" element={<PushPiersCalculator />} />
                     <Route path="/calculators/smart-jack" element={<SmartJackCalculator />} />
+                    <Route path="/calculators/everbrace" element={<EverBraceCalculator />} />
                     <Route path="/thunder-bay-foundation-repair" element={<ThunderBay />} />
                     <Route path="/winnipeg-foundation-repair" element={<Winnipeg />} />
                     <Route path="/sudbury-foundation-repair" element={<Sudbury />} />
