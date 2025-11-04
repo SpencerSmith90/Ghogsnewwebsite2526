@@ -272,6 +272,78 @@ City: ${formData.city}
                   </p>
                 </div>
 
+                {/* Why Choose Groundhogs Section */}
+                <div className="border-t-2 border-gray-200 pt-6 mb-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Why Choose Groundhogs?</h3>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-lg border border-orange-200">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-gray-900 mb-1">3x Faster Installation</h4>
+                          <p className="text-sm text-gray-700">Completed in 1-2 days, not 4-6 days. Our systemized process minimizes disruption to your home.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-lg border border-orange-200">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-gray-900 mb-1">5 Full-Time Crews</h4>
+                          <p className="text-sm text-gray-700">Elite, trained technicians—not subcontractors. Every job meets our exacting standards.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-lg border border-orange-200">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-gray-900 mb-1">Robust Transferable Warranty</h4>
+                          <p className="text-sm text-gray-700">Industry-leading warranty that protects your investment and transfers to future homeowners.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-lg border border-orange-200">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+                          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-gray-900 mb-1">Rigid Insulation Included</h4>
+                          <p className="text-sm text-gray-700">Frost protection and energy savings standard on every job—not an expensive add-on.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-slate-900 text-white p-4 rounded-lg text-center">
+                    <p className="text-lg font-semibold mb-1">
+                      🏆 25+ Years Experience • 2000+ Projects Completed • 98% Client Satisfaction
+                    </p>
+                    <p className="text-sm text-gray-300">
+                      Ontario & Manitoba's most trusted foundation experts
+                    </p>
+                  </div>
+                </div>
+
                 {/* Contact Form */}
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="border-t-2 border-gray-200 pt-6 mb-4">
