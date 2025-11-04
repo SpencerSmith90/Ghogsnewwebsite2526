@@ -45,6 +45,7 @@ import ExteriorWaterproofingThunderBay from "./pages/geo/ExteriorWaterproofingTh
 import ExteriorWaterproofingWinnipeg from "./pages/geo/ExteriorWaterproofingWinnipeg";
 import ExteriorWaterproofingSudbury from "./pages/geo/ExteriorWaterproofingSudbury";
 import WaterproofingCalculator from "./pages/WaterproofingCalculator";
+import InteriorWaterproofingCalculator from "./pages/InteriorWaterproofingCalculator";
 
 function App() {
   return (
