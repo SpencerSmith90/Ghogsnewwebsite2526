@@ -197,13 +197,13 @@ const Header = () => {
                 <div className="absolute top-full left-0 mt-0 pt-2 w-80 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
                   <div className="py-2">
                     {calculatorLinks.map((calc) => (
-                      <a
+                      <Link
                         key={calc.path}
-                        href={calc.path}
+                        to={calc.path}
                         className="block px-4 py-3 text-sm transition-colors hover:bg-orange-50 text-gray-700 hover:text-orange-600"
                       >
                         {calc.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
