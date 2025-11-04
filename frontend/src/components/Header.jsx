@@ -54,7 +54,8 @@ const Header = () => {
     { name: 'Interior Waterproofing Calculator', path: '/calculators/interior-waterproofing' },
     { name: 'Foundation Replacement Calculator', path: '/calculators/foundation-replacement' },
     { name: 'Push Piers Calculator', path: '/calculators/push-piers' },
-    { name: 'Steel Post & Beam Systems Calculator', path: '/calculators/smart-jack' }
+    { name: 'Steel Post & Beam Systems Calculator', path: '/calculators/smart-jack' },
+    { name: 'EverBrace Wall Restoration Calculator', path: '/calculators/everbrace' }
   ];
 
   return (
