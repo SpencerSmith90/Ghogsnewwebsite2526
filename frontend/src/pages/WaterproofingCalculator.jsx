@@ -158,7 +158,7 @@ const WaterproofingCalculator = () => {
                   
                   <div className="space-y-3">
                     <div className="flex justify-between text-gray-700">
-                      <span>Foundation Waterproofing</span>
+                      <span>Foundation Waterproofing ({linearFeet} ft × ${costPerFoot}/ft)</span>
                       <span className="font-semibold">${baseCalc.toLocaleString()}</span>
                     </div>
                     
