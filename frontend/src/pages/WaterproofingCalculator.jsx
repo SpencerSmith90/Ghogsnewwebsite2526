@@ -8,8 +8,18 @@ import SEO from '../components/SEO';
 import { useToast } from '../hooks/use-toast';
 
 const WaterproofingCalculator = () => {
+  const { toast } = useToast();
   const [linearFeet, setLinearFeet] = useState(150);
   const [includeSump, setIncludeSump] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    address: '',
+    city: ''
+  });
   
   // Automatic tiered pricing based on linear feet
   const getCostPerFoot = (feet) => {
@@ -22,6 +32,85 @@ const WaterproofingCalculator = () => {
   const baseCalc = linearFeet * costPerFoot;
   const sumpCost = includeSump ? 4000 : 0;
   const grandTotal = baseCalc + sumpCost;
+  
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+    try {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || '';
+      
+      // Create detailed message with estimate
+      const estimateDetails = `
+CALCULATOR ESTIMATE REQUEST
+
+Foundation Perimeter: ${linearFeet} linear feet
+Cost Per Foot: $${costPerFoot}/ft (${linearFeet > 130 ? 'Volume discount' : linearFeet >= 50 ? 'Standard rate' : 'Small project rate'})
+Base Waterproofing Cost: $${baseCalc.toLocaleString()}
+${includeSump ? `Sump Pump & Pit: $4,000` : ''}
+ESTIMATED TOTAL: $${grandTotal.toLocaleString()}
+
+*This is an automated estimate. A formal quote will be provided after site assessment.
+
+Customer Information:
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Address: ${formData.address}
+City: ${formData.city}
+      `.trim();
+      
+      const response = await fetch(`${backendUrl}/api/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          address: formData.address,
+          city: formData.city,
+          subject: `Calculator Quote Request - $${grandTotal.toLocaleString()} Estimate`,
+          message: estimateDetails,
+          photo_urls: []
+        }),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Quote Request Submitted!",
+          description: "We'll contact you within 24 hours with a formal quote.",
+        });
+        
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          address: '',
+          city: ''
+        });
+        setLinearFeet(150);
+        setIncludeSump(false);
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (error) {
+      toast({
+        title: "Submission Error",
+        description: "Please try again or call us at 1-888-907-3777",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   const updateSliderBg = (elementId, value, min, max) => {
     const slider = document.getElementById(elementId);
