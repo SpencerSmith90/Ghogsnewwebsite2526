@@ -169,6 +169,18 @@ City: ${formData.city}
                 <p className="text-gray-300">Get your personalized cost estimate in seconds</p>
               </CardHeader>
 
+              {/* Service Area Banner */}
+              <div className="bg-gradient-to-r from-orange-600 to-orange-500 text-white py-3 px-6 text-center">
+                <p className="text-sm md:text-base font-semibold">
+                  🏆 Proudly Serving{' '}
+                  <Link to="/thunder-bay-foundation-repair" className="underline hover:text-orange-100 transition-colors">Thunder Bay</Link>
+                  {', '}
+                  <Link to="/winnipeg-foundation-repair" className="underline hover:text-orange-100 transition-colors">Winnipeg</Link>
+                  {' & '}
+                  <Link to="/sudbury-foundation-repair" className="underline hover:text-orange-100 transition-colors">Sudbury</Link>
+                </p>
+              </div>
+
               <CardContent className="p-8">
                 {/* Linear Feet Input */}
                 <div className="mb-8">
