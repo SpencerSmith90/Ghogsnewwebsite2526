@@ -79,8 +79,8 @@ City: ${formData.city}
 
       if (response.ok) {
         toast({
-          title: "Quote Request Submitted!",
-          description: "We'll contact you within 24 hours with a formal quote.",
+          title: "Thank you!",
+          description: "Our team will review your request and respond within 24 hours.",
         });
         
         setFormData({
