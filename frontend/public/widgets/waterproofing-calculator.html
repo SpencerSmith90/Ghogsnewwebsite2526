@@ -50,19 +50,19 @@ input[type="range"]{min-width:100%}
 <p class="subtitle">Get your personalized cost estimate in seconds</p>
 
 <div class="field">
-<label for="linearFeet">Foundation Perimeter (Linear Feet)</label>
+<label for="linearFeet">Foundation Perimeter (Linear Feet) <span style="color:#6b7280;font-weight:400;font-size:.9rem">(Average home is approximately 150 linear feet in perimeter)</span></label>
 <div class="input-group">
-<input type="number" id="linearFeet" name="linearFeet" min="10" max="1000" step="1" value="100" aria-label="Linear feet of foundation" aria-describedby="feetValue">
-<input type="range" id="feetSlider" min="10" max="1000" step="1" value="100" aria-label="Adjust linear feet with slider">
-<span class="value-display" id="feetValue" aria-live="polite">100 ft</span>
+<input type="number" id="linearFeet" name="linearFeet" min="10" max="300" step="1" value="150" aria-label="Linear feet of foundation" aria-describedby="feetValue">
+<input type="range" id="feetSlider" min="10" max="300" step="1" value="150" aria-label="Adjust linear feet with slider">
+<span class="value-display" id="feetValue" aria-live="polite">150 ft</span>
 </div>
 </div>
 
 <div class="field">
 <label for="costPerFoot">Cost Per Linear Foot</label>
 <div class="input-group">
-<input type="range" id="costPerFoot" min="200" max="500" step="10" value="350" aria-label="Adjust cost per linear foot">
-<span class="value-display" id="costValue" aria-live="polite">$350/ft</span>
+<input type="range" id="costPerFoot" min="200" max="500" step="10" value="250" aria-label="Adjust cost per linear foot">
+<span class="value-display" id="costValue" aria-live="polite">$250/ft</span>
 </div>
 <small style="color:#6b7280;display:block;margin-top:.5rem">Range: $200–$500 per foot</small>
 </div>
