@@ -174,6 +174,40 @@ const Header = () => {
               )}
             </div>
 
+            {/* Cost Calculators Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setCalculatorsDropdownOpen(true)}
+              onMouseLeave={() => setCalculatorsDropdownOpen(false)}
+            >
+              <button
+                className={`text-sm font-medium transition-colors hover:text-orange-600 flex items-center gap-1 ${
+                  location.pathname.includes('/widgets/')
+                    ? 'text-orange-600'
+                    : 'text-gray-700'
+                }`}
+              >
+                Cost Calculators
+                <ChevronDown size={16} className={`transition-transform ${calculatorsDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {calculatorsDropdownOpen && (
+                <div className="absolute top-full left-0 mt-0 pt-2 w-80 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
+                  <div className="py-2">
+                    {calculatorLinks.map((calc) => (
+                      <a
+                        key={calc.path}
+                        href={calc.path}
+                        className="block px-4 py-3 text-sm transition-colors hover:bg-orange-50 text-gray-700 hover:text-orange-600"
+                      >
+                        {calc.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {navLinks.slice(2).map((link) => (
               <Link
                 key={link.path}
