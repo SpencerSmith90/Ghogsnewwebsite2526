@@ -141,6 +141,7 @@ function App() {
                     <Route path="/exterior-waterproofing-thunder-bay" element={<ExteriorWaterproofingThunderBay />} />
                     <Route path="/exterior-waterproofing-winnipeg" element={<ExteriorWaterproofingWinnipeg />} />
                     <Route path="/exterior-waterproofing-sudbury" element={<ExteriorWaterproofingSudbury />} />
+                    <Route path="/calculators/waterproofing" element={<WaterproofingCalculator />} />
                     <Route path="/thunder-bay-foundation-repair" element={<ThunderBay />} />
                     <Route path="/winnipeg-foundation-repair" element={<Winnipeg />} />
                     <Route path="/sudbury-foundation-repair" element={<Sudbury />} />
