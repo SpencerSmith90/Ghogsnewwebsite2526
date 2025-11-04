@@ -98,11 +98,7 @@ City: ${formData.city}
         throw new Error('Submission failed');
       }
     } catch (error) {
-      toast({
-        title: "Submission Error",
-        description: "Please try again or call us at 1-888-907-3777",
-        variant: "destructive"
-      });
+      toast.error("Submission Error. Please try again or call us at 1-888-907-3777");
     } finally {
       setIsSubmitting(false);
     }
