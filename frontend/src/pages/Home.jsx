@@ -32,22 +32,38 @@ const Home = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Groundhogs",
-    "description": "Foundation Repair Experts in Ontario & Manitoba",
+    "name": "Groundhogs Ltd",
+    "description": "Ontario & Manitoba's #1 Foundation Repair and Exterior Waterproofing Experts - 3x Faster Installation with 5 Full-Time Crews",
     "url": "https://groundhogs.ca",
-    "telephone": "1-800-GROUNDHOGS",
-    "email": "info@groundhogs.ca",
+    "telephone": "1-888-907-3777",
+    "email": "hello@groundhogs.ca",
     "address": {
       "@type": "PostalAddress",
-      "addressRegion": "Ontario and Manitoba",
+      "streetAddress": "415 Fort William Road",
+      "addressLocality": "Thunder Bay",
+      "addressRegion": "ON",
+      "postalCode": "P7B 2Z5",
       "addressCountry": "CA"
     },
-    "areaServed": ["Ontario", "Manitoba", "Winnipeg", "Thunder Bay", "Sudbury"],
-    "priceRange": "$$",
+    "areaServed": [
+      {"@type": "City", "name": "Thunder Bay"},
+      {"@type": "City", "name": "Winnipeg"},
+      {"@type": "City", "name": "Sudbury"}
+    ],
+    "openingHours": "Mo-Fr 08:00-17:00",
+    "priceRange": "$$-$$$",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "reviewCount": "100"
+      "reviewCount": "2000"
+    },
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Exterior Waterproofing",
+        "description": "3x faster installation with rigid insulation and robust transferable warranty"
+      }
     }
   };
 
