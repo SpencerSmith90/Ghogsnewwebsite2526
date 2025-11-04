@@ -272,12 +272,112 @@ City: ${formData.city}
                   </p>
                 </div>
 
-                {/* CTA Button */}
-                <Button asChild size="lg" className="w-full bg-orange-600 hover:bg-orange-700 text-lg py-6">
-                  <Link to={`/contact?calc=${grandTotal}`}>
-                    Get Binding Quote
-                  </Link>
-                </Button>
+                {/* Contact Form */}
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div className="border-t-2 border-gray-200 pt-6 mb-4">
+                    <h3 className="text-lg font-bold text-gray-900 mb-4">Submit for Formal Quote</h3>
+                    <p className="text-sm text-gray-600 mb-4">
+                      Enter your contact information below and we'll provide a detailed formal quote within 24 hours.
+                    </p>
+                  </div>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-700">
+                        Full Name *
+                      </label>
+                      <Input
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                        required
+                        placeholder="John Smith"
+                        className="w-full"
+                      />
+                    </div>
+                    
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium mb-2 text-gray-700">
+                        Phone Number *
+                      </label>
+                      <Input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        value={formData.phone}
+                        onChange={handleInputChange}
+                        required
+                        placeholder="(555) 123-4567"
+                        className="w-full"
+                      />
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium mb-2 text-gray-700">
+                      Email Address *
+                    </label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="john@example.com"
+                      className="w-full"
+                    />
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="address" className="block text-sm font-medium mb-2 text-gray-700">
+                      Property Address *
+                    </label>
+                    <Input
+                      id="address"
+                      name="address"
+                      value={formData.address}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="123 Main Street"
+                      className="w-full"
+                    />
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="city" className="block text-sm font-medium mb-2 text-gray-700">
+                      City *
+                    </label>
+                    <Input
+                      id="city"
+                      name="city"
+                      value={formData.city}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="Thunder Bay"
+                      className="w-full"
+                    />
+                  </div>
+                  
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <p className="text-sm text-blue-800">
+                      <strong>Your Estimate:</strong> ${grandTotal.toLocaleString()} ({linearFeet} ft × ${costPerFoot}/ft{includeSump ? ' + Sump Pump' : ''})
+                    </p>
+                    <p className="text-xs text-blue-600 mt-1">
+                      This estimate will be automatically included in your quote request.
+                    </p>
+                  </div>
+                  
+                  <Button 
+                    type="submit" 
+                    size="lg" 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-lg py-6"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? 'Submitting...' : 'Submit for Formal Quote'}
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </div>
