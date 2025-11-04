@@ -165,10 +165,10 @@ ctaButton.href='/contact?calc='+Math.round(total);
 }
 
 feetInput.addEventListener('input',function(){
-const val=Math.max(10,Math.min(1000,sanitize(this.value)));
+const val=Math.max(10,Math.min(300,sanitize(this.value)));
 feetSlider.value=val;
 feetValue.textContent=val+' ft';
-updateSliderBg(feetSlider,val,10,1000);
+updateSliderBg(feetSlider,val,10,300);
 calculate();
 });
 
@@ -176,7 +176,7 @@ feetSlider.addEventListener('input',function(){
 const val=sanitize(this.value);
 feetInput.value=val;
 feetValue.textContent=val+' ft';
-updateSliderBg(this,val,10,1000);
+updateSliderBg(this,val,10,300);
 calculate();
 });
 
@@ -189,8 +189,8 @@ calculate();
 
 sumpPump.addEventListener('change',calculate);
 
-updateSliderBg(feetSlider,100,10,1000);
-updateSliderBg(costSlider,350,200,500);
+updateSliderBg(feetSlider,150,10,300);
+updateSliderBg(costSlider,250,200,500);
 calculate();
 })();
 </script>
