@@ -124,30 +124,16 @@ const WaterproofingCalculator = () => {
                       background: `linear-gradient(to right, #f97316 0%, #f97316 ${((linearFeet - 10) / (300 - 10)) * 100}%, #e5e7eb ${((linearFeet - 10) / (300 - 10)) * 100}%, #e5e7eb 100%)`
                     }}
                   />
-                </div>
-
-                {/* Cost Per Foot Slider */}
-                <div className="mb-8">
-                  <label htmlFor="costPerFoot" className="block text-sm font-semibold mb-2 text-gray-700">
-                    Cost Per Linear Foot
-                  </label>
-                  <div className="flex gap-4 items-center mb-4">
-                    <input
-                      type="range"
-                      id="costSlider"
-                      min="200"
-                      max="500"
-                      step="10"
-                      value={costPerFoot}
-                      onChange={(e) => setCostPerFoot(Number(e.target.value))}
-                      className="flex-1 h-2 rounded-lg appearance-none cursor-pointer"
-                      style={{
-                        background: `linear-gradient(to right, #f97316 0%, #f97316 ${((costPerFoot - 200) / (500 - 200)) * 100}%, #e5e7eb ${((costPerFoot - 200) / (500 - 200)) * 100}%, #e5e7eb 100%)`
-                      }}
-                    />
-                    <span className="text-lg font-bold text-orange-600 min-w-24">${costPerFoot}/ft</span>
+                  <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                    <p className="text-sm text-blue-800">
+                      <strong>Current Rate:</strong> ${costPerFoot}/ft
+                      <span className="text-blue-600 ml-2">
+                        {linearFeet > 130 && '(Volume discount applied)'}
+                        {linearFeet >= 50 && linearFeet <= 130 && '(Standard rate)'}
+                        {linearFeet < 50 && '(Small project rate)'}
+                      </span>
+                    </p>
                   </div>
-                  <p className="text-sm text-gray-500">Range: $200–$500 per foot</p>
                 </div>
 
                 {/* Sump Pump Checkbox */}
