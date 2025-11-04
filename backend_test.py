@@ -10,7 +10,7 @@ import sys
 from datetime import datetime
 
 # Use the production URL from frontend/.env
-BASE_URL = "https://waterproof-blog.preview.emergentagent.com/api"
+BASE_URL = "https://email-debug-1.preview.emergentagent.com/api"
 
 class GroundhogAPITester:
     def __init__(self):
