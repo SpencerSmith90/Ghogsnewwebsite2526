@@ -73,16 +73,13 @@ const WaterproofingCalculator = () => {
           <div className="max-w-2xl mx-auto">
             {/* Back Navigation */}
             <div className="mb-6">
-              <Link to="/service-areas" className="text-orange-600 hover:text-orange-700 font-medium flex items-center gap-2">
-                ← Back to Service Areas
+              <Link to="/" className="text-orange-600 hover:text-orange-700 font-medium flex items-center gap-2">
+                ← Back to Home Page
               </Link>
             </div>
 
             <Card className="shadow-xl">
               <CardHeader className="text-center border-b bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-t-lg">
-                <div className="inline-block bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  📸 Upload Photos → Get Quote in Hours
-                </div>
                 <CardTitle className="text-3xl md:text-4xl mb-2">
                   Instant Exterior Waterproofing Estimate
                 </CardTitle>
