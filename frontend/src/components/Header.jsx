@@ -294,6 +294,19 @@ const Header = () => {
                 )}
               </div>
 
+              {/* Service Areas Link */}
+              <Link
+                to="/service-areas"
+                onClick={() => setMobileMenuOpen(false)}
+                className={`text-sm font-medium transition-colors hover:text-orange-600 ${
+                  location.pathname === '/service-areas'
+                    ? 'text-orange-600'
+                    : 'text-gray-700'
+                }`}
+              >
+                Service Areas
+              </Link>
+
               {/* Mobile Resources Dropdown */}
               <div>
                 <button
