@@ -277,6 +277,122 @@ const ServiceAreas = () => {
         </div>
       </section>
 
+      {/* Exterior Waterproofing by City */}
+      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Exterior Waterproofing – 3x Faster by City
+              </h2>
+              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                Get detailed exterior waterproofing information specific to your city's climate, soil conditions, and pricing.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Droplets className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Thunder Bay</h3>
+                  <p className="text-gray-300 text-sm mb-4">Clay Soils • Lake Superior Humidity • -40°C Winters</p>
+                </div>
+                <ul className="space-y-2 mb-6 text-gray-300 text-sm">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Heavy clay soil expertise</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>300+ cm annual snowfall solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Pricing: $20k-$60k full house</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/exterior-waterproofing-thunder-bay">
+                    View Thunder Bay Details →
+                  </Link>
+                </Button>
+              </Card>
+
+              <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Droplets className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Winnipeg</h3>
+                  <p className="text-gray-300 text-sm mb-4">Expansive Clay • Spring Flooding • Extreme Temps</p>
+                </div>
+                <ul className="space-y-2 mb-6 text-gray-300 text-sm">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Winnipeg Clay specialists</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Spring flood protection systems</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Pricing: $20k-$60k full house</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/exterior-waterproofing-winnipeg">
+                    View Winnipeg Details →
+                  </Link>
+                </Button>
+              </Card>
+
+              <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Droplets className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Sudbury</h3>
+                  <p className="text-gray-300 text-sm mb-4">Rocky Terrain • Mining Area • -50°C Winters</p>
+                </div>
+                <ul className="space-y-2 mb-6 text-gray-300 text-sm">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Rocky terrain & bedrock experts</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Mining area geology solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
+                    <span>Pricing: $20k-$60k full house</span>
+                  </li>
+                </ul>
+                <Button asChild className="w-full bg-orange-600 hover:bg-orange-700">
+                  <Link to="/exterior-waterproofing-sudbury">
+                    View Sudbury Details →
+                  </Link>
+                </Button>
+              </Card>
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-gray-300 mb-4">
+                Each page includes local climate challenges, installation process, FAQs, and fast virtual estimate options.
+              </p>
+              <Button asChild size="lg" variant="outline" className="bg-white text-slate-900 hover:bg-gray-100">
+                <Link to="/exterior-waterproofing">
+                  Compare All Cities →
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Free Estimate CTA */}
       <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
