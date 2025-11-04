@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instant Exterior Waterproofing Estimate Calculator</title>
+<meta name="description" content="Calculate your exterior waterproofing cost instantly. Get accurate estimates based on foundation perimeter and optional sump pump installation.">
+<meta property="og:title" content="Exterior Waterproofing Cost Calculator">
+<meta property="og:description" content="Instant estimate for exterior waterproofing - $200-$500 per linear foot">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://groundhogs.ca/widgets/waterproofing-calculator.html">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f5f5;padding:clamp(1rem,3vw,2rem);line-height:1.6;color:#1f2937}
+.calculator{max-width:600px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,.1);padding:clamp(1.5rem,4vw,2.5rem)}
+h1{font-size:clamp(1.5rem,4vw,2rem);color:#1f2937;margin-bottom:.5rem;text-align:center}
+.subtitle{text-align:center;color:#6b7280;font-size:.9rem;margin-bottom:2rem}
+.field{margin-bottom:2rem}
+label{display:block;font-weight:600;color:#374151;margin-bottom:.5rem;font-size:.95rem}
+.input-group{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+input[type="number"]{padding:.75rem;border:2px solid #e5e7eb;border-radius:8px;font-size:1rem;width:120px;transition:border-color .2s}
+input[type="number"]:focus{outline:none;border-color:#f97316}
+input[type="range"]{-webkit-appearance:none;appearance:none;width:100%;height:8px;border-radius:4px;background:linear-gradient(to right,#f97316 0%,#f97316 50%,#e5e7eb 50%,#e5e7eb 100%);outline:none;flex:1;min-width:200px}
+input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:24px;height:24px;border-radius:50%;background:#f97316;cursor:pointer;box-shadow:0 2px 4px rgba(0,0,0,.2);transition:transform .2s}
+input[type="range"]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;background:#f97316;cursor:pointer;border:none;box-shadow:0 2px 4px rgba(0,0,0,.2)}
+input[type="range"]::-webkit-slider-thumb:hover,input[type="range"]::-moz-range-thumb:hover{transform:scale(1.1)}
+input[type="range"]:focus::-webkit-slider-thumb{box-shadow:0 0 0 3px rgba(249,115,22,.3)}
+input[type="range"]:focus::-moz-range-thumb{box-shadow:0 0 0 3px rgba(249,115,22,.3)}
+.value-display{font-size:1.1rem;font-weight:700;color:#f97316;min-width:80px}
+.checkbox-field{display:flex;align-items:center;gap:.75rem;padding:1rem;background:#f9fafb;border-radius:8px;border:2px solid #e5e7eb;cursor:pointer;transition:all .2s}
+.checkbox-field:hover{background:#f3f4f6;border-color:#f97316}
+input[type="checkbox"]{width:24px;height:24px;cursor:pointer;accent-color:#f97316}
+.checkbox-field label{margin:0;cursor:pointer;font-weight:500}
+.results{background:linear-gradient(135deg,#fff7ed 0%,#ffedd5 100%);border-radius:12px;padding:1.5rem;margin:2rem 0;border:2px solid #fed7aa}
+.line-item{display:flex;justify-content:space-between;margin-bottom:.75rem;font-size:.95rem;color:#374151}
+.line-item.total{font-size:1.5rem;font-weight:700;color:#1f2937;padding-top:1rem;border-top:2px solid #f97316;margin-top:1rem}
+.disclaimer{font-size:.8rem;color:#6b7280;font-style:italic;text-align:center;margin-top:.5rem}
+.cta{display:block;width:100%;padding:1rem;background:#f97316;color:#fff;border:none;border-radius:8px;font-size:1.1rem;font-weight:700;cursor:pointer;text-decoration:none;text-align:center;transition:all .2s;margin-top:1.5rem}
+.cta:hover{background:#ea580c;transform:translateY(-2px);box-shadow:0 4px 12px rgba(249,115,22,.4)}
+.cta:focus{outline:2px solid #f97316;outline-offset:2px}
+@media(max-width:480px){
+.input-group{flex-direction:column;align-items:stretch}
+input[type="range"]{min-width:100%}
+}
+</style>
+</head>
+<body itemscope itemtype="https://schema.org/LocalBusiness">
+<div class="calculator" role="main" aria-labelledby="calc-title">
+<h1 id="calc-title">Instant Exterior Waterproofing Estimate</h1>
+<p class="subtitle">Get your personalized cost estimate in seconds</p>
+
+<div class="field">
+<label for="linearFeet">Foundation Perimeter (Linear Feet)</label>
+<div class="input-group">
+<input type="number" id="linearFeet" name="linearFeet" min="10" max="1000" step="1" value="100" aria-label="Linear feet of foundation" aria-describedby="feetValue">
+<input type="range" id="feetSlider" min="10" max="1000" step="1" value="100" aria-label="Adjust linear feet with slider">
+<span class="value-display" id="feetValue" aria-live="polite">100 ft</span>
+</div>
+</div>
+
+<div class="field">
+<label for="costPerFoot">Cost Per Linear Foot</label>
+<div class="input-group">
+<input type="range" id="costPerFoot" min="200" max="500" step="10" value="350" aria-label="Adjust cost per linear foot">
+<span class="value-display" id="costValue" aria-live="polite">$350/ft</span>
+</div>
+<small style="color:#6b7280;display:block;margin-top:.5rem">Range: $200–$500 per foot</small>
+</div>
+
+<div class="field">
+<div class="checkbox-field" onclick="document.getElementById('sumpPump').click()">
+<input type="checkbox" id="sumpPump" name="sumpPump" aria-label="Add sump pump and pit">
+<label for="sumpPump">Add Sump Pump & Pit (+$4,000)</label>
+</div>
+</div>
+
+<div class="results" role="region" aria-labelledby="results-title">
+<h2 id="results-title" style="font-size:1.2rem;margin-bottom:1rem;color:#1f2937">Your Estimate</h2>
+<div class="line-item">
+<span>Foundation Waterproofing</span>
+<span id="baseCalc" aria-live="polite">$35,000</span>
+</div>
+<div class="line-item" id="sumpLine" style="display:none">
+<span>Sump Pump & Pit</span>
+<span>$4,000</span>
+</div>
+<div class="line-item total">
+<span>Grand Total</span>
+<span id="grandTotal" aria-live="polite">$35,000</span>
+</div>
+<p class="disclaimer">*Total excludes applicable taxes</p>
+</div>
+
+<a href="/contact?calc=35000" id="ctaButton" class="cta" aria-label="Get binding quote for your estimate">Get Binding Quote</a>
+</div>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"SoftwareApplication",
+"name":"Exterior Waterproofing Cost Calculator",
+"applicationCategory":"FinanceApplication",
+"offers":{
+"@type":"Offer",
+"price":"200-500",
+"priceCurrency":"USD",
+"priceSpecification":{
+"@type":"UnitPriceSpecification",
+"price":"200-500",
+"priceCurrency":"USD",
+"unitText":"LINEAR_FOOT"
+}
+},
+"provider":{
+"@type":"LocalBusiness",
+"name":"Groundhogs Ltd",
+"telephone":"1-888-907-3777",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"415 Fort William Road",
+"addressLocality":"Thunder Bay",
+"addressRegion":"ON",
+"postalCode":"P7B 2Z5"
+}
+}
+}
+</script>
+
+<script>
+(function(){
+const feetInput=document.getElementById('linearFeet');
+const feetSlider=document.getElementById('feetSlider');
+const feetValue=document.getElementById('feetValue');
+const costSlider=document.getElementById('costPerFoot');
+const costValue=document.getElementById('costValue');
+const sumpPump=document.getElementById('sumpPump');
+const baseCalc=document.getElementById('baseCalc');
+const sumpLine=document.getElementById('sumpLine');
+const grandTotal=document.getElementById('grandTotal');
+const ctaButton=document.getElementById('ctaButton');
+
+function sanitize(val){
+const num=parseFloat(val);
+return isNaN(num)?0:num;
+}
+
+function updateSliderBg(slider,val,min,max){
+const percent=((val-min)/(max-min))*100;
+slider.style.background=`linear-gradient(to right,#f97316 0%,#f97316 ${percent}%,#e5e7eb ${percent}%,#e5e7eb 100%)`;
+}
+
+function calculate(){
+const feet=sanitize(feetInput.value);
+const cost=sanitize(costSlider.value);
+const sump=sumpPump.checked;
+
+const base=feet*cost;
+const sumpCost=sump?4000:0;
+const total=base+sumpCost;
+
+baseCalc.textContent='$'+base.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+sumpLine.style.display=sump?'flex':'none';
+grandTotal.textContent='$'+total.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+ctaButton.href='/contact?calc='+Math.round(total);
+}
+
+feetInput.addEventListener('input',function(){
+const val=Math.max(10,Math.min(1000,sanitize(this.value)));
+feetSlider.value=val;
+feetValue.textContent=val+' ft';
+updateSliderBg(feetSlider,val,10,1000);
+calculate();
+});
+
+feetSlider.addEventListener('input',function(){
+const val=sanitize(this.value);
+feetInput.value=val;
+feetValue.textContent=val+' ft';
+updateSliderBg(this,val,10,1000);
+calculate();
+});
+
+costSlider.addEventListener('input',function(){
+const val=sanitize(this.value);
+costValue.textContent='$'+val+'/ft';
+updateSliderBg(this,val,200,500);
+calculate();
+});
+
+sumpPump.addEventListener('change',calculate);
+
+updateSliderBg(feetSlider,100,10,1000);
+updateSliderBg(costSlider,350,200,500);
+calculate();
+})();
+</script>
+</body>
+</html>
