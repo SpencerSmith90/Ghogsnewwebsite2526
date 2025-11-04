@@ -360,14 +360,14 @@ const Header = () => {
                 {mobileCalculatorsOpen && (
                   <div className="ml-4 mt-2 space-y-2">
                     {calculatorLinks.map((calc) => (
-                      <a
+                      <Link
                         key={calc.path}
-                        href={calc.path}
+                        to={calc.path}
                         onClick={() => setMobileMenuOpen(false)}
                         className="block text-sm transition-colors hover:text-orange-600 text-gray-600"
                       >
                         {calc.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
