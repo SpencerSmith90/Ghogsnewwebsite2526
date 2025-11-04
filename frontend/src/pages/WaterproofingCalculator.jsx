@@ -32,10 +32,6 @@ const WaterproofingCalculator = () => {
     updateSliderBg('feetSlider', linearFeet, 10, 300);
   }, [linearFeet]);
 
-  useEffect(() => {
-    updateSliderBg('costSlider', costPerFoot, 200, 500);
-  }, [costPerFoot]);
-
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
