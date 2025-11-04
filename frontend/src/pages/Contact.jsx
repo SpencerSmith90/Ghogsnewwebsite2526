@@ -18,6 +18,7 @@ const Contact = () => {
     city: '',
     subject: '',
     message: '',
+    estimate_type: 'Virtual Estimate',
     photo_urls: []
   });
   const [selectedFiles, setSelectedFiles] = useState([]);
