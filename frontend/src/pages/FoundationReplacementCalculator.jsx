@@ -83,10 +83,7 @@ City: ${formData.city}
       });
 
       if (response.ok) {
-        toast({
-          title: "Thank you!",
-          description: "Our team will review your request and respond within 24 hours.",
-        });
+        toast.success("Thank you! Our team will review your request and respond within 24 hours.");
         
         setFormData({
           name: '',
