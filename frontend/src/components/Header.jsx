@@ -50,7 +50,7 @@ const Header = () => {
   ];
 
   const calculatorLinks = [
-    { name: 'Exterior Waterproofing Calculator', path: '/widgets/waterproofing-calculator.html' }
+    { name: 'Exterior Waterproofing Calculator', path: '/calculators/waterproofing' }
   ];
 
   return (
