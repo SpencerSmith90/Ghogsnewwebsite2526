@@ -32,6 +32,12 @@ STATIC_PAGES = [
     {"loc": "/winnipeg-foundation-repair", "priority": "0.9", "changefreq": "weekly"},
     {"loc": "/sudbury-foundation-repair", "priority": "0.9", "changefreq": "weekly"},
     
+    # Geo Landing Pages - Exterior Waterproofing (HIGHEST PRIORITY for SEO)
+    {"loc": "/exterior-waterproofing", "priority": "1.0", "changefreq": "weekly"},
+    {"loc": "/exterior-waterproofing-thunder-bay", "priority": "1.0", "changefreq": "weekly"},
+    {"loc": "/exterior-waterproofing-winnipeg", "priority": "1.0", "changefreq": "weekly"},
+    {"loc": "/exterior-waterproofing-sudbury", "priority": "1.0", "changefreq": "weekly"},
+    
     # Service pages
     {"loc": "/services/exterior-waterproofing", "priority": "0.8", "changefreq": "monthly"},
     {"loc": "/services/foundation-repair-replacement", "priority": "0.8", "changefreq": "monthly"},
