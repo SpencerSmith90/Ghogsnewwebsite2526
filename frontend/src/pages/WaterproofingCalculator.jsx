@@ -6,9 +6,16 @@ import SEO from '../components/SEO';
 
 const WaterproofingCalculator = () => {
   const [linearFeet, setLinearFeet] = useState(150);
-  const [costPerFoot, setCostPerFoot] = useState(250);
   const [includeSump, setIncludeSump] = useState(false);
   
+  // Automatic tiered pricing based on linear feet
+  const getCostPerFoot = (feet) => {
+    if (feet > 130) return 250;
+    if (feet >= 50) return 350;
+    return 400;
+  };
+  
+  const costPerFoot = getCostPerFoot(linearFeet);
   const baseCalc = linearFeet * costPerFoot;
   const sumpCost = includeSump ? 4000 : 0;
   const grandTotal = baseCalc + sumpCost;
