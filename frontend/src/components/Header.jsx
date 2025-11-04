@@ -287,6 +287,8 @@ const Header = () => {
                         className={`block text-sm transition-colors hover:text-orange-600 ${
                           service.flagship 
                             ? 'font-semibold text-orange-600' 
+                            : service.special
+                            ? 'font-semibold text-blue-600'
                             : 'text-gray-600'
                         } ${location.pathname === service.path ? 'text-orange-600' : ''}`}
                       >
