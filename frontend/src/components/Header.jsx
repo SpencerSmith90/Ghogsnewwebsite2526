@@ -326,6 +326,36 @@ const Header = () => {
                 )}
               </div>
 
+              {/* Mobile Cost Calculators Dropdown */}
+              <div>
+                <button
+                  onClick={() => setMobileCalculatorsOpen(!mobileCalculatorsOpen)}
+                  className={`text-sm font-medium transition-colors hover:text-orange-600 flex items-center gap-1 w-full ${
+                    location.pathname.includes('/widgets/')
+                      ? 'text-orange-600'
+                      : 'text-gray-700'
+                  }`}
+                >
+                  Cost Calculators
+                  <ChevronDown size={16} className={`transition-transform ${mobileCalculatorsOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {mobileCalculatorsOpen && (
+                  <div className="ml-4 mt-2 space-y-2">
+                    {calculatorLinks.map((calc) => (
+                      <a
+                        key={calc.path}
+                        href={calc.path}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block text-sm transition-colors hover:text-orange-600 text-gray-600"
+                      >
+                        {calc.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               {navLinks.slice(2).map((link) => (
                 <Link
                   key={link.path}
