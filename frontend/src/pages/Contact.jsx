@@ -389,6 +389,15 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+      {/* Sticky CTA Bar */}
+      <div className="fixed bottom-0 left-0 right-0 bg-orange-600 text-white py-4 shadow-2xl z-40 md:hidden">
+        <div className="container mx-auto px-4 text-center">
+          <a href="tel:1-888-907-3777" className="text-xl font-bold hover:text-gray-100">
+            📞 Call 1-888-907-3777 – Virtual Quote in Hours
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
