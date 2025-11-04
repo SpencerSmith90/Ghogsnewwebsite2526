@@ -4,10 +4,9 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Input } from '../components/ui/input';
 import SEO from '../components/SEO';
-import { useToast } from '../hooks/use-toast';
+import { toast } from 'sonner';
 
 const FoundationReplacementCalculator = () => {
-  const { toast } = useToast();
   const [linearFeet, setLinearFeet] = useState(150);
   const [includeSump, setIncludeSump] = useState(false);
   const [includeEngineering, setIncludeEngineering] = useState(false);
