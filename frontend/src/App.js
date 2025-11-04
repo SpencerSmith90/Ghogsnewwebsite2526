@@ -40,6 +40,10 @@ import AdminSettings from "./pages/admin/Settings";
 import AdminVideoReels from "./pages/admin/VideoReels";
 import AdvancedExteriorWaterproofing from "./pages/blog/AdvancedExteriorWaterproofing";
 import InteriorWaterproofingSystems from "./pages/blog/InteriorWaterproofingSystems";
+import ExteriorWaterproofingHub from "./pages/ExteriorWaterproofingHub";
+import ExteriorWaterproofingThunderBay from "./pages/geo/ExteriorWaterproofingThunderBay";
+import ExteriorWaterproofingWinnipeg from "./pages/geo/ExteriorWaterproofingWinnipeg";
+import ExteriorWaterproofingSudbury from "./pages/geo/ExteriorWaterproofingSudbury";
 
 function App() {
   return (
