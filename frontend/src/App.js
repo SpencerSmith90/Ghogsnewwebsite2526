@@ -136,6 +136,10 @@ function App() {
                     <Route path="/services/steel-post-beam-systems" element={<SteelPostBeam />} />
                     <Route path="/services/everbrace-wall-restoration" element={<EverBrace />} />
                     <Route path="/services/concentric-pier-systems" element={<ConcentricPiers />} />
+                    <Route path="/exterior-waterproofing" element={<ExteriorWaterproofingHub />} />
+                    <Route path="/exterior-waterproofing-thunder-bay" element={<ExteriorWaterproofingThunderBay />} />
+                    <Route path="/exterior-waterproofing-winnipeg" element={<ExteriorWaterproofingWinnipeg />} />
+                    <Route path="/exterior-waterproofing-sudbury" element={<ExteriorWaterproofingSudbury />} />
                     <Route path="/thunder-bay-foundation-repair" element={<ThunderBay />} />
                     <Route path="/winnipeg-foundation-repair" element={<Winnipeg />} />
                     <Route path="/sudbury-foundation-repair" element={<Sudbury />} />
