@@ -7,7 +7,7 @@ export const siteSettings = {
   phone: '1-800-GROUNDHOGS',
   email: 'info@groundhogs.ca',
   address: 'Serving Ontario and Manitoba',
-  logo: 'https://groundhogs.ca/wp-content/themes/groundhogs/img/logo-footer.svg'
+  logo: '/logo.png'
 };
 
 export const heroContent = {
