@@ -121,25 +121,25 @@ export const propertyTypes = [
     id: 1,
     type: 'Residential',
     description: 'We neatly and rapidly repair single-family homes, preserving comfort and resale value.',
-    image: 'https://groundhogs.ca/wp-content/uploads/2025/07/f422aa0c0f5200c103ae1a651482f15f0cdefdd2-1024x683.png.webp'
+    image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxzaW5nbGUlMjBmYW1pbHklMjBob21lfGVufDB8fHx8MTc2MjcxNTAzM3ww&ixlib=rb-4.1.0&q=85'
   },
   {
     id: 2,
     type: 'Multifamily',
     description: 'Stabilise shared foundations with minimal noise and interruption to tenants in condos and apartments.',
-    image: 'https://groundhogs.ca/wp-content/uploads/2025/07/7a44a0df0e0565614fe1f966fce77ed6f1e0494a-1024x576.png.webp'
+    image: 'https://images.unsplash.com/photo-1612637968894-660373e23b03?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjI3MTUwNDV8MA&ixlib=rb-4.1.0&q=85'
   },
   {
     id: 3,
     type: 'Commercial',
     description: 'Fast-track solutions that allow businesses to stay open with minimal downtime.',
-    image: 'https://groundhogs.ca/wp-content/uploads/2025/07/3f556b45db6ead633e740e62ea39a896df12c55a-1024x683.png.webp'
+    image: 'https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg'
   },
   {
     id: 4,
     type: 'Seasonal',
     description: 'Strengthen piers and supports for cottages and lakefront houses subject to freeze-thaw cycles.',
-    image: 'https://groundhogs.ca/wp-content/uploads/2025/07/ec833df8782d7530419f734a4582d0f3a87cf530-1024x576.png.webp'
+    image: 'https://images.unsplash.com/photo-1629139669945-46bf68a7c5c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxjb3R0YWdlJTIwY2FiaW58ZW58MHx8fHwxNzYyNzE1MDQ5fDA&ixlib=rb-4.1.0&q=85'
   }
 ];
 
